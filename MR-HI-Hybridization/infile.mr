@@ -1,0 +1,1971 @@
+<Sentence id="1">
+1	((	NP	
+1.1	तुमच्या	PRP	<fs af='तू,pn,,pl,2,o,चा,च्या,' genfeature=(चा,gen,f,pl,,d,)(चा,gen,,,,o,)>
+	))		
+2	((	NP	
+2.1	भावाने	NN	<fs af='भाऊ,n,m,sg,,o,ने,ने,'>
+	))		
+3	((	NP	
+3.1	हे	DEM	<fs af='हा,pn,m,pl,3,d,,,'>
+3.2	काम	NN	<fs af='काम,n,n,sg,,d,,,'>
+	))		
+4	((	VGNN	
+4.1	करण्यास	VM	<fs af='कर,v,n,sg,,o,ण्या#स,ण्या_स,' kridanta_type=ne aspect= tense= mood= kridanta_cm=ण्या#स>
+	))		
+5	((	JJP	
+5.1	प्रवृत्त	JJ	<fs af='प्रवृत्त,adj,,,,,,,'>
+	))		
+6	((	VGF	
+6.1	केले	VM	<fs af='कर,v,n,sg,,d,ले,ले,' kridanta_type=la aspect=perf tense= mood= kridanta_cm=ले>
+6.2	.	SYM	<fs af='.,pun,,,,,,,' poslcat="NM">
+	))		
+</Sentence>
+<Sentence id="1">
+1	((	NP	
+1.1	त्याने	PRP	<fs af='तो,pn,m,sg,3,o,ने#,ने_,'>
+	))		
+2	((	NP	
+2.1	मला	PRP	<fs af='मी,pn,,sg,1,o,ला#,ला_,'>
+	))		
+3	((	VGNF	
+3.1	वाचायला	VM	<fs af='वाच,v,,,,,ायला,ायला,'>
+	))		
+4	((	NP	
+4.1	एक	QC	<fs af='एक,adj,,,,,,,'>
+4.2	पुस्तक	NN	<fs af='पुस्तक,n,n,sg,,d,,,'>
+	))		
+5	((	VGF	
+5.1	दिले	VM	<fs af='दे,v,n,sg,,d,ले,ले,' kridanta_type=la aspect=perf tense= mood= kridanta_cm=ले>
+5.2	.	SYM	<fs af='.,pun,,,,,,,' poslcat="NM">
+	))		
+</Sentence>
+<Sentence id="1">
+1	((	NP	
+1.1	दशग्रंथी	JJ	<fs af='दशग्रंथी,adj,,,,,,,'>
+1.2	ब्राह्मण	NN	<fs af='ब्राह्मण,n,m,sg,,d,,,'>
+1.3	कोणास	QW	<fs af='कोण,pn,,sg,,o,स,स,' poslcat="NM">
+	))		
+2	((	VGF	
+2.1	म्हणावे	VM	<fs af='म्हण,v,n,sg,,d,ावे,ावे,' kridanta_type=va aspect= tense= mood=subj kridanta_cm=ावे>
+2.2	?	SYM	<fs af='?,pun,,,,,,,' poslcat="NM">
+	))		
+</Sentence>
+<Sentence id="1">
+1	((	NP	
+1.1	दोन	QC	<fs af='दोन,cardinal,,,,,,,' poslcat="NM">
+1.2	तासांपलीकडे	NN	<fs af='तास,n,m,pl,,o,पलीकडे,पलीकडे,'>
+	))		
+2	((	NP	
+2.1	मी	PRP	<fs af='मी,pn,,sg,1,d,,,'>
+	))		
+3	((	VGF	
+3.1	थांबणार	VM	<fs af='थांब,v,,,,o,णार,णार,' kridanta_type=nar aspect=prosp tense= mood= kridanta_cm=णार>
+3.2	नाही	VAUX	<fs af='नस,v,,,1,,,,' aspect=s tense=pre mood=in>
+3.3	.	SYM	<fs af='.,pun,,,,,,,' poslcat="NM">
+	))		
+</Sentence>
+<Sentence id="1">
+1	((	NP	
+1.1	खाण्याचे	NN	<fs af='खाणे,n,n,sg,,o,चा,चे,' genfeature=(चा,gen,m,pl,,d,)(चा,gen,n,sg,,d,)>
+	))		
+2	((	NP	
+2.1	तरी	RP	<fs af='तरी,conj,,,,,,,'>
+	))		
+3	((	NP	
+3.1	हाल	NN	<fs af='हाल,n,m,sg,,d,,,'>
+	))		
+4	((	VGF	
+4.1	करू	VM	<fs af='कर,v,,pl,1,,ू,ू,' aspect= tense=fut mood=in>
+4.2	नयेत	VAUX	<fs af='नये,unk,,,,,त,त,' poslcat="NM">
+4.3	.	SYM	<fs af='.,pun,,,,,,,' poslcat="NM">
+	))		
+</Sentence>
+<Sentence id="1">
+1	((	NP	
+1.1	कामानिमित्त	NN	<fs af='काम,n,n,sg,,o,निमित्त,निमित्त,'>
+	))		
+2	((	NP	
+2.1	बाबा	NN	<fs af='बाबा,n,m,sg,,d,,,'>
+	))		
+3	((	NP	
+3.1	बाहेरगावी	NN	<fs af='बाहेरगाव,n,n,sg,,o,ई#,ई_,'>
+	))		
+4	((	VGF	
+4.1	गेले	VM	<fs af='जा,v,f,sg,1,,ले,ले,' aspect=perf tense= mood=in>
+4.2	होते	VAUX	<fs af='अस,v,f,sg,1,,,,' aspect=s tense=pas mood=in>
+4.3	.	SYM	<fs af='.,pun,,,,,,,' poslcat="NM">
+	))		
+</Sentence>
+<Sentence id="1">
+1	((	NP	
+1.1	ह्या	DEM	<fs af='हा,pn,,sg,3,o,,,'>
+1.2	रस्त्याच्या	NN	<fs af='रस्ता,n,m,sg,,o,चा,च्या,' genfeature=(चा,gen,f,pl,,d,)(चा,gen,,,,o,)>
+	))		
+2	((	NP	
+2.1	पलीकडून	NST	<fs af='पलीकडे,nst,,,,,ून,ून,'>
+	))		
+3	((	NP	
+3.1	तो	PRP	<fs af='तो,pn,m,sg,3,d,,,'>
+	))		
+4	((	VGF	
+4.1	आला	VM	<fs af='ये,v,m,sg,3,,ला,ला,' aspect=perf tense= mood=in>
+4.2	.	SYM	<fs af='.,pun,,,,,,,' poslcat="NM">
+	))		
+</Sentence>
+<Sentence id="1">
+1	((	NP	
+1.1	तिच्यामार्फत	PRP	<fs af='ती,pn,f,sg,3,o,चा#मार्फत,च्या_मार्फत,' genfeature=(चा,gen,f,pl,,d,)(चा,gen,,,,o,)>
+	))		
+2	((	NP	
+2.1	मी	PRP	<fs af='मी,pn,,sg,1,d,,,'>
+	))		
+3	((	NP	
+3.1	निरोप	NN	<fs af='निरोप,n,m,sg,,d,,,'>
+	))		
+4	((	VGF	
+4.1	पाठवला	VM	<fs af='पाठव,v,m,sg,,d,ला,ला,' kridanta_type=la aspect=perf tense= mood= kridanta_cm=ला>
+4.2	.	SYM	<fs af='.,pun,,,,,,,' poslcat="NM">
+	))		
+</Sentence>
+<Sentence id="1">
+1	((	NP	
+1.1	त्यांनी	PRP	<fs af='ती,pn,f,pl,3,o,नी#,नी_,'>
+	))		
+2	((	NP	
+2.1	पांडवांविरुद्ध	NN	<fs af='पांडव,n,m,pl,,o,विरुद्ध,विरुद्ध,'>
+	))		
+3	((	NP	
+3.1	कारस्थान	NN	<fs af='कारस्थान,n,n,sg,,d,,,'>
+	))		
+4	((	VGF	
+4.1	रचले	VM	<fs af='रच,v,n,sg,3,,ले,ले,' aspect=perf tense= mood=in>
+4.2	.	SYM	<fs af='.,pun,,,,,,,' poslcat="NM">
+	))		
+</Sentence>
+<Sentence id="1">
+1	((	NP	
+1.1	तुझ्याव्यतिरिक्त	PRP	<fs af='तू,pn,,sg,2,o,झ्या#व्यतिरिक्त,झ्या_व्यतिरिक्त,' genfeature=(झा,gen,f,pl,,d,)(झा,gen,,,,o,)>
+	))		
+2	((	NP	
+2.1	मी	PRP	<fs af='मी,pn,,sg,1,d,,,'>
+	))		
+3	((	NP	
+3.1	कोणाला	PRP	<fs af='कोण,pn,,sg,,o,ला,ला,' genfeature=(ला,gen,m,sg,,d,)>
+	))		
+4	((	VGF	
+4.1	ओळखत	VM	<fs af='ओळख,v,,,,,त,त,' kridanta_type=t aspect= tense= mood= kridanta_cm=त>
+4.2	नाही	VAUX	<fs af='नस,v,,,1,,,,' aspect=s tense=pre mood=in>
+4.3	.	SYM	<fs af='.,pun,,,,,,,' poslcat="NM">
+	))		
+</Sentence>
+<Sentence id="1">
+1	((	NP	
+1.1	चोराच्या	NN	<fs af='चोर,n,m,sg,,o,चा,च्या,' genfeature=(चा,gen,f,pl,,d,)(चा,gen,,,,o,)>
+	))		
+2	((	NP	
+2.1	हाती	NN	<fs af='हात,n,m,sg,,o,ई#,ई_,'>
+	))		
+3	((	NP	
+3.1	काही	QF	<fs af='काही,adj,,,,,,,'>
+	))		
+4	((	VGF	
+4.1	लागले	VM	<fs af='लाग,v,f,sg,1,,ले,ले,' aspect=perf tense= mood=in>
+4.2	नाही	VAUX	<fs af='नस,v,,,1,,,,' aspect=s tense=pre mood=in>
+4.3	.	SYM	<fs af='.,pun,,,,,,,' poslcat="NM">
+	))		
+</Sentence>
+<Sentence id="1">
+1	((	NP	
+1.1	पोलिसांच्या	NN	<fs af='पोलीस,n,m,pl,,o,चा,च्या,' genfeature=(चा,gen,f,pl,,d,)(चा,gen,,,,o,)>
+	))		
+2	((	NP	
+2.1	हातून	NN	<fs af='हात,n,m,sg,,o,ऊन#,ऊन_,'>
+	))		
+3	((	NP	
+3.1	चोर	NN	<fs af='चोर,n,m,sg,,d,,,'>
+	))		
+4	((	VGF	
+4.1	निसटला	VM	<fs af='निसट,v,m,sg,,d,ला,ला,' kridanta_type=la aspect=perf tense= mood= kridanta_cm=ला>
+4.2	.	SYM	<fs af='.,pun,,,,,,,' poslcat="NM">
+	))		
+</Sentence>
+<Sentence id="1">
+1	((	NP	
+1.1	तो	PRP	<fs af='तो,pn,m,sg,3,d,,,'>
+	))		
+2	((	VGF	
+2.1	शिकूच	VM	<fs af='शिक,v,,pl,1,,ू#च,ू_च,' aspect= tense=fut mood=in>
+2.2	शकणार	VAUX	<fs af='शक,v,,,,o,णार,णार,' kridanta_type=nar aspect=prosp tense= mood= kridanta_cm=णार>
+2.3	नाही	VAUX	<fs af='नस,v,,,1,,,,' aspect=s tense=pre mood=in>
+	))		
+3	((	CCP	
+3.1	जर	CC	<fs af='जर,conj,,,,,,,'>
+	))		
+4	((	NP	
+4.1	त्याने	PRP	<fs af='तो,pn,m,sg,3,o,ने#,ने_,'>
+	))		
+5	((	VGF	
+5.1	ऐकलेच	VM	<fs af='ऐक,v,n,sg,3,,ले#च,ले_च,' aspect=perf tense= mood=in>
+5.2	नाही	VAUX	<fs af='नस,v,,,1,,,,' aspect=s tense=pre mood=in>
+5.3	.	SYM	<fs af='.,pun,,,,,,,' poslcat="NM">
+	))		
+</Sentence>
+<Sentence id="1">
+1	((	NP	
+1.1	विजा	NN	<fs af='वीज,n,f,pl,,d,,,'>
+	))		
+2	((	VGF	
+2.1	चमकू	VM	<fs af='चमक,v,,pl,1,,ू,ू,' aspect= tense=fut mood=in>
+2.2	लागल्या	VAUX	<fs af='लाग,v,f,pl,,d,ल्या,ल्या,' kridanta_type=la aspect=perf genfeature=(ला,gen,f,pl,,d,)(ला,gen,,,,o,) tense= mood= kridanta_cm=ल्या>
+	))		
+3	((	CCP	
+3.1	आणि	CC	<fs af='आणि,conj,,,,,,,'>
+	))		
+4	((	NP	
+4.1	पाऊस	NN	<fs af='पाऊस,n,m,sg,,d,,,'>
+	))		
+5	((	VGF	
+5.1	पडू	VM	<fs af='पड,v,,pl,1,,ू,ू,' aspect= tense=fut mood=in>
+5.2	लागला	VAUX	<fs af='लाग,v,m,sg,,d,ला,ला,' kridanta_type=la aspect=perf tense= mood= kridanta_cm=ला>
+5.3	.	SYM	<fs af='.,pun,,,,,,,' poslcat="NM">
+	))		
+</Sentence>
+<Sentence id="1">
+1	((	NP	
+1.1	ती	PRP	<fs af='ती,pn,f,sg,3,d,,,'>
+	))		
+2	((	VGF	
+2.1	सांगत	VM	<fs af='सांग,v,,,,,त,त,' kridanta_type=t aspect= tense= mood= kridanta_cm=त>
+2.2	होती	VAUX	<fs af='अस,v,f,sg,3,,,,' aspect=s tense=pas mood=in>
+	))		
+3	((	CCP	
+3.1	की	CC	<fs af='की,conj,,,,,,,'>
+	))		
+4	((	NP	
+4.1	ती	PRP	<fs af='ती,pn,f,sg,3,d,,,'>
+	))		
+5	((	NP	
+5.1	१६	QC	<fs af='१६,num,,,,,,,'>
+5.2	वर्षाची	NN	<fs af='वर्ष,n,n,sg,,o,चा,ची,' genfeature=(चा,gen,f,sg,,d,)(चा,gen,n,pl,,d,)>
+	))		
+6	((	VGF	
+6.1	आहे	VM	<fs af='अस,v,,sg,1,,,,' aspect=s tense=pre mood=in>
+	))		
+7	((	CCP	
+7.1	पण	CC	<fs af='पण,conj,,,,,,,'>
+	))		
+8	((	JJP	
+8.1	प्रत्यक्षात	JJ	<fs af='प्रत्यक्ष,n,n,sg,,o,त,त,' poslcat="NM">
+	))		
+9	((	NP	
+9.1	ती	PRP	<fs af='ती,pn,f,sg,3,d,,,'>
+	))		
+10	((	NP	
+10.1	१८	QC	<fs af='१८,num,,,,,,,'>
+10.2	वर्षाची	NN	<fs af='वर्ष,n,n,sg,,o,चा,ची,' genfeature=(चा,gen,f,sg,,d,)(चा,gen,n,pl,,d,)>
+	))		
+11	((	VGF	
+11.1	आहे	VM	<fs af='अस,v,,sg,1,,,,' aspect=s tense=pre mood=in>
+11.2	.	SYM	<fs af='.,pun,,,,,,,' poslcat="NM">
+	))		
+</Sentence>
+<Sentence id="1">
+1	((	NP	
+1.1	उद्या	NN	<fs af='उद्या,adv,,,,,,,' poslcat="NM">
+	))		
+2	((	NP	
+2.1	रमेश	NN	<fs af='रमेश,n,m,sg,,d,,,'>
+	))		
+3	((	CCP	
+3.1	अथवा	CC	<fs af='अथवा,conj,,,,,,,'>
+	))		
+4	((	NP	
+4.1	राम	NN	<fs af='राम,n,m,sg,,d,,,'>
+4.2	पुस्तक	NN	<fs af='पुस्तक,n,n,sg,,d,,,'>
+	))		
+5	((	VGF	
+5.1	घ्यायला	VM	<fs af='घे,v,,,,,यला,यला,'>
+5.2	येईल	VAUX	<fs af='ये,v,,sg,3,,ईल,ईल,' aspect= tense=fut mood=in>
+5.3	.	SYM	<fs af='.,pun,,,,,,,' poslcat="NM">
+	))		
+</Sentence>
+<Sentence id="1">
+1	((	NP	
+1.1	ती	PRP	<fs af='ती,pn,f,sg,3,d,,,'>
+	))		
+2	((	VGF	
+2.1	येवो	VM	<fs af='ये,v,,sg,3,,वो,वो,' aspect= tense= mood=imp>
+	))		
+3	((	CCP	
+3.1	वा	CC	<fs af='वा,inj,,,,,,,' poslcat="NM">
+	))		
+4	((	NEGP	
+4.1	न	NEG	<fs af='न,conj,,,,,,,' poslcat="NM">
+	))		
+5	((	VGF	
+5.1	येवो	VM	<fs af='ये,v,,sg,3,,वो,वो,' aspect= tense= mood=imp>
+5.2	,	SYM	<fs af=',,pun,,,,,,' poslcat="NM">
+	))		
+6	((	NP	
+6.1	मला	PRP	<fs af='मी,pn,,sg,1,o,ला#,ला_,'>
+	))		
+7	((	VGF	
+7.1	गेलेच	VM	<fs af='जा,v,n,sg,3,,ले#च,ले_च,' aspect=perf tense= mood=in>
+7.2	पाहिजे	VAUX	<fs af='पाहिजे,v,m,sg,1,,,,' aspect=h tense=pas mood=in>
+7.3	.	SYM	<fs af='.,pun,,,,,,,' poslcat="NM">
+	))		
+</Sentence>
+<Sentence id="1">
+1	((	NP	
+1.1	शेते	NN	<fs af='शेत,n,n,pl,,d,,,'>
+	))		
+2	((	VGF	
+2.1	नांगरून	VM	<fs af='नांगर,v,,,,,ून,ून,' kridanta_type=oon aspect=comp tense= mood= kridanta_cm=ून>
+2.2	झाली	VAUX	<fs af='हो,v,f,sg,,d,ली,ली,' kridanta_type=la aspect=perf tense= mood= kridanta_cm=ली>
+2.3	;	SYM	<fs af=';,pun,,,,,,,' poslcat="NM">
+	))		
+3	((	CCP	
+3.1	पण	CC	<fs af='पण,conj,,,,,,,'>
+	))		
+4	((	NP	
+4.1	पाऊस	NN	<fs af='पाऊस,n,m,sg,,d,,,'>
+	))		
+5	((	VGF	
+5.1	पडलाच	VM	<fs af='पड,v,m,sg,3,,ला#च,ला_च,' aspect=perf tense= mood=in>
+5.2	नाही	VAUX	<fs af='नस,v,,,1,,,,' aspect=s tense=pre mood=in>
+5.3	.	SYM	<fs af='.,pun,,,,,,,' poslcat="NM">
+	))		
+</Sentence>
+<Sentence id="1">
+1	((	JJP	
+1.1	उशीर	JJ	<fs af='उशीर,n,m,sg,,d,,,' poslcat="NM">
+	))		
+2	((	VGF	
+2.1	झाला	VM	<fs af='हो,v,m,sg,3,,ला,ला,' aspect=perf tense= mood=in>
+	))		
+3	((	CCP	
+3.1	तरी	CC	<fs af='तरी,conj,,,,,,,'>
+	))		
+4	((	NP	
+4.1	तो	PRP	<fs af='तो,pn,m,sg,3,d,,,'>
+	))		
+5	((	VGF	
+5.1	आला	VM	<fs af='ये,v,m,sg,3,,ला,ला,' aspect=perf tense= mood=in>
+5.2	.	SYM	<fs af='.,pun,,,,,,,' poslcat="NM">
+	))		
+</Sentence>
+<Sentence id="1">
+1	((	NP	
+1.1	तो	PRP	<fs af='तो,pn,m,sg,3,d,,,'>
+	))		
+2	((	VGF	
+2.1	म्हणाला	VM	<fs af='म्हण,v,m,sg,3,,ला,ला,' aspect=perf tense= mood=in>
+2.2	,	SYM	<fs af=',,pun,,,,,,' poslcat="NM">
+	))		
+3	((	CCP	
+3.1	की	CC	<fs af='की,conj,,,,,,,'>
+	))		
+4	((	NP	
+4.1	मी	PRP	<fs af='मी,pn,,sg,1,d,,,'>
+	))		
+5	((	VGF	
+5.1	हरलो	VM	<fs af='हर,v,m,sg,1,,लो,लो,' aspect=perf tense= mood=in>
+5.2	.	SYM	<fs af='.,pun,,,,,,,' poslcat="NM">
+	))		
+</Sentence>
+<Sentence id="1">
+1	((	NP	
+1.1	मी	PRP	<fs af='मी,pn,,sg,1,d,,,'>
+	))		
+2	((	NP	
+2.1	स्वतःहून	PRP	<fs af='स्वतः,pn,m,sg,,o,हून,हून,'>
+	))		
+3	((	NP	
+3.1	त्याला	PRP	<fs af='ते,pn,n,sg,3,o,ला#,ला_,'>
+	))		
+4	((	VGF	
+4.1	कळविले	VM	<fs af='कळव,v,n,sg,3,,ले,ले,' aspect=perf tense= mood=in>
+4.2	.	SYM	<fs af='.,pun,,,,,,,' poslcat="NM">
+	))		
+</Sentence>
+<Sentence id="1">
+1	((	NP	
+1.1	राम	NN	<fs af='राम,n,m,sg,,d,,,'>
+	))		
+2	((	NP	
+2.1	आम्हांला	PRP	<fs af='मी,pn,,pl,1,o,ला#,ला_,'>
+	))		
+3	((	NP	
+3.1	एक	QC	<fs af='एक,adj,,,,,,,'>
+3.2	पुस्तक	NN	<fs af='पुस्तक,n,n,sg,,d,,,'>
+	))		
+4	((	VGF	
+4.1	देतो	VM	<fs af='दे,v,m,sg,1,,तो,तो,' aspect= tense= mood=cond>
+4.2	.	SYM	<fs af='.,pun,,,,,,,' poslcat="NM">
+	))		
+</Sentence>
+<Sentence id="1">
+1	((	NP	
+1.1	त्या	DEM	<fs af='तो,pn,,sg,3,o,,,'>
+1.2	ठिकाणी	NN	<fs af='ठिकाण,n,n,sg,,o,ई#,ई_,'>
+	))		
+2	((	NP	
+2.1	जे	PRP	<fs af='जो,pn,m,pl,3,d,,,'>
+	))		
+3	((	NP	
+3.1	काही	QF	<fs af='काही,adj,,,,,,,'>
+	))		
+4	((	VGF	
+4.1	घडत	VM	<fs af='घड,v,,,,,त,त,' kridanta_type=t aspect= tense= mood= kridanta_cm=त>
+4.2	होते	VAUX	<fs af='अस,v,f,sg,1,,,,' aspect=s tense=pas mood=in>
+	))		
+5	((	NP	
+5.1	ते	PRP	<fs af='तो,pn,m,pl,3,d,,,'>
+	))		
+6	((	NP	
+6.1	मी	PRP	<fs af='मी,pn,,sg,1,d,,,'>
+	))		
+7	((	NP	
+7.1	माझ्या	PRP	<fs af='मी,pn,,sg,1,o,झ्या,झ्या,' genfeature=(झा,gen,f,pl,,d,)(झा,gen,,,,o,)>
+	))		
+8	((	NP	
+8.1	डोळ्यांनी	NN	<fs af='डोळा,n,m,pl,,o,नी,नी,'>
+	))		
+9	((	VGF	
+9.1	पाहत	VM	<fs af='पाह,v,,,,,त,त,' kridanta_type=t aspect= tense= mood= kridanta_cm=त>
+9.2	होतो	VAUX	<fs af='अस,v,m,sg,1,,,,' aspect=s tense=pas mood=in>
+9.3	.	SYM	<fs af='.,pun,,,,,,,' poslcat="NM">
+	))		
+</Sentence>
+<Sentence id="1">
+1	((	NP	
+1.1	रांगेमध्ये	NN	<fs af='रांग,n,f,sg,,o,मध्ये,मध्ये,'>
+	))		
+2	((	NP	
+2.1	माझ्यापुढे	PRP	<fs af='मी,pn,,sg,1,o,झ्या#पुढे,झ्या_पुढे,' genfeature=(झा,gen,f,pl,,d,)(झा,gen,,,,o,)>
+	))		
+3	((	NP	
+3.1	तो	PRP	<fs af='तो,pn,m,sg,3,d,,,'>
+	))		
+4	((	VGF	
+4.1	आहे	VM	<fs af='अस,v,,sg,1,,,,' aspect=s tense=pre mood=in>
+4.2	.	SYM	<fs af='.,pun,,,,,,,' poslcat="NM">
+	))		
+</Sentence>
+<Sentence id="1">
+1	((	NP	
+1.1	पोलीस	NN	<fs af='पोलीस,n,m,sg,,d,,,'>
+	))		
+2	((	NP	
+2.1	त्याच्यामागे	PRP	<fs af='तो,pn,m,sg,3,o,चा#मागे,च्या_मागे,' genfeature=(चा,gen,f,pl,,d,)(चा,gen,,,,o,)>
+	))		
+3	((	VGF	
+3.1	लागले	VM	<fs af='लाग,v,f,sg,1,,ले,ले,' aspect=perf tense= mood=in>
+3.2	आहेत	VAUX	<fs af='अस,v,,pl,3,,,,' aspect=s tense=pre mood=in>
+3.3	.	SYM	<fs af='.,pun,,,,,,,' poslcat="NM">
+	))		
+</Sentence>
+<Sentence id="1">
+1	((	NP	
+1.1	रात्री	NN	<fs af='रात्र,n,f,pl,,d,,,'>
+	))		
+2	((	NP	
+2.1	दहानंतर	QC	<fs af='दहा,n,m,sg,,o,नंतर,नंतर,' poslcat="NM">
+	))		
+3	((	NP	
+3.1	शतपावली	NN	<fs af='शतपावली,n,f,sg,,d,,,'>
+	))		
+4	((	VGNF	
+4.1	करणारी	VM	<fs af='कर,v,f,sg,,d,णारी,णारी,' kridanta_type=nara aspect= tense= mood= kridanta_cm=णारी>
+	))		
+5	((	NP	
+5.1	जोडपी	NN	<fs af='जोडपे,n,n,pl,,d,,,'>
+	))		
+6	((	VGF	
+6.1	फिरत	VM	<fs af='फिर,v,,,,,त,त,' kridanta_type=t aspect= tense= mood= kridanta_cm=त>
+	))		
+7	((	NP	
+7.1	फिरत	JJ	<fs af='फिर,v,,,,,त,त,' kridanta_type=t aspect= tense= mood= kridanta_cm=त poslcat="NM">
+7.2	कट्ट्यावर	NN	<fs af='कट्टा,n,m,sg,,o,वर,वर,'>
+	))		
+8	((	VGNF	
+8.1	बसून	VM	<fs af='बस,v,,,,,ून,ून,' kridanta_type=oon aspect=comp tense= mood= kridanta_cm=ून>
+	))		
+9	((	NP	
+9.1	संसाराचे	NN	<fs af='संसार,n,m,sg,,o,चा,चे,' genfeature=(चा,gen,m,pl,,d,)(चा,gen,n,sg,,d,)>
+	))		
+10	((	NP	
+10.1	हिशेब	NN	<fs af='हिशेब,n,m,sg,,d,,,'>
+	))		
+11	((	VGF	
+11.1	तपासत	VM	<fs af='तपास,v,,,,,त,त,' kridanta_type=t aspect= tense= mood= kridanta_cm=त>
+11.2	असतात	VAUX	<fs af='अस,v,,pl,3,,तात,तात,' aspect=impf tense= mood=in>
+11.3	.	SYM	<fs af='.,pun,,,,,,,' poslcat="NM">
+	))		
+</Sentence>
+<Sentence id="1">
+1	((	NP	
+1.1	तो	PRP	<fs af='तो,pn,m,sg,3,d,,,'>
+	))		
+2	((	NP	
+2.1	सेवक	NNP	<fs af='सेवक,n,m,sg,,d,,,'>
+2.2	नगराबाहेरच्या	NNP	<fs af='नगर,n,n,sg,,o,बाहेर#चा,बाहेर_च्या,' genfeature=(चा,gen,f,pl,,d,)(चा,gen,,,,o,)>
+	))		
+3	((	NP	
+3.1	विहिरीजवळ	NN	<fs af='विहीर,n,f,sg,,o,जवळ,जवळ,'>
+	))		
+4	((	VGF	
+4.1	गेला	VM	<fs af='जा,v,m,sg,3,,ला,ला,' aspect=perf tense= mood=in>
+4.2	.	SYM	<fs af='.,pun,,,,,,,' poslcat="NM">
+	))		
+</Sentence>
+<Sentence id="1">
+1	((	NP	
+1.1	सुदैवाने	NN	<fs af='सुदैव,n,n,sg,,o,ने,ने,'>
+	))		
+2	((	NP	
+2.1	माझ्या	PRP	<fs af='मी,pn,,sg,1,o,झ्या,झ्या,' genfeature=(झा,gen,f,pl,,d,)(झा,gen,,,,o,)>
+	))		
+3	((	NP	
+3.1	घराशेजारी	NN	<fs af='घर,n,n,sg,,o,शेजारी,शेजारी,'>
+	))		
+4	((	NP	
+4.1	कवी	NN	<fs af='कवी,n,m,sg,,d,,,'>
+	))		
+5	((	NP	
+5.1	कोलरीज	NNP	<fs af='कोलरीज,unk,,,,,,,' poslcat="NM">
+	))		
+6	((	VGF	
+6.1	राहतात	VM	<fs af='राह,v,,pl,3,,तात,तात,' aspect=impf tense= mood=in>
+6.2	.	SYM	<fs af='.,pun,,,,,,,' poslcat="NM">
+	))		
+</Sentence>
+<Sentence id="1">
+1	((	NP	
+1.1	दिवसाच्या	NN	<fs af='दिवस,n,m,sg,,o,चा,च्या,' genfeature=(चा,gen,f,pl,,d,)(चा,gen,,,,o,)>
+	))		
+2	((	NP	
+2.1	अंती	NN	<fs af='अंत,n,m,sg,,o,ई#,ई_,'>
+	))		
+3	((	NP	
+3.1	तो	PRP	<fs af='तो,pn,m,sg,3,d,,,'>
+	))		
+4	((	VGF	
+4.1	थकून	VM	<fs af='थक,v,,,,,ून,ून,' kridanta_type=oon aspect=comp tense= mood= kridanta_cm=ून>
+4.2	जातो	VAUX	<fs af='जा,v,m,sg,1,,तो,तो,' aspect= tense= mood=cond>
+4.3	.	SYM	<fs af='.,pun,,,,,,,' poslcat="NM">
+	))		
+</Sentence>
+<Sentence id="1">
+1	((	NP	
+1.1	माझ्याऐवजी	PRP	<fs af='मी,pn,,sg,1,o,झ्या#ऐवजी,झ्या_ऐवजी,' genfeature=(झा,gen,f,pl,,d,)(झा,gen,,,,o,)>
+	))		
+2	((	NP	
+2.1	तू	PRP	<fs af='तू,pn,,sg,2,d,,,'>
+	))		
+3	((	NP	
+3.1	कामाला	NN	<fs af='काम,n,n,sg,,o,ला,ला,' genfeature=(ला,gen,m,sg,,d,)>
+	))		
+4	((	VGF	
+4.1	जा	VM	<fs af='जा,v,,sg,2,,,,' aspect= tense= mood=imp>
+4.2	.	SYM	<fs af='.,pun,,,,,,,' poslcat="NM">
+	))		
+</Sentence>
+<Sentence id="1">
+1	((	NP	
+1.1	ती	PRP	<fs af='ती,pn,f,sg,3,d,,,'>
+	))		
+2	((	NP	
+2.1	पिशवी	NN	<fs af='पिशवी,n,f,sg,,d,,,'>
+	))		
+3	((	NP	
+3.1	पलंगाखाली	NN	<fs af='पलंग,n,m,sg,,o,खाली,खाली,'>
+	))		
+4	((	VGF	
+4.1	आहे	VM	<fs af='अस,v,,sg,1,,,,' aspect=s tense=pre mood=in>
+4.2	.	SYM	<fs af='.,pun,,,,,,,' poslcat="NM">
+	))		
+</Sentence>
+<Sentence id="1">
+1	((	NP	
+1.1	माझ्या	PRP	<fs af='मी,pn,,sg,1,o,झ्या,झ्या,' genfeature=(झा,gen,f,pl,,d,)(झा,gen,,,,o,)>
+	))		
+2	((	NP	
+2.1	घराखाली	NN	<fs af='घर,n,n,sg,,o,खाली,खाली,'>
+	))		
+3	((	NP	
+3.1	त्याचे	PRP	<fs af='तो,pn,m,sg,3,o,चा,चे,' genfeature=(चा,gen,m,pl,,d,)(चा,gen,n,sg,,d,)>
+	))		
+4	((	NP	
+4.1	घर	NN	<fs af='घर,n,n,sg,,d,,,'>
+	))		
+5	((	VGF	
+5.1	आहे	VM	<fs af='अस,v,,sg,1,,,,' aspect=s tense=pre mood=in>
+5.2	.	SYM	<fs af='.,pun,,,,,,,' poslcat="NM">
+	))		
+</Sentence>
+<Sentence id="1">
+1	((	NP	
+1.1	माझ्यापेक्षा	PRP	<fs af='मी,pn,,sg,1,o,झ्या#पेक्षा,झ्या_पेक्षा,' genfeature=(झा,gen,f,pl,,d,)(झा,gen,,,,o,)>
+	))		
+2	((	NP	
+2.1	तू	PRP	<fs af='तू,pn,,sg,2,d,,,'>
+	))		
+3	((	JJP	
+3.1	लहान	JJ	<fs af='लहान,adj,,,,,,,'>
+	))		
+4	((	VGF	
+4.1	आहे	VM	<fs af='अस,v,,sg,1,,,,' aspect=s tense=pre mood=in>
+4.2	.	SYM	<fs af='.,pun,,,,,,,' poslcat="NM">
+	))		
+</Sentence>
+<Sentence id="1">
+1	((	NP	
+1.1	तो	PRP	<fs af='तो,pn,m,sg,3,d,,,'>
+	))		
+2	((	NP	
+2.1	त्या	DEM	<fs af='ती,pn,f,pl,3,d,,,'>
+2.2	मुलांपैकी	NN	<fs af='मूल,n,n,pl,,o,पैकी,पैकी,'>
+	))		
+3	((	NP	
+3.1	एक	QC	<fs af='एक,adj,,,,,,,'>
+	))		
+4	((	VGF	
+4.1	आहे	VM	<fs af='अस,v,,sg,1,,,,' aspect=s tense=pre mood=in>
+4.2	.	SYM	<fs af='.,pun,,,,,,,' poslcat="NM">
+	))		
+</Sentence>
+<Sentence id="1">
+1	((	NP	
+1.1	देवाप्रत	NN	<fs af='देव,n,m,sg,,o,प्रत,प्रत,'>
+	))		
+2	((	NP	
+2.1	श्रद्धा	NN	<fs af='श्रद्धा,n,f,sg,,d,,,'>
+	))		
+3	((	VGF	
+3.1	हवी	VM	<fs af='पाहिजे,v,f,sg,1,,,,' aspect=h tense=pas mood=in>
+3.2	.	SYM	<fs af='.,pun,,,,,,,' poslcat="NM">
+	))		
+</Sentence>
+<Sentence id="1">
+1	((	NP	
+1.1	घराभोवती	NN	<fs af='घर,n,n,sg,,o,भोवती,भोवती,'>
+	))		
+2	((	NP	
+2.1	बाग	NN	<fs af='बाग,n,f,sg,,d,,,'>
+	))		
+3	((	VGF	
+3.1	आहे	VM	<fs af='अस,v,,sg,1,,,,' aspect=s tense=pre mood=in>
+3.2	.	SYM	<fs af='.,pun,,,,,,,' poslcat="NM">
+	))		
+</Sentence>
+<Sentence id="1">
+1	((	NP	
+1.1	तो	PRP	<fs af='तो,pn,m,sg,3,d,,,'>
+	))		
+2	((	NP	
+2.1	तिला	PRP	<fs af='ती,pn,f,sg,3,o,ला#,ला_,'>
+	))		
+3	((	NP	
+3.1	बागेमधे	NN	<fs af='बाग,n,f,sg,,o,मधे,मधे,'>
+	))		
+4	((	NP	
+4.1	एकांतात	NN	<fs af='एकांत,n,m,sg,,o,त,त,'>
+	))		
+5	((	VGF	
+5.1	भेटला	VM	<fs af='भेट,v,m,sg,3,,ला,ला,' aspect=perf tense= mood=in>
+5.2	.	SYM	<fs af='.,pun,,,,,,,' poslcat="NM">
+	))		
+</Sentence>
+<Sentence id="1">
+1	((	RBP	
+1.1	अचानक	RB	<fs af='अचानक,adv,,,,,,,'>
+	))		
+2	((	NP	
+2.1	एका	QC	<fs af='एका,unk,,,,,,,' poslcat="NM">
+2.2	घरामागून	NN	<fs af='घर,n,n,sg,,o,माग#ून,माग_ून,'>
+	))		
+3	((	NP	
+3.1	एक	QC	<fs af='एक,adj,,,,,,,'>
+3.2	कोरियन	JJ	<fs af='कोरियन,adj,,,,,,,'>
+3.3	माणूस	NN	<fs af='माणूस,n,n,sg,,d,,,'>
+	))		
+4	((	NP	
+4.1	एका	QC	<fs af='एका,unk,,,,,,,' poslcat="NM">
+4.2	हातात	NN	<fs af='हात,n,m,sg,,o,त,त,'>
+	))		
+5	((	NP	
+5.1	रॉकेलचा	NNP	<fs af='रॉकेल,n,n,sg,,d,चा,चा,' genfeature=(चा,gen,m,sg,,d,)>
+	))		
+6	((	NP	
+6.1	कंदील	NN	<fs af='कंदील,n,m,sg,,d,,,'>
+	))		
+7	((	CCP	
+7.1	व	CC	<fs af='व,conj,,,,,,,'>
+	))		
+8	((	NP	
+8.1	एका	QC	<fs af='एका,unk,,,,,,,' poslcat="NM">
+8.2	हातात	NN	<fs af='हात,n,m,sg,,o,त,त,'>
+	))		
+9	((	NP	
+9.1	रायफल	NN	<fs af='रायफल,n,f,sg,,d,,,'>
+	))		
+10	((	VGNF	
+10.1	घेऊन	VM	<fs af='घे,v,,,,,ऊन,ऊन,' kridanta_type=oon aspect=comp tense= mood= kridanta_cm=ऊन>
+	))		
+11	((	JJP	
+11.1	अवतीर्ण	JJ	<fs af='अवतीर्ण,adj,,,,,,,'>
+	))		
+12	((	VGF	
+12.1	झाला	VM	<fs af='हो,v,m,sg,3,,ला,ला,' aspect=perf tense= mood=in>
+12.2	.	SYM	<fs af='.,pun,,,,,,,' poslcat="NM">
+	))		
+</Sentence>
+<Sentence id="1">
+1	((	NP	
+1.1	त्याने	PRP	<fs af='तो,pn,m,sg,3,o,ने#,ने_,'>
+	))		
+2	((	NP	
+2.1	घरामागे	NN	<fs af='घर,n,n,sg,,o,मागे,मागे,'>
+	))		
+3	((	NP	
+3.1	साप	NN	<fs af='साप,n,m,sg,,d,,,'>
+	))		
+4	((	VGF	
+4.1	पाहिला	VM	<fs af='पाह,v,m,sg,,d,ला,ला,' kridanta_type=la aspect=perf tense= mood= kridanta_cm=ला>
+4.2	.	SYM	<fs af='.,pun,,,,,,,' poslcat="NM">
+	))		
+</Sentence>
+<Sentence id="1">
+1	((	NP	
+1.1	जोगेश्वरी	NNP	<fs af='जोगेश्वरी,n,f,sg,,d,,,'>
+	))		
+2	((	CCP	
+2.1	आणि	CC	<fs af='आणि,conj,,,,,,,'>
+	))		
+3	((	NP	
+3.1	अंधेरी	NNP	<fs af='अंधेरी,n,f,sg,,d,,,'>
+	))		
+4	((	NP	
+4.1	दरम्यान	NST	<fs af='दरम्यान,nst,,,,,,,'>
+	))		
+5	((	NP	
+5.1	रेल्वेच्या	NN	<fs af='रेल्वे,n,f,sg,,o,चा,च्या,' genfeature=(चा,gen,f,pl,,d,)(चा,gen,,,,o,)>
+	))		
+6	((	NP	
+6.1	केबिनवरून	NN	<fs af='केबिन,n,n,sg,,o,वर#ून,वर_ून,'>
+	))		
+7	((	NP	
+7.1	जवळच्या	NST	<fs af='जवळ,nst,,,,,चा,च्या,' genfeature=(चा,gen,f,pl,,d,)(चा,gen,,,,o,)>
+	))		
+8	((	NP	
+8.1	झाडावर	NN	<fs af='झाड,n,n,sg,,o,वर,वर,'>
+	))		
+9	((	NP	
+9.1	आंबे	NN	<fs af='आंबा,n,m,pl,,d,,,'>
+	))		
+10	((	VGNN	
+10.1	काढण्यासाठी	VM	<fs af='काढ,v,n,sg,,o,ण्या#साठी,ण्या_साठी,' kridanta_type=ne aspect= tense= mood= kridanta_cm=ण्या#साठी>
+	))		
+11	((	VGNF	
+11.1	चढलेल्या	VM	<fs af='चढ,v,f,pl,,d,लेल्या,लेल्या,' kridanta_type=lela aspect=pluf tense= mood= kridanta_cm=लेल्या>
+	))		
+12	((	NP	
+12.1	संतोष	NNP	<fs af='संतोष,n,m,sg,,d,,,'>
+12.2	चव्हाण	NNP	<fs af='चव्हाण,n,m,sg,,d,,,'>
+	))		
+13	((	NP	
+13.1	याचा	PRP	<fs af='हा,pn,m,sg,3,o,चा,चा,' genfeature=(चा,gen,m,sg,,d,)>
+	))		
+14	((	NP	
+14.1	तोल	NN	<fs af='तोल,n,m,sg,,d,,,'>
+	))		
+15	((	VGNF	
+15.1	सुटून	VM	<fs af='सुट,v,,,,,ून,ून,' kridanta_type=oon aspect=comp tense= mood= kridanta_cm=ून>
+	))		
+16	((	NP	
+16.1	ओव्हरहेड	NNP	<fs af='ओव्हरहेड,unk,,,,,,,' poslcat="NM">
+16.2	वायरला	NNP	<fs af='वायर,n,f,sg,,o,ला,ला,' genfeature=(ला,gen,m,sg,,d,)>
+	))		
+17	((	NP	
+17.1	स्पर्श	NN	<fs af='स्पर्श,n,m,sg,,d,,,'>
+	))		
+18	((	VGNN	
+18.1	झाल्याने	VM	<fs af='हो,v,,sg,,o,ल्या#ने,ल्या_ने,' kridanta_type=la aspect=perf genfeature=(ला,gen,f,pl,,d,)(ला,gen,,,,o,) tense= mood= kridanta_cm=ल्या#ने>
+	))		
+19	((	NP	
+19.1	विजेचा	NN	<fs af='वीज,n,f,sg,,o,चा,चा,' genfeature=(चा,gen,m,sg,,d,)>
+	))		
+20	((	NP	
+20.1	तीव्र	JJ	<fs af='तीव्र,adj,,,,,,,'>
+20.2	धक्का	NN	<fs af='धक्का,n,m,sg,,d,,,'>
+	))		
+21	((	VGF	
+21.1	बसला	VM	<fs af='बस,v,m,sg,,d,ला,ला,' kridanta_type=la aspect=perf tense= mood= kridanta_cm=ला>
+21.2	.	SYM	<fs af='.,pun,,,,,,,' poslcat="NM">
+	))		
+</Sentence>
+<Sentence id="1">
+1	((	NP	
+1.1	तो	PRP	<fs af='तो,pn,m,sg,3,d,,,'>
+	))		
+2	((	NP	
+2.1	आईसारखा	NN	<fs af='आई,n,f,sg,,o,सारखा,सारखा,'>
+	))		
+3	((	VGF	
+3.1	दिसतो	VM	<fs af='दिस,v,m,sg,1,,तो,तो,' aspect= tense= mood=cond>
+3.2	.	SYM	<fs af='.,pun,,,,,,,' poslcat="NM">
+	))		
+</Sentence>
+<Sentence id="1">
+1	((	NP	
+1.1	मी	PRP	<fs af='मी,pn,,sg,1,d,,,'>
+	))		
+2	((	NP	
+2.1	मंडईतून	NN	<fs af='मंडई,n,f,sg,,o,त#ून,त_ून,'>
+	))		
+3	((	NP	
+3.1	बटाटे	NN	<fs af='बटाटा,n,m,pl,,d,,,'>
+	))		
+4	((	CCP	
+4.1	व	CC	<fs af='व,conj,,,,,,,'>
+	))		
+5	((	NP	
+5.1	कांदे	NN	<fs af='कांदा,n,m,pl,,d,,,'>
+	))		
+6	((	VGF	
+6.1	आणले	VM	<fs af='आण,v,n,sg,,d,ले,ले,' kridanta_type=la aspect=perf tense= mood= kridanta_cm=ले>
+6.2	.	SYM	<fs af='.,pun,,,,,,,' poslcat="NM">
+	))		
+</Sentence>
+<Sentence id="1">
+1	((	NP	
+1.1	मी	PRP	<fs af='मी,pn,,sg,1,d,,,'>
+	))		
+2	((	NP	
+2.1	न्	NNP	<fs af='न्,unk,,,,,,,' poslcat="NM">
+	))		
+3	((	NP	
+3.1	तू	PRP	<fs af='तू,pn,,sg,2,d,,,'>
+	))		
+4	((	VGF	
+4.1	फिरायला	VM	<fs af='फिर,v,,,,,ायला,ायला,'>
+4.2	जाऊ	VAUX	<fs af='जा,v,,pl,1,,ऊ,ऊ,' aspect= tense=phab mood=in>
+4.3	.	SYM	<fs af='.,pun,,,,,,,' poslcat="NM">
+	))		
+</Sentence>
+<Sentence id="1">
+1	((	NP	
+1.1	तो	PRP	<fs af='तो,pn,m,sg,3,d,,,'>
+	))		
+2	((	CCP	
+2.1	नि	CC	<fs af='नि,conj,,,,,,,'>
+	))		
+3	((	NP	
+3.1	ती	PRP	<fs af='ती,pn,f,sg,3,d,,,'>
+	))		
+4	((	NP	
+4.1	कांदे	NN	<fs af='कांदा,n,m,pl,,d,,,'>
+	))		
+5	((	VGNN	
+5.1	आणण्यासाठी	VM	<fs af='आण,v,n,sg,,o,ण्या#साठी,ण्या_साठी,' kridanta_type=ne aspect= tense= mood= kridanta_cm=ण्या#साठी>
+	))		
+6	((	NP	
+6.1	बाजारात	NN	<fs af='बाजार,n,m,sg,,o,त,त,'>
+	))		
+7	((	VGF	
+7.1	गेले	VM	<fs af='जा,v,f,sg,1,,ले,ले,' aspect=perf tense= mood=in>
+7.2	.	SYM	<fs af='.,pun,,,,,,,' poslcat="NM">
+	))		
+</Sentence>
+<Sentence id="1">
+1	((	NP	
+1.1	मी	PRP	<fs af='मी,pn,,sg,1,d,,,'>
+	))		
+2	((	VGF	
+2.1	संतापले	VM	<fs af='संताप,v,n,sg,3,,ले,ले,' aspect=perf tense= mood=in>
+2.2	होते	VAUX	<fs af='अस,v,f,sg,1,,,,' aspect=s tense=pas mood=in>
+2.3	,	SYM	<fs af=',,pun,,,,,,' poslcat="NM">
+	))		
+3	((	CCP	
+3.1	तरी	CC	<fs af='तरी,conj,,,,,,,'>
+	))		
+4	((	NP	
+4.1	मी	PRP	<fs af='मी,pn,,sg,1,d,,,'>
+	))		
+5	((	JJP	
+5.1	शांत	JJ	<fs af='शांत,adj,,,,,,,'>
+	))		
+6	((	VGF	
+6.1	राहिले	VM	<fs af='राह,v,n,sg,3,,ले,ले,' aspect=perf tense= mood=in>
+6.2	.	SYM	<fs af='.,pun,,,,,,,' poslcat="NM">
+	))		
+</Sentence>
+<Sentence id="1">
+1	((	NP	
+1.1	शहरांमध्ये	NN	<fs af='शहर,n,n,pl,,o,मध्ये,मध्ये,'>
+	))		
+2	((	NP	
+2.1	तंत्रज्ञानामुळे	NN	<fs af='तंत्रज्ञान,n,n,sg,,o,मुळे,मुळे,'>
+	))		
+3	((	NP	
+3.1	खूप	QF	<fs af='खूप,adj,,,,,,,'>
+3.2	सुधारणा	NN	<fs af='सुधारणा,n,f,sg,,d,,,'>
+	))		
+4	((	VGF	
+4.1	झाल्या	VM	<fs af='हो,v,f,pl,,d,ल्या,ल्या,' kridanta_type=la aspect=perf genfeature=(ला,gen,f,pl,,d,)(ला,gen,,,,o,) tense= mood= kridanta_cm=ल्या>
+4.2	;	SYM	<fs af=';,pun,,,,,,,' poslcat="NM">
+	))		
+5	((	CCP	
+5.1	तथापि	CC	<fs af='तथापि,conj,,,,,,,'>
+	))		
+6	((	NP	
+6.1	अनेक	QF	<fs af='अनेक,adj,,,,,,,'>
+6.2	गावे	NN	<fs af='गाव,n,n,pl,,d,,,'>
+	))		
+7	((	NP	
+7.1	तशीच	PRP	<fs af='तसा,adj,f,sg,,d,च,च,' poslcat="NM">
+	))		
+8	((	VGF	
+8.1	राहिली	VM	<fs af='राह,v,f,sg,,d,ली,ली,' kridanta_type=la aspect=perf tense= mood= kridanta_cm=ली>
+8.2	.	SYM	<fs af='.,pun,,,,,,,' poslcat="NM">
+	))		
+</Sentence>
+<Sentence id="1">
+1	((	NP	
+1.1	तू	PRP	<fs af='तू,pn,,sg,2,d,,,'>
+	))		
+2	((	NP	
+2.1	घरी	NN	<fs af='घर,n,n,sg,,o,ई#,ई_,'>
+	))		
+3	((	VGF	
+3.1	आलास	VM	<fs af='ये,v,m,sg,2,,लास,लास,' aspect=perf tense= mood=in>
+3.2	,	SYM	<fs af=',,pun,,,,,,' poslcat="NM">
+	))		
+4	((	CCP	
+4.1	की	CC	<fs af='की,conj,,,,,,,'>
+	))		
+5	((	NP	
+5.1	आपण	PRP	<fs af='आपण,pn,,sg,1,d,,,'>
+	))		
+6	((	VGF	
+6.1	जाऊ	VM	<fs af='जा,v,,sg,1,,ऊ,ऊ,' aspect= tense= mood=imp>
+6.2	.	SYM	<fs af='.,pun,,,,,,,' poslcat="NM">
+	))		
+</Sentence>
+<Sentence id="1">
+1	((	NP	
+1.1	माझा	PRP	<fs af='मी,pn,,sg,1,o,झा,झा,' genfeature=(झा,gen,m,sg,,d,)>
+	))		
+2	((	NP	
+2.1	भाऊ	NN	<fs af='भाऊ,n,m,sg,,d,,,'>
+	))		
+3	((	JJP	
+3.1	हुशार	JJ	<fs af='हुशार,adj,,,,,,,'>
+	))		
+4	((	VGF	
+4.1	आहे	VM	<fs af='अस,v,,sg,1,,,,' aspect=s tense=pre mood=in>
+4.2	.	SYM	<fs af='.,pun,,,,,,,' poslcat="NM">
+	))		
+</Sentence>
+<Sentence id="1">
+1	((	NP	
+1.1	तो	PRP	<fs af='तो,pn,m,sg,3,d,,,'>
+	))		
+2	((	VGF	
+2.1	म्हणतो	VM	<fs af='म्हण,v,m,sg,1,,तो,तो,' aspect= tense= mood=cond>
+	))		
+3	((	CCP	
+3.1	की	CC	<fs af='की,conj,,,,,,,'>
+	))		
+4	((	NP	
+4.1	आम्ही	PRP	<fs af='मी,pn,,pl,1,d,,,'>
+	))		
+5	((	NP	
+5.1	भारताच्या	NNP	<fs af='भारत,n,m,sg,,o,चा,च्या,' genfeature=(चा,gen,f,pl,,d,)(चा,gen,,,,o,)>
+	))		
+6	((	NP	
+6.1	फिरकी	NN	<fs af='फिरकी,n,f,sg,,d,,,'>
+	))		
+7	((	NP	
+7.1	गोलंदाजांना	NN	<fs af='गोलंदाज,n,m,pl,,o,ना,ना,'>
+	))		
+8	((	NP	
+8.1	भीत	NN	<fs af='भी,v,,,,,त,त,' kridanta_type=t aspect= tense= mood= kridanta_cm=त poslcat="NM">
+	))		
+9	((	VGF	
+9.1	नाही	VM	<fs af='नस,v,,,1,,,,' aspect=s tense=pre mood=in>
+9.2	.	SYM	<fs af='.,pun,,,,,,,' poslcat="NM">
+	))		
+</Sentence>
+<Sentence id="1">
+1	((	CCP	
+1.1	पण	CC	<fs af='पण,conj,,,,,,,'>
+	))		
+2	((	NP	
+2.1	मी	PRP	<fs af='मी,pn,,sg,1,d,,,'>
+	))		
+3	((	NP	
+3.1	काही	QF	<fs af='काही,adj,,,,,,,'>
+3.2	बोलण्याअगोदर	NN	<fs af='बोलणे,n,n,sg,,o,अगोदर,अगोदर,'>
+	))		
+4	((	NP	
+4.1	त्यांनीच	PRP	<fs af='तो,pn,m,pl,3,o,नी#च,नी_च,'>
+	))		
+5	((	NP	
+5.1	यावर	PRP	<fs af='हा,pn,m,sg,3,o,वर,वर,'>
+	))		
+6	((	NP	
+6.1	प्रतिक्रिया	NN	<fs af='प्रतिक्रिया,n,f,sg,,d,,,'>
+	))		
+7	((	VGF	
+7.1	दिली	VM	<fs af='दे,v,f,sg,3,,ली,ली,' aspect=perf tense= mood=in>
+7.2	.	SYM	<fs af='.,pun,,,,,,,' poslcat="NM">
+	))		
+</Sentence>
+<Sentence id="1">
+1	((	NP	
+1.1	घराच्या	NN	<fs af='घर,n,n,sg,,o,चा,च्या,' genfeature=(चा,gen,f,pl,,d,)(चा,gen,,,,o,)>
+	))		
+2	((	NP	
+2.1	पिछाडीस	NN	<fs af='पिछाडी,n,f,sg,,o,स,स,'>
+	))		
+3	((	NP	
+3.1	एक	QC	<fs af='एक,adj,,,,,,,'>
+3.2	बाग	NN	<fs af='बाग,n,f,sg,,d,,,'>
+	))		
+4	((	VGF	
+4.1	आहे	VM	<fs af='अस,v,,sg,1,,,,' aspect=s tense=pre mood=in>
+4.2	.	SYM	<fs af='.,pun,,,,,,,' poslcat="NM">
+	))		
+</Sentence>
+<Sentence id="1">
+1	((	NP	
+1.1	मी	PRP	<fs af='मी,pn,,sg,1,d,,,'>
+	))		
+2	((	NP	
+2.1	देवाप्रती	NN	<fs af='देव,n,m,sg,,o,प्रती,प्रती,'>
+	))		
+3	((	NP	
+3.1	खूप	QF	<fs af='खूप,adj,,,,,,,'>
+3.2	कृतज्ञता	NN	<fs af='कृतज्ञता,n,f,sg,,d,,,'>
+	))		
+4	((	JJP	
+4.1	व्यक्त	JJ	<fs af='व्यक्त,adj,,,,,,,'>
+	))		
+5	((	VGF	
+5.1	करतो	VM	<fs af='कर,v,m,sg,3,,तो,तो,' aspect=impf tense= mood=in>
+5.2	.	SYM	<fs af='.,pun,,,,,,,' poslcat="NM">
+	))		
+</Sentence>
+<Sentence id="1">
+1	((	NP	
+1.1	आशाबरोबर	NNP	<fs af='आशा,n,f,sg,,o,बरोबर,बरोबर,'>
+	))		
+2	((	NP	
+2.1	मी	PRP	<fs af='मी,pn,,sg,1,d,,,'>
+	))		
+3	((	NP	
+3.1	शाळेत	NN	<fs af='शाळा,n,f,sg,,o,त,त,'>
+	))		
+4	((	VGF	
+4.1	जाते	VM	<fs af='जा,v,n,sg,3,,ते,ते,' aspect=impf tense= mood=in>
+4.2	.	SYM	<fs af='.,pun,,,,,,,' poslcat="NM">
+	))		
+</Sentence>
+<Sentence id="1">
+1	((	NP	
+1.1	पैशांबाबत	NN	<fs af='पैसा,n,m,pl,,o,बाबत,बाबत,'>
+	))		
+2	((	NP	
+2.1	काय	QW	<fs af='काय,pn,,sg,,d,,,' poslcat="NM">
+2.2	निर्णय	NN	<fs af='निर्णय,n,m,sg,,d,,,'>
+	))		
+3	((	VGF	
+3.1	झाला	VM	<fs af='हो,v,m,sg,3,,ला,ला,' aspect=perf tense= mood=in>
+3.2	?	SYM	<fs af='?,pun,,,,,,,' poslcat="NM">
+	))		
+</Sentence>
+<Sentence id="1">
+1	((	NP	
+1.1	सर्दीमुळे	NN	<fs af='सर्दी,n,f,sg,,o,मुळे,मुळे,'>
+	))		
+2	((	CCP	
+2.1	किंवा	CC	<fs af='किंवा,conj,,,,,,,'>
+	))		
+3	((	NP	
+3.1	अॅलर्जीमुळे	NN	<fs af='अॅलर्जी,unk,,,,,मुळे,मुळे,' poslcat="NM">
+	))		
+4	((	NP	
+4.1	तुमचे	PRP	<fs af='तू,pn,,pl,2,o,चा,चे,' genfeature=(चा,gen,m,pl,,d,)(चा,gen,n,sg,,d,)>
+	))		
+5	((	NP	
+5.1	नाक	NN	<fs af='नाक,n,n,sg,,d,,,'>
+	))		
+6	((	NP	
+6.1	कधी	QW	<fs af='कधी,adv,,,,,,,' poslcat="NM">
+	))		
+7	((	VGF	
+7.1	गळत	VM	<fs af='गळ,v,,,,,त,त,' kridanta_type=t aspect= tense= mood= kridanta_cm=त>
+7.2	असते	VAUX	<fs af='अस,v,n,sg,3,,ते,ते,' aspect= tense= mood=cond>
+7.3	का	QW	<fs af='का,particle,,,,,,,' poslcat="NM">
+7.4	?	SYM	<fs af='?,pun,,,,,,,' poslcat="NM">
+	))		
+</Sentence>
+<Sentence id="1">
+1	((	NP	
+1.1	काहींनी	NN	<fs af='काही,n,m,pl,,o,नी,नी,'>
+	))		
+2	((	NP	
+2.1	घरालगत	NN	<fs af='घर,n,n,sg,,o,लगत,लगत,'>
+	))		
+3	((	NP	
+3.1	अनधिकृत	JJ	<fs af='अनधिकृत,adj,,,,,,,'>
+3.2	चाळी	NN	<fs af='चाळ,n,f,pl,,d,,,'>
+	))		
+4	((	VGNF	
+4.1	बांधून	VM	<fs af='बांध,v,,,,,ून,ून,' kridanta_type=oon aspect=comp tense= mood= kridanta_cm=ून>
+	))		
+5	((	NP	
+5.1	आपला	PRP	<fs af='आपण,pn,,sg,1,o,ला,ला,' genfeature=(ला,gen,m,sg,,d,)>
+	))		
+6	((	NP	
+6.1	उदरनिर्वाह	NN	<fs af='उदरनिर्वाह,n,m,sg,,d,,,'>
+	))		
+7	((	JJP	
+7.1	चालू	JJ	<fs af='चालू,adj,,,,,,,'>
+	))		
+8	((	VGF	
+8.1	ठेवला	VM	<fs af='ठेव,v,m,sg,3,,ला,ला,' aspect=perf tense= mood=in>
+8.2	.	SYM	<fs af='.,pun,,,,,,,' poslcat="NM">
+	))		
+</Sentence>
+<Sentence id="1">
+1	((	NP	
+1.1	घराशेजारून	NN	<fs af='घर,n,n,sg,,o,शेजार#ून,शेजार_ून,'>
+	))		
+2	((	NP	
+2.1	नदी	NN	<fs af='नदी,n,f,sg,,d,,,'>
+	))		
+3	((	VGF	
+3.1	वाहते	VM	<fs af='वाह,v,n,sg,3,,ते,ते,' aspect=impf tense= mood=in>
+3.2	.	SYM	<fs af='.,pun,,,,,,,' poslcat="NM">
+	))		
+</Sentence>
+<Sentence id="1">
+1	((	NP	
+1.1	ती	PRP	<fs af='ती,pn,f,sg,3,d,,,'>
+	))		
+2	((	NP	
+2.1	मैत्रिणीसंगे	NN	<fs af='मैत्रीण,n,f,sg,,o,संगे,संगे,'>
+	))		
+3	((	NP	
+3.1	घरी	NN	<fs af='घर,n,n,sg,,o,ई#,ई_,'>
+	))		
+4	((	VGF	
+4.1	आली	VM	<fs af='ये,v,f,sg,3,,ली,ली,' aspect=perf tense= mood=in>
+4.2	.	SYM	<fs af='.,pun,,,,,,,' poslcat="NM">
+	))		
+</Sentence>
+<Sentence id="1">
+1	((	NP	
+1.1	आईसह	NN	<fs af='आई,n,f,sg,,o,सह,सह,'>
+	))		
+2	((	NP	
+2.1	ती	PRP	<fs af='ती,pn,f,sg,3,d,,,'>
+	))		
+3	((	NP	
+3.1	बाजारात	NN	<fs af='बाजार,n,m,sg,,o,त,त,'>
+	))		
+4	((	VGF	
+4.1	गेली	VM	<fs af='जा,v,f,sg,3,,ली,ली,' aspect=perf tense= mood=in>
+4.2	.	SYM	<fs af='.,pun,,,,,,,' poslcat="NM">
+	))		
+</Sentence>
+<Sentence id="1">
+1	((	NP	
+1.1	व्याजासहित	NN	<fs af='व्याज,n,n,sg,,o,सहित,सहित,'>
+	))		
+2	((	NP	
+2.1	रक्कम	NN	<fs af='रक्कम,n,f,sg,,d,,,'>
+	))		
+3	((	RBP	
+3.1	परत	RB	<fs af='परत,adv,,,,,,,'>
+	))		
+4	((	VGF	
+4.1	कर	VM	<fs af='कर,v,,sg,2,,,,' aspect= tense= mood=imp>
+4.2	.	SYM	<fs af='.,pun,,,,,,,' poslcat="NM">
+	))		
+</Sentence>
+<Sentence id="1">
+1	((	NP	
+1.1	माझ्यासाठी	PRP	<fs af='मी,pn,,sg,1,o,झ्या#साठी,झ्या_साठी,' genfeature=(झा,gen,f,pl,,d,)(झा,gen,,,,o,)>
+	))		
+2	((	NP	
+2.1	एवढे	QF	<fs af='एवढा,adj,n,sg,,d,,,'>
+2.2	मात्र	RP	<fs af='मात्र,conj,,,,,,,'>
+	))		
+3	((	VGF	
+3.1	कर	VM	<fs af='कर,v,,sg,2,,,,' aspect= tense= mood=imp>
+3.2	.	SYM	<fs af='.,pun,,,,,,,' poslcat="NM">
+	))		
+</Sentence>
+<Sentence id="1">
+1	((	NP	
+1.1	प्रदर्शनात	NN	<fs af='प्रदर्शन,n,n,sg,,o,त,त,'>
+	))		
+2	((	NP	
+2.1	प्रामुख्याने	NN	<fs af='प्रामुख्य,n,m,sg,,o,ने,ने,'>
+	))		
+3	((	NP	
+3.1	इतिहासाची	NN	<fs af='इतिहास,n,m,sg,,o,चा,ची,' genfeature=(चा,gen,f,sg,,d,)(चा,gen,n,pl,,d,)>
+	))		
+4	((	NP	
+4.1	पुस्तके	NN	<fs af='पुस्तक,n,n,pl,,d,,,'>
+	))		
+5	((	NP	
+5.1	होती	VM	<fs af='अस,v,f,sg,3,,,,' aspect=s tense=pas mood=in>
+5.2	;	SYM	<fs af=';,pun,,,,,,,' poslcat="NM">
+	))		
+6	((	NP	
+6.1	आणखी	QF	<fs af='आणखी,adj,,,,,,,'>
+6.2	इतर	JJ	<fs af='इतर,adj,,,,,,,'>
+6.3	विषयांचीही	NN	<fs af='विषय,n,m,pl,,o,ची#ही,ची_ही,' genfeature=(चा,gen,f,sg,,d,)(चा,gen,n,pl,,d,)>
+	))		
+7	((	NP	
+7.1	पुस्तके	NN	<fs af='पुस्तक,n,n,pl,,d,,,'>
+	))		
+8	((	VGF	
+8.1	होती	VM	<fs af='अस,v,f,sg,3,,,,' aspect=s tense=pas mood=in>
+8.2	.	SYM	<fs af='.,pun,,,,,,,' poslcat="NM">
+	))		
+</Sentence>
+<Sentence id="1">
+1	((	NP	
+1.1	गाडी	NN	<fs af='गाडी,n,f,sg,,d,,,'>
+	))		
+2	((	NP	
+2.1	वाटेत	NN	<fs af='वाट,n,f,sg,,o,त,त,'>
+	))		
+3	((	JJP	
+3.1	बंद	JJ	<fs af='बंद,adj,,,,,,,'>
+	))		
+4	((	VGF	
+4.1	पडली	VM	<fs af='पड,v,f,sg,,d,ली,ली,' kridanta_type=la aspect=perf tense= mood= kridanta_cm=ली>
+4.2	;	SYM	<fs af=';,pun,,,,,,,' poslcat="NM">
+	))		
+5	((	CCP	
+5.1	सबब	CC	<fs af='सबब,conj,,,,,,,'>
+	))		
+6	((	NP	
+6.1	मला	PRP	<fs af='मी,pn,,sg,1,o,ला#,ला_,'>
+	))		
+7	((	JJP	
+7.1	उशीर	JJ	<fs af='उशीर,n,m,sg,,d,,,' poslcat="NM">
+	))		
+8	((	VGF	
+8.1	झाला	VM	<fs af='हो,v,m,sg,,d,ला,ला,' kridanta_type=la aspect=perf tense= mood= kridanta_cm=ला>
+8.2	.	SYM	<fs af='.,pun,,,,,,,' poslcat="NM">
+	))		
+</Sentence>
+<Sentence id="1">
+1	((	VGNN	
+1.1	शिकण्याची	VM	<fs af='शिक,v,n,sg,,o,ण्या#ची,ण्या_ची,' kridanta_type=ne aspect= genfeature=(चा,gen,f,sg,,d,)(चा,gen,n,pl,,d,) tense= mood= kridanta_cm=ण्या#ची>
+	))		
+2	((	NP	
+2.1	ओढ	NN	<fs af='ओढ,n,f,sg,,d,,,'>
+	))		
+3	((	VGF	
+3.1	असेल	VM	<fs af='अस,v,,sg,3,,ेल,ेल,' aspect= tense=fut mood=in>
+3.2	,	SYM	<fs af=',,pun,,,,,,' poslcat="NM">
+	))		
+4	((	CCP	
+4.1	तर	CC	<fs af='तर,conj,,,,,,,'>
+	))		
+5	((	NP	
+5.1	यश	NN	<fs af='यश,n,n,sg,,d,,,'>
+	))		
+6	((	VGF	
+6.1	मिळेल	VM	<fs af='मिळ,v,,sg,3,,ेल,ेल,' aspect= tense=fut mood=in>
+6.2	.	SYM	<fs af='.,pun,,,,,,,' poslcat="NM">
+	))		
+</Sentence>
+<Sentence id="1">
+1	((	NP	
+1.1	जी	DEM	<fs af='जी,pn,f,sg,3,d,,,'>
+1.2	घरे	NN	<fs af='घर,n,n,pl,,d,,,'>
+	))		
+2	((	VGF	
+2.1	दिसत	VM	<fs af='दिस,v,,pl,3,,त,त,' aspect= tense=phab mood=in>
+2.2	आहेत	VAUX	<fs af='अस,v,,pl,3,,,,' aspect=s tense=pre mood=in>
+	))		
+3	((	NP	
+3.1	ती	PRP	<fs af='ती,pn,f,sg,3,d,,,'>
+	))		
+4	((	NP	
+4.1	आमच्या	PRP	<fs af='मी,pn,,pl,1,o,चा,च्या,' genfeature=(चा,gen,f,pl,,d,)(चा,gen,,,,o,)>
+	))		
+5	((	NP	
+5.1	मालकीची	NN	<fs af='मालकी,n,f,sg,,d,चा,ची,' genfeature=(चा,gen,f,sg,,d,)(चा,gen,n,pl,,d,)>
+	))		
+6	((	VGF	
+6.1	आहेत	VM	<fs af='अस,v,,pl,3,,,,' aspect=s tense=pre mood=in>
+6.2	.	SYM	<fs af='.,pun,,,,,,,' poslcat="NM">
+	))		
+</Sentence>
+<Sentence id="1">
+1	((	NP	
+1.1	ज्या	PRP	<fs af='जो,pn,,sg,3,o,,,'>
+1.2	दिवशी	NN	<fs af='दिवस,n,m,sg,,o,ई#,ई_,'>
+	))		
+2	((	NP	
+2.1	शूटिंग	NN	<fs af='शूटिंग,n,n,sg,,d,,,'>
+	))		
+3	((	VGF	
+3.1	असेल	VM	<fs af='अस,v,,sg,3,,ेल,ेल,' aspect= tense=fut mood=in>
+3.2	,	SYM	<fs af=',,pun,,,,,,' poslcat="NM">
+	))		
+4	((	NP	
+4.1	त्याच्या	PRP	<fs af='तो,pn,m,sg,3,o,चा,च्या,' genfeature=(चा,gen,f,pl,,d,)(चा,gen,,,,o,)>
+	))		
+5	((	NP	
+5.1	आधी	NST	<fs af='आधी,adv,,,,,,,' poslcat="NM">
+	))		
+6	((	NP	
+6.1	किमान	QF	<fs af='किमान,adj,,,,,,,'>
+6.2	चार	QC	<fs af='चार,cardinal,,,,,,,' poslcat="NM">
+	))		
+7	((	CCP	
+7.1	ते	CC	<fs af='ते,conj,,,,,,,'>
+	))		
+8	((	NP	
+8.1	पाच	QC	<fs af='पाच,adj,,,,,,,'>
+8.2	दिवस	NN	<fs af='दिवस,n,m,sg,,d,,,'>
+	))		
+9	((	NP	
+9.1	आधी	NST	<fs af='आधी,adv,,,,,,,' poslcat="NM">
+	))		
+10	((	NP	
+10.1	सेट	NN	<fs af='सेट,n,m,sg,,d,,,'>
+	))		
+11	((	VGNN	
+11.1	उभारण्याची	VM	<fs af='उभार,v,n,sg,,o,ण्या#ची,ण्या_ची,' kridanta_type=ne aspect= genfeature=(चा,gen,f,sg,,d,)(चा,gen,n,pl,,d,) tense= mood= kridanta_cm=ण्या#ची>
+	))		
+12	((	NP	
+12.1	तयारी	NN	<fs af='तयारी,n,f,sg,,d,,,'>
+	))		
+13	((	JJP	
+13.1	सुरू	JJ	<fs af='सुरू,adj,,,,,,,'>
+	))		
+14	((	VGF	
+14.1	होते	VM	<fs af='अस,v,f,sg,1,,,,' aspect=s tense=pas mood=in>
+14.2	.	SYM	<fs af='.,pun,,,,,,,' poslcat="NM">
+	))		
+</Sentence>
+<Sentence id="1">
+1	((	NP	
+1.1	घराच्या	NN	<fs af='घर,n,n,sg,,o,चा,च्या,' genfeature=(चा,gen,f,pl,,d,)(चा,gen,,,,o,)>
+	))		
+2	((	RBP	
+2.1	आसपास	RB	<fs af='आसपास,adv,,,,,,,'>
+	))		
+3	((	NP	
+3.1	भरपूर	QF	<fs af='भरपूर,adj,,,,,,,'>
+3.2	झाडे	NN	<fs af='झाड,n,n,pl,,d,,,'>
+	))		
+4	((	VGF	
+4.1	आहेत	VM	<fs af='अस,v,,pl,3,,,,' aspect=s tense=pre mood=in>
+4.2	.	SYM	<fs af='.,pun,,,,,,,' poslcat="NM">
+	))		
+</Sentence>
+<Sentence id="1">
+1	((	NP	
+1.1	नारळाच्या	NN	<fs af='नारळ,n,m,sg,,o,चा,च्या,' genfeature=(चा,gen,f,pl,,d,)(चा,gen,,,,o,)>
+	))		
+2	((	NP	
+2.1	बागेमध्ये	NN	<fs af='बाग,n,f,sg,,o,मध्ये,मध्ये,'>
+	))		
+3	((	NP	
+3.1	मसाला	NN	<fs af='मसाला,n,m,sg,,d,,,'>
+3.2	पिकांची	NN	<fs af='पीक,n,n,pl,,o,चा,ची,' genfeature=(चा,gen,f,sg,,d,)(चा,gen,n,pl,,d,)>
+	))		
+4	((	NP	
+4.1	लागवड	NN	<fs af='लागवड,n,f,sg,,d,,,'>
+4.2	कशी	QW	<fs af='काय,pn,f,sg,,d,,,' poslcat="NM">
+	))		
+5	((	VGF	
+5.1	करावी	VM	<fs af='कर,v,f,sg,3,,ावी,ावी,' aspect= tense= mood=subj>
+5.2	?	SYM	<fs af='?,pun,,,,,,,' poslcat="NM">
+	))		
+</Sentence>
+<Sentence id="1">
+1	((	NP	
+1.1	रविवारच	NNP	<fs af='रविवार,n,m,sg,,d,च,च,'>
+	))		
+2	((	BLK	
+2.1	असा	RP	<fs af='असा,adj,m,sg,,d,,,' poslcat="NM">
+	))		
+3	((	NP	
+3.1	दिवस	NN	<fs af='दिवस,n,m,sg,,d,,,'>
+	))		
+4	((	VGF	
+4.1	आहे	VM	<fs af='अस,v,,sg,1,,,,' aspect=s tense=pre mood=in>
+	))		
+5	((	CCP	
+5.1	की	CC	<fs af='की,conj,,,,,,,'>
+	))		
+6	((	NP	
+6.1	जेव्हा	PRP	<fs af='जेव्हा,adv,,,,,,,' poslcat="NM">
+	))		
+7	((	NP	
+7.1	मी	PRP	<fs af='मी,pn,,sg,1,d,,,'>
+	))		
+8	((	NP	
+8.1	आराम	NN	<fs af='आराम,n,m,sg,,d,,,'>
+	))		
+9	((	VGF	
+9.1	करू	VM	<fs af='कर,v,,pl,1,,ू,ू,' aspect= tense=phab mood=in>
+9.2	शकतो	VAUX	<fs af='शक,v,m,sg,3,,तो,तो,' aspect=impf tense= mood=in>
+9.3	.	SYM	<fs af='.,pun,,,,,,,' poslcat="NM">
+	))		
+</Sentence>
+<Sentence id="1">
+1	((	NP	
+1.1	तुमचे	PRP	<fs af='तू,pn,,pl,2,o,चा,चे,' genfeature=(चा,gen,m,pl,,d,)(चा,gen,n,sg,,d,)>
+	))		
+2	((	NP	
+2.1	काम	NN	<fs af='काम,n,n,sg,,d,,,'>
+	))		
+3	((	VGF	
+3.1	संपले	VM	<fs af='संप,v,f,sg,1,,ले,ले,' aspect=perf tense= mood=in>
+	))		
+4	((	CCP	
+4.1	की	CC	<fs af='की,conj,,,,,,,'>
+	))		
+5	((	NP	
+5.1	मला	PRP	<fs af='मी,pn,,sg,1,o,ला#,ला_,'>
+	))		
+6	((	NP	
+6.1	फोन	NN	<fs af='फोन,n,m,sg,,d,,,'>
+	))		
+7	((	VGF	
+7.1	करा	VM	<fs af='कर,v,,pl,2,,ा,ा,' aspect= tense= mood=imp>
+7.2	.	SYM	<fs af='.,pun,,,,,,,' poslcat="NM">
+	))		
+</Sentence>
+<Sentence id="1">
+1	((	NP	
+1.1	तुला	PRP	<fs af='तू,pn,,sg,2,o,ला#,ला_,'>
+	))		
+2	((	NP	
+2.1	ज्ञान	NN	<fs af='ज्ञान,n,n,sg,,d,,,'>
+	))		
+3	((	VGF	
+3.1	हवे	VM	<fs af='पाहिजे,v,m,pl,1,,,,' aspect=h tense=pas mood=in>
+	))		
+4	((	CCP	
+4.1	की	CC	<fs af='की,conj,,,,,,,'>
+	))		
+5	((	NP	
+5.1	धन	NN	<fs af='धन,n,n,sg,,d,,,'>
+	))		
+6	((	VGF	
+6.1	हवे	VM	<fs af='पाहिजे,v,m,pl,1,,,,' aspect=h tense=pas mood=in>
+6.2	?	SYM	<fs af='?,pun,,,,,,,' poslcat="NM">
+	))		
+</Sentence>
+<Sentence id="1">
+1	((	NP	
+1.1	तुम्ही	PRP	<fs af='तू,pn,,pl,2,d,,,'>
+	))		
+2	((	NP	
+2.1	त्याचा	PRP	<fs af='तो,pn,m,sg,3,o,चा,चा,' genfeature=(चा,gen,m,sg,,d,)>
+	))		
+3	((	NP	
+3.1	अपमान	NN	<fs af='अपमान,n,m,sg,,d,,,'>
+	))		
+4	((	VGF	
+4.1	केला	VM	<fs af='कर,v,m,sg,,d,ला,ला,' kridanta_type=la aspect=perf tense= mood= kridanta_cm=ला>
+4.2	;	SYM	<fs af=';,pun,,,,,,,' poslcat="NM">
+	))		
+5	((	NP	
+5.1	याकरिता	PRP	<fs af='हा,pn,m,sg,3,o,करिता,करिता,'>
+	))		
+6	((	NP	
+6.1	तो	PRP	<fs af='तो,pn,m,sg,3,d,,,'>
+	))		
+7	((	NP	
+7.1	तुमच्याकडे	PRP	<fs af='तू,pn,,pl,2,o,चा#कडे,च्या_कडे,' genfeature=(चा,gen,f,pl,,d,)(चा,gen,,,,o,)>
+	))		
+8	((	VGF	
+8.1	येत	VM	<fs af='ये,v,,pl,3,,त,त,' aspect= tense=phab mood=in>
+8.2	नाही	VAUX	<fs af='नस,v,,,1,,,,' aspect=s tense=pre mood=in>
+8.3	.	SYM	<fs af='.,pun,,,,,,,' poslcat="NM">
+	))		
+</Sentence>
+<Sentence id="1">
+1	((	NP	
+1.1	मी	PRP	<fs af='मी,pn,,sg,1,d,,,'>
+	))		
+2	((	NP	
+2.1	आंबा	NN	<fs af='आंबा,n,m,sg,,d,,,'>
+	))		
+3	((	VGF	
+3.1	खातो	VM	<fs af='खा,v,m,sg,1,,तो,तो,' aspect= tense= mood=cond>
+3.2	.	SYM	<fs af='.,pun,,,,,,,' poslcat="NM">
+	))		
+</Sentence>
+<Sentence id="1">
+1	((	NP	
+1.1	मी	PRP	<fs af='मी,pn,,sg,1,d,,,'>
+	))		
+2	((	NP	
+2.1	स्वतः	PRP	<fs af='स्वतः,pn,m,sg,,d,,,'>
+	))		
+3	((	VGF	
+3.1	आलो	VM	<fs af='ये,v,m,sg,1,,लो,लो,' aspect=perf tense= mood=in>
+3.2	.	SYM	<fs af='.,pun,,,,,,,' poslcat="NM">
+	))		
+</Sentence>
+<Sentence id="1">
+1	((	NP	
+1.1	त्याने	PRP	<fs af='तो,pn,m,sg,3,o,ने#,ने_,'>
+	))		
+2	((	NP	
+2.1	मला	PRP	<fs af='मी,pn,,sg,1,o,ला#,ला_,'>
+	))		
+3	((	NP	
+3.1	एक	QC	<fs af='एक,adj,,,,,,,'>
+3.2	पुस्तक	NN	<fs af='पुस्तक,n,n,sg,,d,,,'>
+	))		
+4	((	VGF	
+4.1	दिले	VM	<fs af='दे,v,n,sg,3,,ले,ले,' aspect=perf tense= mood=in>
+4.2	.	SYM	<fs af='.,pun,,,,,,,' poslcat="NM">
+	))		
+</Sentence>
+<Sentence id="1">
+1	((	NP	
+1.1	राम	NN	<fs af='राम,n,m,sg,,d,,,'>
+	))		
+2	((	NP	
+2.1	त्यांना	PRP	<fs af='ती,pn,f,pl,3,o,ना#,ना_,'>
+	))		
+3	((	VGF	
+3.1	सांगतो	VM	<fs af='सांग,v,m,sg,1,,तो,तो,' aspect= tense= mood=cond>
+3.2	.	SYM	<fs af='.,pun,,,,,,,' poslcat="NM">
+	))		
+</Sentence>
+<Sentence id="1">
+1	((	NP	
+1.1	रामाने	NNP	<fs af='राम,n,m,sg,,o,ने,ने,'>
+	))		
+2	((	NP	
+2.1	ह्याला	PRP	<fs af='हा,pn,m,sg,3,o,ला#,ला_,'>
+	))		
+3	((	VGF	
+3.1	सांगितले	VM	<fs af='सांग,v,n,sg,3,,ले,ले,' aspect=perf tense= mood=in>
+3.2	.	SYM	<fs af='.,pun,,,,,,,' poslcat="NM">
+	))		
+</Sentence>
+<Sentence id="1">
+1	((	NP	
+1.1	तो	PRP	<fs af='तो,pn,m,sg,3,d,,,'>
+	))		
+2	((	NP	
+2.1	हुशार	JJ	<fs af='हुशार,adj,,,,,,,'>
+2.2	मुलगा	NN	<fs af='मुलगा,n,m,sg,,d,,,'>
+	))		
+3	((	NP	
+3.1	माझा	PRP	<fs af='मी,pn,,sg,1,o,झा,झा,' genfeature=(झा,gen,m,sg,,d,)>
+	))		
+4	((	VGF	
+4.1	आहे	VM	<fs af='अस,v,,sg,1,,,,' aspect=s tense=pre mood=in>
+4.2	.	SYM	<fs af='.,pun,,,,,,,' poslcat="NM">
+	))		
+</Sentence>
+<Sentence id="1">
+1	((	NP	
+1.1	तो	PRP	<fs af='तो,pn,m,sg,3,d,,,'>
+	))		
+2	((	NP	
+2.1	मुलगा	NN	<fs af='मुलगा,n,m,sg,,d,,,'>
+	))		
+3	((	NP	
+3.1	माझा	PRP	<fs af='मी,pn,,sg,1,o,झा,झा,' genfeature=(झा,gen,m,sg,,d,)>
+	))		
+4	((	VGF	
+4.1	आहे	VM	<fs af='अस,v,,sg,1,,,,' aspect=s tense=pre mood=in>
+4.2	.	SYM	<fs af='.,pun,,,,,,,' poslcat="NM">
+	))		
+</Sentence>
+<Sentence id="1">
+1	((	NP	
+1.1	आपण	PRP	<fs af='आपण,pn,,sg,1,d,,,'>
+	))		
+2	((	NP	
+2.1	बागेत	NN	<fs af='बाग,n,f,sg,,o,त,त,'>
+	))		
+3	((	VGF	
+3.1	फिरायला	VM	<fs af='फिर,v,,,,,ायला,ायला,'>
+3.2	जाऊ	VAUX	<fs af='जा,v,,sg,1,,ऊ,ऊ,' aspect= tense= mood=imp>
+3.3	.	SYM	<fs af='.,pun,,,,,,,' poslcat="NM">
+	))		
+</Sentence>
+<Sentence id="1">
+1	((	NP	
+1.1	तुमची	PRP	<fs af='तू,pn,,pl,2,o,चा,ची,' genfeature=(चा,gen,f,sg,,d,)(चा,gen,n,pl,,d,)>
+	))		
+2	((	NP	
+2.1	मुलगी	NN	<fs af='मुलगी,n,f,sg,,d,,,'>
+	))		
+3	((	VGINF	
+3.1	दिसायला	VM	<fs af='दिस,v,,,,,ायला,ायला,'>
+	))		
+4	((	JJP	
+4.1	सुंदर	JJ	<fs af='सुंदर,adj,,,,,,,'>
+	))		
+5	((	VGF	
+5.1	आहे	VM	<fs af='अस,v,,sg,1,,,,' aspect=s tense=pre mood=in>
+5.2	.	SYM	<fs af='.,pun,,,,,,,' poslcat="NM">
+	))		
+</Sentence>
+<Sentence id="1">
+1	((	NP	
+1.1	त्यांचा	PRP	<fs af='तो,pn,m,pl,3,o,चा,चा,' genfeature=(चा,gen,m,sg,,d,)>
+	))		
+2	((	NP	
+2.1	मुलगा	NN	<fs af='मुलगा,n,m,sg,,d,,,'>
+	))		
+3	((	NP	
+3.1	रोज	NN	<fs af='रोज,n,m,sg,,d,,,'>
+	))		
+4	((	NP	
+4.1	अभ्यास	NN	<fs af='अभ्यास,n,m,sg,,d,,,'>
+	))		
+5	((	VGF	
+5.1	करतो	VM	<fs af='कर,v,m,sg,3,,तो,तो,' aspect=impf tense= mood=in>
+5.2	.	SYM	<fs af='.,pun,,,,,,,' poslcat="NM">
+	))		
+</Sentence>
+<Sentence id="1">
+1	((	NP	
+1.1	तेथे	PRP	<fs af='तेथे,adv,,,,,,,' poslcat="NM">
+	))		
+2	((	NP	
+2.1	कोण	QW	<fs af='कोण,pn,,sg,,d,,,' poslcat="NM">
+	))		
+3	((	VGF	
+3.1	बसला	VM	<fs af='बस,v,m,sg,3,,ला,ला,' aspect=perf tense= mood=in>
+3.2	आहे	VAUX	<fs af='अस,v,,sg,1,,,,' aspect=s tense=pre mood=in>
+3.3	?	SYM	<fs af='?,pun,,,,,,,' poslcat="NM">
+	))		
+</Sentence>
+<Sentence id="1">
+1	((	NP	
+1.1	सुट्टी	NN	<fs af='सुट्टी,n,f,sg,,d,,,'>
+	))		
+2	((	VGNN	
+2.1	पडल्यावर	VM	<fs af='पड,v,,sg,,o,ल्या#वर,ल्या_वर,' kridanta_type=la aspect=perf genfeature=(ला,gen,f,pl,,d,)(ला,gen,,,,o,) tense= mood= kridanta_cm=ल्या#वर>
+	))		
+3	((	NP	
+3.1	ती	PRP	<fs af='ती,pn,f,sg,3,d,,,'>
+	))		
+4	((	NP	
+4.1	गावी	NN	<fs af='गाव,n,n,sg,,o,ई#,ई_,'>
+	))		
+5	((	VGF	
+5.1	जाणार	VM	<fs af='जा,v,,,,o,णार,णार,' kridanta_type=nar aspect=prosp tense= mood= kridanta_cm=णार>
+5.2	आहे	VAUX	<fs af='अस,v,,sg,1,,,,' aspect=s tense=pre mood=in>
+5.3	.	SYM	<fs af='.,pun,,,,,,,' poslcat="NM">
+	))		
+</Sentence>
+<Sentence id="1">
+1	((	NP	
+1.1	तुमचे	PRP	<fs af='तू,pn,,pl,2,o,चा,चे,' genfeature=(चा,gen,m,pl,,d,)(चा,gen,n,sg,,d,)>
+	))		
+2	((	NP	
+2.1	काम	NN	<fs af='काम,n,n,sg,,d,,,'>
+	))		
+3	((	VGNN	
+3.1	संपल्यानंतर	VM	<fs af='संप,v,,sg,,o,ल्या#नंतर,ल्या_नंतर,' kridanta_type=la aspect=perf genfeature=(ला,gen,f,pl,,d,)(ला,gen,,,,o,) tense= mood= kridanta_cm=ल्या#नंतर>
+	))		
+4	((	NP	
+4.1	मला	PRP	<fs af='मी,pn,,sg,1,o,ला#,ला_,'>
+	))		
+5	((	NP	
+5.1	फोन	NN	<fs af='फोन,n,m,sg,,d,,,'>
+	))		
+6	((	VGF	
+6.1	करा	VM	<fs af='कर,v,,pl,2,,ा,ा,' aspect= tense=phab mood=in>
+6.2	.	SYM	<fs af='.,pun,,,,,,,' poslcat="NM">
+	))		
+</Sentence>
+<Sentence id="1">
+1	((	NP	
+1.1	झाडावरून	NN	<fs af='झाड,n,n,sg,,o,वर#ून,वर_ून,'>
+	))		
+2	((	NP	
+2.1	आंबा	NN	<fs af='आंबा,n,m,sg,,d,,,'>
+	))		
+3	((	NP	
+3.1	खाली	NST	<fs af='खाली,nst,,,,,,,'>
+	))		
+4	((	VGF	
+4.1	पडला	VM	<fs af='पड,v,m,sg,,d,ला,ला,' kridanta_type=la aspect=perf tense= mood= kridanta_cm=ला>
+4.2	.	SYM	<fs af='.,pun,,,,,,,' poslcat="NM">
+	))		
+</Sentence>
+<Sentence id="1">
+1	((	NP	
+1.1	माझे	PRP	<fs af='मी,pn,,sg,1,o,झा,झे,' genfeature=(झा,gen,m,pl,,d,)(झा,gen,n,sg,,d,)>
+	))		
+2	((	NP	
+2.1	पैसे	NN	<fs af='पैसा,n,m,pl,,d,,,'>
+	))		
+3	((	NP	
+3.1	महिन्याच्या	NN	<fs af='महिना,n,m,sg,,o,चा,च्या,' genfeature=(चा,gen,f,pl,,d,)(चा,gen,,,,o,)>
+	))		
+4	((	NP	
+4.1	आत	NST	<fs af='आत,adv,,,,,,,' poslcat="NM">
+	))		
+5	((	RBP	
+5.1	परत	RB	<fs af='परत,adv,,,,,,,'>
+	))		
+6	((	VGF	
+6.1	कर	VM	<fs af='कर,v,,sg,2,,,,' aspect= tense= mood=imp>
+6.2	.	SYM	<fs af='.,pun,,,,,,,' poslcat="NM">
+	))		
+</Sentence>
+<Sentence id="1">
+1	((	NP	
+1.1	माझ्या	PRP	<fs af='मी,pn,,sg,1,o,झ्या,झ्या,' genfeature=(झा,gen,f,pl,,d,)(झा,gen,,,,o,)>
+	))		
+2	((	NP	
+2.1	घरात	NN	<fs af='घर,n,n,sg,,o,त,त,'>
+	))		
+3	((	NP	
+3.1	काहीतरी	QF	<fs af='काही,adj,,,,,तरी,तरी,'>
+	))		
+4	((	VGF	
+4.1	आहे	VM	<fs af='अस,v,,sg,1,,,,' aspect=s tense=pre mood=in>
+4.2	.	SYM	<fs af='.,pun,,,,,,,' poslcat="NM">
+	))		
+</Sentence>
+<Sentence id="1">
+1	((	CCP	
+1.1	पण	CC	<fs af='पण,conj,,,,,,,'>
+	))		
+2	((	NP	
+2.1	घराच्या	NN	<fs af='घर,n,n,sg,,o,चा,च्या,' genfeature=(चा,gen,f,pl,,d,)(चा,gen,,,,o,)>
+	))		
+3	((	NP	
+3.1	आतून	NST	<fs af='आ,unk,,,,,तून,तून,' poslcat="NM">
+	))		
+4	((	NP	
+4.1	आवाज	NN	<fs af='आवाज,n,m,sg,,d,,,'>
+	))		
+5	((	VGF	
+5.1	येत	VM	<fs af='ये,v,,,,,त,त,' kridanta_type=t aspect= tense= mood= kridanta_cm=त>
+5.2	होता	VAUX	<fs af='अस,v,m,sg,3,,,,' aspect=s tense=pas mood=in>
+5.3	.	SYM	<fs af='.,pun,,,,,,,' poslcat="NM">
+	))		
+</Sentence>
+<Sentence id="1">
+1	((	NP	
+1.1	त्याच्या	PRP	<fs af='तो,pn,m,sg,3,o,चा,च्या,' genfeature=(चा,gen,f,pl,,d,)(चा,gen,,,,o,)>
+	))		
+2	((	NP	
+2.1	आधी	NST	<fs af='आधी,adv,,,,,,,' poslcat="NM">
+	))		
+3	((	NP	
+3.1	मी	PRP	<fs af='मी,pn,,sg,1,d,,,'>
+	))		
+4	((	NP	
+4.1	घरी	NN	<fs af='घर,n,n,sg,,o,ई#,ई_,'>
+	))		
+5	((	VGF	
+5.1	आलो	VM	<fs af='ये,v,m,sg,1,,लो,लो,' aspect=perf tense= mood=in>
+5.2	.	SYM	<fs af='.,pun,,,,,,,' poslcat="NM">
+	))		
+</Sentence>
+<Sentence id="1">
+1	((	NP	
+1.1	माझ्याकडून	PRP	<fs af='मी,pn,,sg,1,o,झ्या#कडून,झ्या_कड_ून,'>
+	))		
+2	((	NP	
+2.1	तिने	PRP	<fs af='ती,pn,f,sg,3,o,ने#,ने_,'>
+	))		
+3	((	NP	
+3.1	तीस	QC	<fs af='तीस,adj,,,,,,,'>
+3.2	रुपये	NN	<fs af='रुपया,n,m,pl,,d,,,'>
+	))		
+4	((	VGF	
+4.1	घेतले	VM	<fs af='घे,v,n,sg,3,,ले,ले,' aspect=perf tense= mood=in>
+4.2	.	SYM	<fs af='.,pun,,,,,,,' poslcat="NM">
+	))		
+</Sentence>
+<Sentence id="1">
+1	((	NP	
+1.1	घराच्या	NN	<fs af='घर,n,n,sg,,o,चा,च्या,' genfeature=(चा,gen,f,pl,,d,)(चा,gen,,,,o,)>
+	))		
+2	((	NP	
+2.1	कडेला	NN	<fs af='कड,n,f,sg,,o,ला,ला,' genfeature=(ला,gen,m,sg,,d,)>
+	))		
+3	((	NP	
+3.1	दवाखाना	NN	<fs af='दवाखाना,n,m,sg,,d,,,'>
+	))		
+4	((	VGF	
+4.1	आहे	VM	<fs af='अस,v,,sg,1,,,,' aspect=s tense=pre mood=in>
+4.2	.	SYM	<fs af='.,pun,,,,,,,' poslcat="NM">
+	))		
+</Sentence>
+<Sentence id="1">
+1	((	NP	
+1.1	साप	NN	<fs af='साप,n,m,sg,,d,,,'>
+	))		
+2	((	NP	
+2.1	त्याच्या	PRP	<fs af='तो,pn,m,sg,3,o,चा,च्या,' genfeature=(चा,gen,f,pl,,d,)(चा,gen,,,,o,)>
+	))		
+3	((	NP	
+3.1	निकट	NN	<fs af='निकट,unk,,,,,,,' poslcat="NM">
+	))		
+4	((	VGF	
+4.1	आला	VM	<fs af='ये,v,m,sg,,d,ला,ला,' kridanta_type=la aspect=perf tense= mood= kridanta_cm=ला>
+4.2	.	SYM	<fs af='.,pun,,,,,,,' poslcat="NM">
+	))		
+</Sentence>
+<Sentence id="1">
+1	((	NP	
+1.1	पाण्याशिवाय	NN	<fs af='पाणी,n,n,sg,,o,शिवाय,शिवाय,'>
+	))		
+2	((	VGF	
+2.1	जगणे	VM	<fs af='जग,v,n,sg,,d,णे,णे,' kridanta_type=ne aspect= tense= mood= kridanta_cm=णे>
+	))		
+3	((	JJP	
+3.1	कठीण	JJ	<fs af='कठीण,adj,,,,,,,'>
+	))		
+4	((	VGF	
+4.1	आहे	VM	<fs af='अस,v,,sg,1,,,,' aspect=s tense=pre mood=in>
+4.2	.	SYM	<fs af='.,pun,,,,,,,' poslcat="NM">
+	))		
+</Sentence>
+<Sentence id="1">
+1	((	NP	
+1.1	ह्या	DEM	<fs af='हा,pn,,sg,3,o,,,'>
+1.2	कारणास्तव	NN	<fs af='कारणास्तव,adv,,,,,,,' poslcat="NM">
+	))		
+2	((	NP	
+2.1	तो	PRP	<fs af='तो,pn,m,sg,3,d,,,'>
+	))		
+3	((	JJP	
+3.1	नाराज	JJ	<fs af='नाराज,adj,,,,,,,'>
+	))		
+4	((	VGF	
+4.1	होता	VM	<fs af='अस,v,m,sg,3,,,,' aspect=s tense=pas mood=in>
+4.2	.	SYM	<fs af='.,pun,,,,,,,' poslcat="NM">
+	))		
+</Sentence>
+<Sentence id="1">
+1	((	NP	
+1.1	बाहेर	NST	<fs af='बाहेर,nst,,,,,,,'>
+	))		
+2	((	NP	
+2.1	गरम	JJ	<fs af='गरम,adj,,,,,,,'>
+2.2	वातावरण	NN	<fs af='वातावरण,n,n,sg,,d,,,'>
+	))		
+3	((	VGNN	
+3.1	असूनदेखील	VM	<fs af='अस,v,,,,,ून#देखील,ून_देखील,' kridanta_type=oon aspect=comp tense= mood= kridanta_cm=ून#देखील>
+	))		
+4	((	NP	
+4.1	घरात	NN	<fs af='घर,n,n,sg,,o,त,त,'>
+	))		
+5	((	VGF	
+5.1	थंडावा	VM	<fs af='थंडाव,v,,pl,2,,ा,ा,' aspect= tense= mood=imp>
+5.2	आहे	VAUX	<fs af='अस,v,,sg,1,,,,' aspect=s tense=pre mood=in>
+5.3	.	SYM	<fs af='.,pun,,,,,,,' poslcat="NM">
+	))		
+</Sentence>
+<Sentence id="1">
+1	((	NP	
+1.1	त्याने	PRP	<fs af='तो,pn,m,sg,3,o,ने#,ने_,'>
+	))		
+2	((	NP	
+2.1	अभ्यास	NN	<fs af='अभ्यास,n,m,sg,,d,,,'>
+	))		
+3	((	VGF	
+3.1	केला	VM	<fs af='कर,v,m,sg,3,,ला,ला,' aspect=perf tense= mood=in>
+	))		
+4	((	CCP	
+4.1	म्हणून	CC	<fs af='म्हणून,conj,,,,,,,'>
+	))		
+5	((	NP	
+5.1	त्याला	PRP	<fs af='ते,pn,n,sg,3,o,ला#,ला_,'>
+	))		
+6	((	NP	
+6.1	यश	NN	<fs af='यश,n,n,sg,,d,,,'>
+	))		
+7	((	VGF	
+7.1	मिळाले	VM	<fs af='मिळ,v,f,sg,1,,ले,ले,' aspect=perf tense= mood=in>
+7.2	.	SYM	<fs af='.,pun,,,,,,,' poslcat="NM">
+	))		
+</Sentence>
+<Sentence id="1">
+1	((	NP	
+1.1	एक	QC	<fs af='एक,adj,,,,,,,'>
+1.2	रुपया	NN	<fs af='रुपया,n,m,sg,,d,,,'>
+	))		
+2	((	NP	
+2.1	म्हणजे	UT	<fs af='म्हणजे,conj,,,,,,,' poslcat="NM">
+	))		
+3	((	NP	
+3.1	शंभर	QC	<fs af='शंभर,adj,,,,,,,'>
+3.2	पैसे	NN	<fs af='पैसा,n,m,pl,,d,,,'>
+3.3	.	SYM	<fs af='.,pun,,,,,,,' poslcat="NM">
+	))		
+</Sentence>
+<Sentence id="1">
+1	((	NP	
+1.1	आरोप	NN	<fs af='आरोप,n,m,sg,,d,,,'>
+	))		
+2	((	JJP	
+2.1	सिद्ध	JJ	<fs af='सिद्ध,adj,,,,,,,'>
+	))		
+3	((	VGF	
+3.1	करा	VM	<fs af='कर,v,,pl,2,,ा,ा,' aspect= tense=phab mood=in>
+	))		
+4	((	CCP	
+4.1	नाहीतर	CC	<fs af='नाहीतर,conj,,,,,,,'>
+	))		
+5	((	NP	
+5.1	राजीनामा	NN	<fs af='राजीनामा,n,m,sg,,d,,,'>
+	))		
+6	((	VGF	
+6.1	द्या	VM	<fs af='द,unk,,,,,्या,्या,' poslcat="NM">
+6.2	.	SYM	<fs af='.,pun,,,,,,,' poslcat="NM">
+	))		
+</Sentence>
+<Sentence id="1">
+1	((	NP	
+1.1	तो	PRP	<fs af='तो,pn,m,sg,3,d,,,'>
+	))		
+2	((	NP	
+2.1	रोज	NN	<fs af='रोज,n,m,sg,,d,,,'>
+	))		
+3	((	NP	
+3.1	एक	QC	<fs af='एक,adj,,,,,,,'>
+3.2	फळ	NN	<fs af='फळ,n,n,sg,,d,,,'>
+	))		
+4	((	VGNN	
+4.1	खाण्यासाठी	VM	<fs af='खा,v,n,sg,,o,ण्या#साठी,ण्या_साठी,' kridanta_type=ne aspect= tense= mood= kridanta_cm=ण्या#साठी>
+	))		
+5	((	NP	
+5.1	त्याच्या	PRP	<fs af='तो,pn,m,sg,3,o,चा,च्या,' genfeature=(चा,gen,f,pl,,d,)(चा,gen,,,,o,)>
+	))		
+6	((	NP	
+6.1	घरी	NN	<fs af='घर,n,n,sg,,o,ई#,ई_,'>
+	))		
+7	((	VGF	
+7.1	जातो	VM	<fs af='जा,v,m,sg,3,,तो,तो,' aspect=impf tense= mood=in>
+7.2	.	SYM	<fs af='.,pun,,,,,,,' poslcat="NM">
+	))		
+</Sentence>

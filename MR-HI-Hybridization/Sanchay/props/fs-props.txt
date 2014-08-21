@@ -1,0 +1,10 @@
+# Mandatory attributes
+basicName	af
+# All of the below have to be single characters
+nodeStart	<
+nodeEnd	>
+defAttribSeparator	,
+attribSeparator	/
+fsOR	|
+attribOR	|
+attribEquate	=

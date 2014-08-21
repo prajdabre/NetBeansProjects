@@ -1,0 +1,1222 @@
+/**
+ * Project       : English-Hindi Wordnet Linking
+ * 
+ * Team          : CFILT, IIT Bombay.
+ *
+ * File Name : LexicalTransferEngine.java
+ *
+ * Created On: Sep 23, 2007
+ *
+ * Revision History:
+ * Modification Date    Modified By             Comments
+ *
+ */
+package in.ac.iitb.cfilt.lte;
+
+import in.ac.iitb.cfilt.common.config.GlobalConstants;
+import in.ac.iitb.cfilt.common.data.DSFRecord;
+import in.ac.iitb.cfilt.common.data.Language;
+import in.ac.iitb.cfilt.common.data.POS;
+import in.ac.iitb.cfilt.common.exception.MultilingualDictException;
+import in.ac.iitb.cfilt.getopt.Getopt;
+import in.ac.iitb.cfilt.getopt.LongOpt;
+import in.ac.iitb.cfilt.multidict.dictionary.Dictionary;
+import in.ac.iitb.cfilt.multidict.dictionary.FileBackedDictionary;
+
+import java.io.File;
+import java.io.IOException;
+import java.util.Vector;
+import java.util.ArrayList;
+
+import org.apache.log4j.BasicConfigurator;
+import org.apache.log4j.FileAppender;
+import org.apache.log4j.Level;
+import org.apache.log4j.Logger;
+import org.apache.log4j.PatternLayout;
+
+import sanchay.corpus.ssf.SSFProperties;
+import sanchay.corpus.ssf.SSFSentence;
+import sanchay.corpus.ssf.SSFStory;
+import sanchay.corpus.ssf.features.FeatureAttribute;
+import sanchay.corpus.ssf.features.FeatureStructure;
+import sanchay.corpus.ssf.features.FeatureValue;
+import sanchay.corpus.ssf.features.impl.FSProperties;
+import sanchay.corpus.ssf.features.impl.FeatureStructuresImpl;
+import sanchay.corpus.ssf.features.impl.FeatureValueImpl;
+import sanchay.corpus.ssf.impl.SSFStoryImpl;
+import sanchay.corpus.ssf.tree.SSFNode;
+/**
+ * Class        : LexicalTransferEngine
+ * Purpose      : This class is used to find the translation of a source language word
+ *                        to the target language. 
+ */
+public class LexicalTransferEngine {
+
+    /**
+     * This field stores the path of the USER_HOME variable.
+     */
+    public static String USER_HOME = null;
+
+    /**
+     * This field stores the logger for this class. 
+     */
+    private static Logger logger = Logger.getLogger(LexicalTransferEngine.class);
+
+    /**
+     * This field stores a handle to the user dictionary object.
+     */
+    private Dictionary userDict = null;
+
+    /**
+     * This field stores a handle to the system dictionary object.
+     */
+    private Dictionary systemDict = null;
+
+    /**
+     * This field stores a handle to the session dictionary object.
+     */
+    private Dictionary sessionDict = null;
+
+    private Dictionary NNPDict = null;
+    private Dictionary BilingualDict = null;
+
+    private static String AT = "@";
+    private static String PUNC = "punc";
+
+
+    public static String userDictPath = null; 
+    public static String sessionDictPath = null; 
+    public static String systemDictPath = null;
+    public static String NNPDictPath = null;
+    public static String BilingualDictPath = null;
+
+
+    public static Language sourceLanguage = null;
+    public static Language targetLanguage = null;
+
+    private static boolean usePOSTags = false;
+
+    //modified by Jyotesh on 24-05-2012
+    private static String wordDictName = null;
+    private static String wordSynsetId = null;
+
+    /**
+     * <p><b>Method</b>     : initialize
+     * <p><b>Purpose</b>    : Initializes the Lexical Transfer Engine with the
+     *                                                correct dictionary path.
+     * <p><b>@param dictionaryPath - The base directory for the location of the dictionary.
+     * <p><b>@throws MultilingualDictException</b>
+     */
+    public void initialize(String USER_HOME, boolean openUserDict, boolean openSessionDict, boolean openSystemDict,
+                           boolean openNNPDict, boolean openBilingualDict) throws MultilingualDictException {
+        logger.info("Initializing Lexical Transfer Engine");
+
+        this.USER_HOME = USER_HOME;
+
+        //String dictionaryPath = USER_HOME + File.separator + 
+        //                                              "data_bin" + File.separator +
+        //                                              "sl_tl" + File.separator + "lexicaltransfer";
+
+        String default_system_dict_path = USER_HOME + File.separator + "data_bin" + File.separator + 
+            "sl_tl" + File.separator + "lexicaltransfer" + File.separator+ "system_dict"; 
+        // + File.separator + sourceLanguage.toString().toLowerCase() + "-" + targetLanguage.toString().toLowerCase();
+        String default_user_dict_path = USER_HOME + File.separator + "data_bin" + File.separator + 
+            "sl_tl" + File.separator + "lexicaltransfer" + File.separator+ "user_dict"; 
+        // + File.separator+ sourceLanguage.toString().toLowerCase() + "-" + targetLanguage.toString().toLowerCase(); 
+        String default_session_dict_path = USER_HOME + File.separator + "data_bin" + File.separator + 
+            "sl_tl" + File.separator + "lexicaltransfer" + File.separator+ "session_dict"; 
+        // + File.separator + sourceLanguage.toString().toLowerCase() + "-" + targetLanguage.toString().toLowerCase();          
+        String default_NNP_dict_path = USER_HOME + File.separator + "data_bin" + File.separator + 
+            "sl_tl" + File.separator + "lexicaltransfer" + File.separator+ "NNP_dict"; 
+        // + File.separator + sourceLanguage.toString().toLowerCase() + "-" + targetLanguage.toString().toLowerCase();          
+        String default_Bilingual_dict_path = USER_HOME + File.separator + "data_bin" + File.separator + 
+            "sl_tl" + File.separator + "lexicaltransfer" + File.separator+ "Bilingual_dict"; 
+        //      + File.separator + sourceLanguage.toString().toLowerCase() + "-" + targetLanguage.toString().toLowerCase();             
+
+        if(openUserDict) {
+            userDict = Dictionary.getInstance("userDict");
+            if(userDictPath != null) {
+                String userDictPathSt = getDefaultPath(userDictPath,
+                                                       sourceLanguage.toString().toLowerCase(), targetLanguage.toString().toLowerCase());
+                if(!checkIfDirectoryExists(userDictPathSt)) {
+                    //modified by Jyotesh on 23-05-2012
+                    logger.info("Dictionary path " + userDictPathSt + " does not exist. Checking for alternate path");
+                    userDictPathSt = getDefaultPath(userDictPath,
+                                                    targetLanguage.toString().toLowerCase(), sourceLanguage.toString().toLowerCase());
+                    if(!checkIfDirectoryExists(userDictPathSt)) {
+                        logger.info("Dictionary path " + userDictPathSt + " does not exist. Please specify the corect dictionary path");
+                        //modified by Jyotesh on 23-05-2012
+                        System.exit(0);
+                    }
+                }
+                userDict.initialize(userDictPathSt, sourceLanguage, targetLanguage);    // init after getting path
+                //modified by Jyotesh on 24-05-2012
+                logger.info("User dictionary path = " + userDictPathSt);
+            } else {
+                String default_user_dict_path_st = getDefaultPath(default_user_dict_path,
+                                                                  sourceLanguage.toString().toLowerCase(), targetLanguage.toString().toLowerCase());
+                if(!checkIfDirectoryExists(default_user_dict_path_st)) {
+                    //modified by Jyotesh on 23-05-2012
+                    logger.info("Dictionary path " + default_user_dict_path_st + " does not exist. Checking for alternate path");
+                    default_user_dict_path_st = getDefaultPath(default_user_dict_path,
+                                                               targetLanguage.toString().toLowerCase(), sourceLanguage.toString().toLowerCase());
+                    if(!checkIfDirectoryExists(default_user_dict_path_st)) {
+                        logger.info("Default dictionary path " + default_user_dict_path_st + " does not exist. Please specify the dictionary path");
+                        //modified by Jyotesh on 23-05-2012
+                        System.exit(0);
+                    }
+                }
+                userDict.initialize(default_user_dict_path_st, sourceLanguage, targetLanguage); // init after getting path
+                //modified by Jyotesh on 24-05-2012
+                logger.info("User dictionary path = " + default_user_dict_path_st);
+            }                                   
+        }
+
+        if(openSessionDict) {           
+            sessionDict = Dictionary.getInstance("sessionDict");
+            if(sessionDictPath != null) {               
+                String sessionDictPathSt = getDefaultPath(sessionDictPath,
+                                                          sourceLanguage.toString().toLowerCase(), targetLanguage.toString().toLowerCase());
+                if(!checkIfDirectoryExists(sessionDictPathSt)) {
+                    //modified by Jyotesh on 23-05-2012
+                    logger.info("Dictionary path " + sessionDictPathSt + " does not exist. Checking for alternate path");
+                    sessionDictPathSt = getDefaultPath(sessionDictPath,
+                                                       targetLanguage.toString().toLowerCase(), sourceLanguage.toString().toLowerCase());
+                    if(!checkIfDirectoryExists(sessionDictPathSt)) {
+                        logger.info("Dictionary path " + sessionDictPathSt + " does not exist. Please specify the corect dictionary path");
+                        //modified by Jyotesh on 23-05-2012
+                        System.exit(0);
+                    }
+                }
+                sessionDict.initialize(sessionDictPathSt, sourceLanguage, targetLanguage);      // init after getting path
+                //modified by Jyotesh on 24-05-2012
+                logger.info("Session dictionary path = " + sessionDictPathSt);
+            } else {
+                String default_session_dict_path_st = getDefaultPath(default_session_dict_path,
+                                                                     sourceLanguage.toString().toLowerCase(), targetLanguage.toString().toLowerCase());
+                if(!checkIfDirectoryExists(default_session_dict_path_st)) {
+                    //modified by Jyotesh on 23-05-2012
+                    logger.info("Dictionary path " + default_session_dict_path_st + " does not exist. Checking for alternate path");
+                    default_session_dict_path_st = getDefaultPath(default_session_dict_path,
+                                                                  targetLanguage.toString().toLowerCase(), sourceLanguage.toString().toLowerCase());
+                    if(!checkIfDirectoryExists(default_session_dict_path_st)) {
+                        logger.info("Default dictionary path " + default_session_dict_path_st + " does not exist. Please specify the dictionary path");
+                        //modified by Jyotesh on 23-05-2012
+                        System.exit(0);
+                    }
+                }
+                sessionDict.initialize(default_session_dict_path_st, sourceLanguage, targetLanguage);   // init after getting path
+                //modified by Jyotesh on 24-05-2012
+                logger.info("Session dictionary path = " + default_session_dict_path_st);
+            }
+        }
+
+        if(openSystemDict) {            
+            systemDict = Dictionary.getInstance("systemDict");
+            if(systemDictPath != null) {                
+                String systemDictPathSt = getDefaultPath(systemDictPath,
+                                                         sourceLanguage.toString().toLowerCase(), targetLanguage.toString().toLowerCase());
+                if(!checkIfDirectoryExists(systemDictPathSt)) {
+                    //modified by Jyotesh on 23-05-2012
+                    logger.info("Dictionary path " + systemDictPathSt + " does not exist. Please specify the corect dictionary path");
+                    systemDictPathSt = getDefaultPath(systemDictPath,
+                                                      targetLanguage.toString().toLowerCase(), sourceLanguage.toString().toLowerCase());
+                    if(!checkIfDirectoryExists(systemDictPathSt)) {
+                        logger.info("Dictionary path " + systemDictPathSt + " does not exist. Please specify the corect dictionary path");
+                        //modified by Jyotesh on 23-05-2012
+                        System.exit(0);
+                    }
+                }
+                systemDict.initialize(systemDictPathSt, sourceLanguage, targetLanguage);        // init after getting path
+                //modified by Jyotesh on 24-05-2012
+                logger.info("System dictionary path = " + systemDictPathSt);
+            } else {
+                String default_system_dict_path_st = getDefaultPath(default_system_dict_path,
+                                                                    sourceLanguage.toString().toLowerCase(), targetLanguage.toString().toLowerCase());
+                if(!checkIfDirectoryExists(default_system_dict_path_st)) {
+                    //modified by Jyotesh on 23-05-2012
+                    logger.info("Default dictionary path " + default_system_dict_path_st + " does not exist. Please specify the dictionary path");
+                    default_system_dict_path_st = getDefaultPath(default_system_dict_path,
+                                                                 targetLanguage.toString().toLowerCase(), sourceLanguage.toString().toLowerCase());
+                    if(!checkIfDirectoryExists(default_system_dict_path_st)) {
+                        logger.info("Default dictionary path " + default_system_dict_path_st + " does not exist. Please specify the dictionary path");
+                        //modified by Jyotesh on 23-05-2012
+                        System.exit(0);
+                    }
+                }
+                systemDict.initialize(default_system_dict_path_st, sourceLanguage, targetLanguage);     // init after getting path
+                //modified by Jyotesh on 24-05-2012
+                logger.info("System dictionary path = " + default_system_dict_path_st);
+            }
+        }
+
+        if(openNNPDict) {               
+            NNPDict = Dictionary.getInstance("NNPDict");
+            if(NNPDictPath != null) {                   
+                String NNPDictPathSt = getDefaultPath(NNPDictPath,
+                                                      sourceLanguage.toString().toLowerCase(), targetLanguage.toString().toLowerCase());
+                if(!checkIfDirectoryExists(NNPDictPathSt)) {
+                    //modified by Jyotesh on 23-05-2012
+                    logger.info("Dictionary path " + NNPDictPathSt + " does not exist. Please specify the corect dictionary path");
+                    NNPDictPathSt = getDefaultPath(NNPDictPath,
+                                                   targetLanguage.toString().toLowerCase(), sourceLanguage.toString().toLowerCase());
+                    if(!checkIfDirectoryExists(NNPDictPathSt)) {
+                        logger.info("Dictionary path " + NNPDictPathSt + " does not exist. Please specify the corect dictionary path");
+                        //modified by Jyotesh on 23-05-2012
+                        System.exit(0);
+                    }
+                }
+                NNPDict.initialize(NNPDictPathSt, sourceLanguage, targetLanguage);      // init after getting path
+                //modified by Jyotesh on 24-05-2012
+                logger.info("NNP dictionary path = " + NNPDictPathSt);
+            } else {
+                String default_NNP_dict_path_st = getDefaultPath(default_NNP_dict_path,
+                                                                 sourceLanguage.toString().toLowerCase(), targetLanguage.toString().toLowerCase());
+                if(!checkIfDirectoryExists(default_NNP_dict_path_st)) {
+                    //modified by Jyotesh on 23-05-2012
+                    logger.info("Default dictionary path " + default_NNP_dict_path_st + " does not exist. Please specify the dictionary path");
+                    default_NNP_dict_path_st = getDefaultPath(default_NNP_dict_path,
+                                                              targetLanguage.toString().toLowerCase(), sourceLanguage.toString().toLowerCase());
+                    if(!checkIfDirectoryExists(default_NNP_dict_path_st)) {
+                        logger.info("Default dictionary path " + default_NNP_dict_path_st + " does not exist. Please specify the dictionary path");
+                        //modified by Jyotesh on 23-05-2012
+                        System.exit(0);
+                    }
+                }
+                NNPDict.initialize(default_NNP_dict_path_st, sourceLanguage, targetLanguage);   // init after getting path
+                //modified by Jyotesh on 24-05-2012
+                logger.info("NNP dictionary path = " + default_NNP_dict_path_st);
+            }
+        }    
+
+        if(openBilingualDict) {         
+            BilingualDict = Dictionary.getInstance("BilingualDict");
+            if(BilingualDictPath != null) {             
+                String BilingualDictPathSt = getDefaultPath(BilingualDictPath,
+                                                            sourceLanguage.toString().toLowerCase(), targetLanguage.toString().toLowerCase());
+                if(!checkIfDirectoryExists(BilingualDictPathSt)) {
+                    //modified by Jyotesh on 23-05-2012
+                    logger.info("Dictionary path " + BilingualDictPathSt + " does not exist. Please specify the corect dictionary path");
+                    BilingualDictPathSt = getDefaultPath(BilingualDictPath,
+                                                         targetLanguage.toString().toLowerCase(), sourceLanguage.toString().toLowerCase());
+                    if(!checkIfDirectoryExists(BilingualDictPathSt)) {
+                        logger.info("Dictionary path " + BilingualDictPathSt + " does not exist. Please specify the corect dictionary path");
+                        //modified by Jyotesh on 23-05-2012
+                        System.exit(0);
+                    }
+                }
+                BilingualDict.initialize(BilingualDictPathSt, sourceLanguage, targetLanguage);  // init after getting path
+                //modified by Jyotesh on 24-05-2012
+                logger.info("Bilingual dictionary path = " + BilingualDictPathSt);
+            } else {
+                String default_Bilingual_dict_path_st = getDefaultPath(default_Bilingual_dict_path,
+                                                                       sourceLanguage.toString().toLowerCase(), targetLanguage.toString().toLowerCase());
+                if(!checkIfDirectoryExists(default_Bilingual_dict_path_st)) {
+                    //modified by Jyotesh on 23-05-2012
+                    logger.info("Default dictionary path " + default_Bilingual_dict_path_st + " does not exist. Please specify the dictionary path");
+                    default_Bilingual_dict_path_st = getDefaultPath(default_Bilingual_dict_path,
+                                                                    targetLanguage.toString().toLowerCase(), sourceLanguage.toString().toLowerCase());
+                    if(!checkIfDirectoryExists(default_Bilingual_dict_path_st)) {
+                        //modified by Jyotesh on 23-05-2012
+                        logger.info("Default dictionary path " + default_Bilingual_dict_path_st + " does not exist. Please specify the dictionary path");
+                        System.exit(0);
+                    }
+                }
+                BilingualDict.initialize(default_Bilingual_dict_path_st, sourceLanguage, targetLanguage);       // init after getting path
+                //modified by Jyotesh on 24-05-2012
+                logger.info("Bilingual dictionary path = " + default_Bilingual_dict_path_st);
+            }
+        }
+
+        //TODO logger.info(dictionaryPath);
+        //EnglishILMapper.initialize(dictionaryPath + File.separator + "EnglishILMap.txt");
+    }
+
+    /**
+     * <p><b>Method</b>         : translate
+     * <p><b>Purpose</b>        : Translates the inputFileName from sourceLanguage to targetLanguage
+     *                                            and stores the output in outputFileName  
+     * <p><b>@param inputFileName - The name of the input file/directory.
+     * <p><b>@param outputFileName- The name of the output file/directory.
+     * <p><b>@param sourceLanguage- source language. 
+     * <p><b>@param targetLanguage- target language.
+     * <p><b>@throws MultilingualDictException</b>
+     */
+    public void translate (String inputFileName,
+                           String outputFileName, Language sourceLanguage, Language targetLanguage) 
+        throws MultilingualDictException {
+        File input = new File(inputFileName);
+        /*              if(input.isDirectory()) {
+                        File[] children = input.listFiles();
+                        for(int i=0; i<children.length; i++) {
+                        translate(children[i].getAbsolutePath(),
+                        outputFileName + File.separator + children[i].getName(),
+                        sourceLanguage,
+                        targetLanguage);
+                        }
+                        } else {
+                        if(!outputFileName.endsWith(".txt") && !outputFileName.endsWith(".out")) {
+                        outputFileName = outputFileName + File.separator + input.getName();
+                        }
+        */                      transfer(input.getAbsolutePath(),
+                                         outputFileName,
+                                         sourceLanguage,
+                                         targetLanguage);
+        //}
+    }
+
+    /**
+     * <p><b>Method</b>         : transfer
+     * <p><b>Purpose</b>        : translates the file to target language. 
+     * <p><b>@param inputFileName - Input file name.
+     * <p><b>@param outputFileName- Output file name.
+     * <p><b>@param sourceLanguage- Source Language
+     * <p><b>@param targetLanguage- Target Language
+     * <p><b>@throws MultilingualDictException</b>
+     */
+    private void transfer (String inputFileName,String outputFileName, Language sourceLanguage, Language targetLanguage)throws MultilingualDictException {
+        try {
+            logger.info("Translating file " + inputFileName);
+            File output = null;
+            if(outputFileName != null) {
+                output = new File(outputFileName).getParentFile();
+                if(output != null && !output.exists()) 
+                    output.mkdirs();    
+            }
+
+            FSProperties fsp = new FSProperties();
+            SSFProperties ssfp = new SSFProperties();
+            SSFProperties cmlp = new SSFProperties();
+            SSFStory story = new SSFStoryImpl();
+            String SANCHAY_HOME =  USER_HOME + File.separator + "data_bin" + File.separator + 
+                "sl_tl" + File.separator + "lexicaltransfer"+ File.separator + "Sanchay";
+
+            logger.debug("SANCHAY_HOME = " + SANCHAY_HOME);
+            fsp.read(SANCHAY_HOME + File.separator + "props" + File.separator + "fs-mandatory-attribs.txt",
+                     SANCHAY_HOME + File.separator + "props" + File.separator + "fs-props.txt", "UTF-8"); 
+            ssfp.read(SANCHAY_HOME + File.separator + "props" + File.separator + "ssf-props.txt", "UTF-8"); 
+            cmlp.read(SANCHAY_HOME + File.separator + "props" + File.separator + "cml-props.txt", "UTF-8");
+            FeatureStructuresImpl.setFSProperties(fsp);
+            SSFNode.setSSFProperties(ssfp);
+            SSFNode.setCMLProperties(cmlp);
+
+            story.readFile(inputFileName);
+
+            int scount = story.countSentences();
+            for (int i = 0; i < scount; i++) {
+                SSFSentence sen = story.getSentence(i);
+                int ccount = sen.getRoot().countChildren();
+				//System.out.println("Children under sentence = "+ccount);
+                for (int j = 0; j < ccount; j++) {
+                    SSFNode node = sen.getRoot().getChild(j); 
+                    String sourceWord="", sourceTam="";
+                    String targetWords[]=null, targetTams[]=null;
+                    FeatureAttribute nodefaWord = null;
+                    FeatureAttribute nodefatam = null;
+                    FeatureAttribute nodefapos = null;
+                    POS pos = null;
+                    //if (node.getFeatureStructures()==null){
+                    String synsetId = null;
+                    String lexWord = node.getLexData();
+                    sourceWord = lexWord.trim();
+					//System.out.println("Is node null :"+node.getFeatureStructures().getChildCount());
+					/*
+					 *Modification by RAJ DABRE. IITB. 24-2-2014 
+					 * I have added the condition that if there is a unk as a chunk name then dont mess with it
+					 */
+					if((node.getFeatureStructures()== null || node.getFeatureStructures().getChildCount()==0) && node.getName().equalsIgnoreCase("unk")){
+						logger.debug("Nested Chunk Detected");
+						//System.out.println("For "+node.getName()+" " + (j+1)+ " DO I EVEN ENTER HERE?");
+						continue;
+					}
+                    if(!node.getName().equalsIgnoreCase("unk")) {
+							if(node.getFeatureStructures()!= null && node.getFeatureStructures().getChildCount() > 0) {
+							//System.out.println("Number of features are "+node.getFeatureStructures().getChildCount());
+							FeatureStructure nodefs = node.getFeatureStructures().getAltFSValue(0);
+							nodefaWord = nodefs.getAttribute(0);
+							if(nodefaWord !=null)
+								sourceWord = nodefaWord.getAltValue(0).toString();
+
+							nodefatam = nodefs.getAttribute(6);
+							if(nodefatam !=null)
+								sourceTam = nodefatam.getAltValue(0).toString();
+
+							nodefapos = nodefs.getAttribute(1);
+							if(nodefapos !=null)
+								pos = getCategory(nodefapos.getAltValue(0).toString());
+							//System.out.println("Here"+" "+(j+1)+" "+pos);
+							if(usePOSTags)
+								pos = getCategory(node.getName());
+
+							int countAttrib = nodefs.countAttributes();
+							FeatureAttribute attrib = null;
+							boolean isNamedEntity = false;
+							for(int m=0; m < countAttrib; m++) {
+								attrib = nodefs.getAttribute(m);
+								if(attrib != null) {
+									/*
+									 * Modification by RAJ DABRE. IITB. 24-2-2014 
+									 * I have added the condition that if there is an attribute like esubtype then dont mess with it
+									 */
+									if(attrib.getName().equalsIgnoreCase("esubtype"))
+										isNamedEntity = true;
+									if(attrib.getName().equalsIgnoreCase("SYNSETID"))
+										synsetId = (String) attrib.getAltValue(0).getValue();
+								}
+							}
+							
+							//modified by Jyotesh on 24-05-2012
+							boolean isUnknownWord;
+							if(nodefapos.getAltValue(0).toString().equalsIgnoreCase("unk"))
+								isUnknownWord = true;
+							else
+								isUnknownWord = false;
+
+							sourceWord = sourceWord.trim();
+							sourceTam = sourceTam.trim();
+							// If the word is a Named Entity then ignore its translation. It would be transliterated
+							boolean caratPrefixWord = sourceWord.startsWith(GlobalConstants.CARAT);
+							boolean tildaPrefixWord = sourceWord.startsWith(GlobalConstants.TILDA);
+							//modified by Jyotesh on 24-05-2012
+							if(!isNamedEntity && !isUnknownWord && !caratPrefixWord && !tildaPrefixWord)
+								targetWords = getTranslation(sourceWord, pos, sourceLanguage, targetLanguage, synsetId);
+
+							if(targetWords == null || targetWords.length == 0) {
+								if(caratPrefixWord || tildaPrefixWord) {
+									logger.debug(sourceWord + " starts with ^, ^^ or ~");
+									sourceWord = sourceWord.replaceFirst("\\^\\^|\\^", "");
+									node.setLexData(sourceWord);
+
+									if(nodefaWord != null) {
+										FeatureValue newaTargetWord = new FeatureValueImpl();
+										newaTargetWord.setValue(sourceWord);
+										nodefaWord.modifyAltValue(newaTargetWord, 0);
+									}
+								} else {
+									//modified by Jyotesh on 24-05-2012
+									if(isNamedEntity)
+										logger.debug(sourceWord + " is a Named Entity and would be transliterated");
+									else if(isUnknownWord)
+										logger.debug("No translation needed for unknown word " + sourceWord);
+									else
+										logger.debug("No translation found for " + sourceWord);
+
+									if(!nodefapos.getAltValue(0).toString().equals(PUNC) && !sourceWord.trim().equals(""))
+									{
+										/*
+									     * Modification by RAJ DABRE. IITB. 24-2-2014 
+									     * I have added the condition that if there is an attribute like esubtype then dont mess with it
+									     */
+										if(isNamedEntity){
+											node.setLexData(sourceWord);
+										} else {
+											node.setLexData(AT+sourceWord);
+										}
+									}
+
+									if(nodefaWord != null && !nodefapos.getAltValue(0).toString().equals(PUNC) && !sourceWord.trim().equals("")) {
+										FeatureValue newaTargetWord = new FeatureValueImpl();
+										/*
+									     * Modification by RAJ DABRE. IITB. 24-2-2014 
+									     * I have added the condition that if there is an attribute like esubtype then dont mess with it
+									     */
+										if(isNamedEntity){
+											newaTargetWord.setValue(sourceWord);
+										} else {
+											newaTargetWord.setValue(AT+sourceWord);
+										}
+										nodefaWord.modifyAltValue(newaTargetWord, 0);
+									}
+								}
+							} else {
+								//modified by Jyotesh on 25-05-2012
+								if(usePOSTags)
+									logger.debug("Translation for " + sourceWord + " with POS category '" + node.getName() + "' is " + targetWords[0] + " with synset id " + wordSynsetId + " in " + wordDictName + " dictionary");
+								else
+									logger.debug("Translation for " + sourceWord + " with LEX category '" + nodefapos.getAltValue(0).toString() + "' is " + targetWords[0] + " with synset id " + wordSynsetId + " in " + wordDictName + " dictionary");
+
+								node.setLexData(targetWords[0]);
+								if(nodefaWord != null) {
+									FeatureValue newaTargetWord = new FeatureValueImpl();
+									newaTargetWord.setValue(targetWords[0]);
+									nodefaWord.modifyAltValue(newaTargetWord, 0);
+								}
+							}
+
+							boolean caratPrefixTAM = sourceTam.startsWith(GlobalConstants.CARAT);
+							boolean tildaPrefixTAM = sourceTam.startsWith(GlobalConstants.TILDA);
+							// As WSD is currently working only for content words, we pass false to the function
+							//modified by Jyotesh on 24-05-2012
+							if(!caratPrefixTAM && !tildaPrefixTAM) {
+								if(pos == POS.VERB) {
+									targetTams = getTranslation(sourceTam, POS.TAM, sourceLanguage, targetLanguage, null);
+									//if(targetTams == null || targetTams.length == 0)
+									//    targetTams = getTranslation(sourceTam, POS.FW, sourceLanguage, targetLanguage);
+								}
+								else
+									targetTams = getTranslation(sourceTam, POS.FW, sourceLanguage, targetLanguage, null);
+							}
+
+							// Setting TAM value
+							if(targetTams == null || targetTams.length == 0) {
+								if(caratPrefixTAM || tildaPrefixTAM) {
+									logger.debug(sourceTam + " starts with ^, ^^ or ~");
+									sourceTam = sourceTam.replaceFirst("\\^\\^|\\^", "");
+									if(nodefatam != null) {
+										FeatureValue newaTam = new FeatureValueImpl();
+										newaTam.setValue(sourceTam);
+										nodefatam.modifyAltValue(newaTam, 0);
+									}
+								} else {
+									if(nodefatam != null && !nodefapos.getAltValue(0).toString().equals(PUNC) && !sourceTam.trim().equals("")) {
+										FeatureValue newaTam = new FeatureValueImpl();
+										newaTam.setValue(AT+sourceTam);
+										nodefatam.modifyAltValue(newaTam, 0);
+										logger.debug("No translation found for TAM " + sourceTam);
+									}
+								}
+							} else if(nodefatam != null) {
+								//modified by Jyotesh on 25-05-2012
+								if(pos == POS.VERB)
+									logger.debug("Translation for " + sourceTam + " as '" + POS.TAM + "' is " + targetTams[0] + " with synset id " + wordSynsetId + " in " + wordDictName + " dictionary");
+								else
+									logger.debug("Translation for " + sourceTam + " as '" + POS.FW + "' is " + targetTams[0] + " with synset id " + wordSynsetId + " in " + wordDictName + " dictionary");
+
+								FeatureValue newaTam = new FeatureValueImpl();
+								newaTam.setValue(targetTams[0]);
+								nodefatam.modifyAltValue(newaTam, 0);
+							}
+						}
+                    }
+                    //System.out.println("Children under chunk = "+node.countChildren());
+                    //if(pos.equals("unk")){
+							
+					//}
+                    for(int k=0;k<node.countChildren();k++) {
+						//System.out.println("For "+node.getName()+" " + (j+1)+ " DO I EVEN ENTER HERE?");
+                        targetTams = null;
+                        targetWords = null;
+                        synsetId = null;
+                        SSFNode nodeChild = (SSFNode) node.getChildAt(k);
+                        //if (nodeChild.getFeatureStructures()==null){
+                        sourceWord = nodeChild.getLexData();
+                        lexWord = nodeChild.getLexData();
+                        sourceWord = lexWord.trim();
+                        /*
+						 *Modification by RAJ DABRE. IITB. 24-2-2014 
+						 * I have added the condition that if there is a unk as a chunk name then dont mess with it
+						 */
+						if((nodeChild.getFeatureStructures()== null || nodeChild.getFeatureStructures().getChildCount() == 0) && nodeChild.getName().equalsIgnoreCase("unk")){
+							//System.out.println("For "+node.getName()+" " + (j+1)+ " DO I EVEN ENTER HERE?");
+							logger.debug("Nested Chunk Detected");
+							continue;
+						}
+                        if(nodeChild.getFeatureStructures()!= null && nodeChild.getFeatureStructures().getChildCount() > 0) {
+                            FeatureStructure nodefs = nodeChild.getFeatureStructures().getAltFSValue(0);
+                            nodefaWord = nodefs.getAttribute(0);
+                            if(nodefaWord !=null) 
+                                sourceWord = nodefaWord.getAltValue(0).toString();
+
+                            nodefatam = nodefs.getAttribute(6);
+                            if(nodefatam !=null) 
+                                sourceTam = nodefatam.getAltValue(0).toString();
+
+                            nodefapos = nodefs.getAttribute(1);
+                            if(nodefapos !=null) 
+                                pos = getCategory(nodefapos.getAltValue(0).toString());
+
+                            if(usePOSTags)
+                                pos = getCategory(nodeChild.getName());
+
+                            int countAttrib = nodefs.countAttributes();
+                            FeatureAttribute attrib = null;
+                            boolean isNamedEntity = false;
+                            for(int m=0; m < countAttrib; m++) {
+                                attrib = nodefs.getAttribute(m);
+                                if(attrib != null) {
+                                    if(attrib.getName().equalsIgnoreCase("esubtype"))
+                                        isNamedEntity = true;
+                                    if(attrib.getName().equalsIgnoreCase("SYNSETID"))
+                                        synsetId = (String) attrib.getAltValue(0).getValue();
+                                }
+                            }
+
+                            //modified by Jyotesh on 24-05-2012
+                            boolean isUnknownWord;
+                            if(nodefapos.getAltValue(0).toString().equalsIgnoreCase("unk"))
+                                isUnknownWord = true;
+                            else
+                                isUnknownWord = false;
+
+                            sourceWord = sourceWord.trim();
+                            sourceTam = sourceTam.trim();
+
+                            // If the word is a Named Entity then ignore its translation. It would be transliterated
+                            boolean caratPrefixWord = sourceWord.startsWith(GlobalConstants.CARAT);
+                            boolean tildaPrefixWord = sourceWord.startsWith(GlobalConstants.TILDA);
+                            //modified by Jyotesh on 24-05-2012
+                            if(!isNamedEntity && !isUnknownWord && !caratPrefixWord && !tildaPrefixWord)
+                                targetWords = getTranslation(sourceWord, pos, sourceLanguage, targetLanguage, synsetId);
+
+                            if(targetWords == null || targetWords.length == 0) {
+                                if(caratPrefixWord || tildaPrefixWord) {
+                                    logger.debug(sourceWord + " starts with ^, ^^ or ~");
+                                    sourceWord = sourceWord.replaceFirst("\\^\\^|\\^", "");
+                                    nodeChild.setLexData(sourceWord);
+
+                                    if(nodefaWord != null) {
+                                        FeatureValue newaValue = new FeatureValueImpl();
+                                        newaValue.setValue(sourceWord);
+                                        nodefaWord.modifyAltValue(newaValue, 0);
+                                    }
+                                } else {
+                                    //modified by Jyotesh on 24-05-2012
+                                    if(isNamedEntity)
+                                        logger.debug(sourceWord + " is a Named Entity and would be transliterated");
+                                    else if(isUnknownWord)
+                                        logger.debug("No translation needed for unknown word " + sourceWord);
+                                    else
+                                        logger.debug("No translation found for " + sourceWord);
+
+
+                                    //modified by Jyotesh & Raj on 24-05-2012
+                                    if(!nodefapos.getAltValue(0).toString().equals(PUNC) && !sourceWord.trim().equals("")){
+                                        /*
+									     * Modification by RAJ DABRE. IITB. 24-2-2014 
+									     * I have added the condition that if there is an attribute like esubtype then dont mess with it
+									     */
+                                        if(isNamedEntity){
+											nodeChild.setLexData(nodeChild.getLexData());
+										} else{
+											nodeChild.setLexData(AT + nodeChild.getLexData());
+										}
+									}
+                                    /*if(!nodefapos.getAltValue(0).toString().equals(PUNC) && !sourceWord.trim().equals(""))
+                                      nodeChild.setLexData(AT + sourceWord);*/
+
+                                    if(nodefaWord != null && !nodefapos.getAltValue(0).toString().equals(PUNC) && !sourceWord.trim().equals("")) {
+                                        FeatureValue newaValue = new FeatureValueImpl();
+                                        /*
+									     * Modification by RAJ DABRE. IITB. 24-2-2014 
+									     * I have added the condition that if there is an attribute like esubtype then dont mess with it
+									     */
+                                        if(isNamedEntity){
+											newaValue.setValue(sourceWord);
+										} else {
+											newaValue.setValue(AT+sourceWord);
+										}
+                                        nodefaWord.modifyAltValue(newaValue, 0);
+                                    }
+                                }
+                            } else {
+                                //modified by Jyotesh on 25-05-2012
+                                if(usePOSTags)
+                                    logger.debug("Translation for " + sourceWord + " with POS category '" + nodeChild.getName() + "' is " + targetWords[0] + " with synset id " + wordSynsetId + " in " + wordDictName + " dictionary");
+                                else
+                                    logger.debug("Translation for " + sourceWord + " with LEX category '" + nodefapos.getAltValue(0).toString() + "' is " + targetWords[0] + " with synset id " + wordSynsetId + " in " + wordDictName + " dictionary");
+
+                                nodeChild.setLexData(targetWords[0]);
+                                if(nodefaWord != null) {
+                                    FeatureValue newaValue = new FeatureValueImpl();
+                                    newaValue.setValue(targetWords[0]);
+                                    nodefaWord.modifyAltValue(newaValue, 0);
+                                }
+                            }
+
+                            boolean caratPrefixTAM = sourceTam.startsWith(GlobalConstants.CARAT);
+                            boolean tildaPrefixTAM = sourceTam.startsWith(GlobalConstants.TILDA);
+                            // As WSD is currently working only for content words, we pass false to the function
+                            //modified by Jyotesh on 24-05-2012
+                            if(!caratPrefixTAM && !tildaPrefixTAM) {
+                                if(pos == POS.VERB) {
+                                    targetTams = getTranslation(sourceTam, POS.TAM, sourceLanguage, targetLanguage, null);
+                                    //if(targetTams == null || targetTams.length == 0)
+                                    //    targetTams = getTranslation(sourceTam, POS.FW, sourceLanguage, targetLanguage);
+                                }
+                                else
+                                    targetTams = getTranslation(sourceTam, POS.FW, sourceLanguage, targetLanguage, null);
+                            }
+
+                            // Setting TAM value
+                            if(targetTams == null || targetTams.length == 0) {
+                                if(caratPrefixTAM || tildaPrefixTAM) {
+                                    logger.debug(sourceTam + " starts with ^, ^^ or ~");
+                                    sourceTam = sourceTam.replaceFirst("\\^\\^|\\^", "");
+                                    if(nodefatam != null) {
+                                        FeatureValue newaTam = new FeatureValueImpl();
+                                        newaTam.setValue(sourceTam);
+                                        nodefatam.modifyAltValue(newaTam, 0);
+                                    }
+                                } else {
+                                    if(nodefatam != null && !nodefapos.getAltValue(0).toString().equals(PUNC) && !sourceTam.trim().equals("")) {
+                                        FeatureValue newaTam = new FeatureValueImpl();
+                                        newaTam.setValue(AT+sourceTam);
+                                        nodefatam.modifyAltValue(newaTam, 0);
+                                        logger.debug("No translation found for TAM " + sourceTam);
+                                    }
+                                }
+                            } else if(nodefatam != null) {
+                                //modified by Jyotesh on 25-05-2012
+                                if(pos == POS.VERB)
+                                    logger.debug("Translation for " + sourceTam + " as '" + POS.TAM + "' is " + targetTams[0] + " with synset id " + wordSynsetId + " in " + wordDictName + " dictionary");
+                                else
+                                    logger.debug("Translation for " + sourceTam + " as '" + POS.FW + "' is " + targetTams[0] + " with synset id " + wordSynsetId + " in " + wordDictName + " dictionary");
+
+                                FeatureValue newaTam = new FeatureValueImpl();
+                                newaTam.setValue(targetTams[0]);
+                                nodefatam.modifyAltValue(newaTam, 0);
+                            }
+                        }
+                    }
+                }
+            }
+
+            if(outputFileName != null) 
+                story.save(outputFileName, "UTF-8");        
+            else 
+                story.print(System.out);
+
+        } catch (Exception ex) {
+            logger.fatal("Error while processing input SSF file.");
+            throw new MultilingualDictException("Error while processing input SSF file.", ex);
+        }
+    }
+
+    /**
+     * <p><b>Method</b>         : getTranslation
+     * <p><b>Purpose</b>        : Returns the translation of the source word. 
+     * <p><b>@param lemma - source word 
+     * <p><b>@param pos - POS category
+     * <p><b>@param sourceLanguage - Source Language
+     * <p><b>@param targetLanguage - Target Language
+     * <p><b>@return</b> - Returns an array containing the translations of the source 
+     *                                     word in the target language. 
+     * @param isDisambiguated 
+     */
+    public String[] getTranslation(
+                                   String lemma,
+                                   POS pos, 
+                                   Language sourceLanguage, 
+                                   Language targetLanguage, String synsetId) {
+        try {
+            String[] output = null; 
+            if(sessionDict != null) {
+                output = getCrossLinkedWords(sessionDict, lemma, sourceLanguage, targetLanguage, pos, synsetId);                                        
+            }
+            if(output == null || output.length == 0) {
+                if(userDict != null) {
+                    output = getCrossLinkedWords(userDict, lemma, sourceLanguage, targetLanguage, pos, synsetId);
+                }
+                if(output == null || output.length == 0) {
+                    if(NNPDict != null) {
+                        output = getCrossLinkedWords(NNPDict, lemma, sourceLanguage, targetLanguage, pos, synsetId);
+                    }
+                    if(output == null || output.length ==0) {
+                        if(systemDict != null) {
+                            output = getCrossLinkedWords(systemDict, lemma, sourceLanguage, targetLanguage, pos, synsetId);
+                        }
+                        if(output == null || output.length == 0) {
+                            if(BilingualDict != null) {
+                                output = getCrossLinkedWords(BilingualDict, lemma, sourceLanguage, targetLanguage, pos, synsetId);
+                            }
+                            if(output == null || output.length == 0) {
+                                if(!lemma.equals("")) {
+                                    //modified by Jyotesh on 24-05-2012
+                                    //logger.debug("\""+lemma+"\"" + " is not present in any dictionary");
+                                    wordDictName = null;
+                                }
+                            }
+                            else {
+                                //modified by Jyotesh on 24-05-2012
+                                //logger.debug("\""+lemma+"\"" + " is present in Bilingual dictionary.");
+                                wordDictName = "bilingual";
+                            }
+                        } else {
+                            //modified by Jyotesh on 24-05-2012
+                            //logger.debug("\""+lemma+"\"" + " is present in system dictionary.");
+                            wordDictName = "system";
+                        }
+                    } else {
+                        //modified by Jyotesh on 24-05-2012
+                        //logger.debug("\""+lemma+"\"" + " is present in NNP dictionary.");
+                        wordDictName = "NNP";
+                    }
+                } else {
+                    //modified by Jyotesh on 24-05-2012
+                    //logger.debug("\""+lemma+"\"" + " is present in user dictionary.");
+                    wordDictName = "user";
+                }
+            } else {
+                //modified by Jyotesh on 24-05-2012
+                //logger.debug("\""+lemma+"\"" + " is present in session dictionary.");
+                wordDictName = "session";
+            }
+
+            return output;
+        } catch (MultilingualDictException ex) {
+            ex.printStackTrace();
+            System.err.println("No matching word found");
+        }
+        return null;
+    }
+
+    /**
+     * Method   : getCategory
+     * Purpose  : 
+     * @param strCategory
+     * @return
+     */
+    public POS getCategory_POS(String strCategory) {
+        if(strCategory.startsWith("NN"))
+            return POS.NOUN;
+        if(strCategory.startsWith("JJ"))
+            return POS.ADJECTIVE;
+        if(strCategory.startsWith("RB"))
+            return POS.ADVERB;
+        if(strCategory.startsWith("V")) 
+            return POS.VERB;
+        return POS.FW;
+    }
+
+    /**
+     * Method   : getCategory
+     * Purpose  : 
+     * @param strCategory
+     * @return
+     */
+    public POS getCategory_LCAT(String strCategory) {
+        if(strCategory.equals("n"))
+            return POS.NOUN;
+        if(strCategory.equals("adj"))
+            return POS.ADJECTIVE;
+        if(strCategory.equals("adv"))
+            return POS.ADVERB;
+        if(strCategory.equals("v"))
+            return POS.VERB;
+        return POS.FW;
+    }
+
+    public POS getCategory(String strCategory) {
+        if(usePOSTags)
+            return getCategory_POS(strCategory);
+        else
+            return getCategory_LCAT(strCategory);
+    }
+
+    /**
+     * Method   : main
+     * Purpose  : Dummy main for testing purpose. 
+     * @param args
+     * @throws MultilingualDictException 
+     * @throws IOException 
+     */
+    public static void main (String args[]) throws MultilingualDictException, IOException {
+
+        String inputFileName = null;
+        int debugLevel = 1;
+        String outputFileName = null;
+        String logFile=null;
+        int c;
+
+        // 
+        //ReadEnv.load();
+        //USER_HOME = ReadEnv.getProperty("USER_HOME");
+        //USER_HOME = "/media/D/NewCleanBuild";
+        //StringBuffer sb = new StringBuffer();
+        LongOpt[] longopts = new LongOpt[8];
+        StringBuffer systemDict = new StringBuffer();
+        StringBuffer userDict = new StringBuffer();
+        StringBuffer sessionDict = new StringBuffer();
+        StringBuffer NNPDict = new StringBuffer();
+        StringBuffer BiDict = new StringBuffer();
+        StringBuffer logFilePath = new StringBuffer();
+
+        boolean openUserDict = false;
+        boolean openSessionDict = false;
+        boolean openSystemDict = false;
+        boolean openNNPDict = false;
+        boolean openBilingualDict = false;
+
+        longopts[0] = new LongOpt("help", LongOpt.NO_ARGUMENT, null, 'h');
+        longopts[1] = new LongOpt("system-dict", LongOpt.OPTIONAL_ARGUMENT, systemDict , 'y' );
+        longopts[2] = new LongOpt("session-dict", LongOpt.OPTIONAL_ARGUMENT, sessionDict, 'e' );
+        longopts[3] = new LongOpt("user-dict", LongOpt.OPTIONAL_ARGUMENT, userDict , 'r');
+        longopts[4] = new LongOpt("NNP-dict", LongOpt.OPTIONAL_ARGUMENT, NNPDict , 'n');
+        longopts[5] = new LongOpt("Bilingual-dict", LongOpt.OPTIONAL_ARGUMENT, BiDict , 'l');
+        longopts[6] = new LongOpt("Use POSTags", LongOpt.NO_ARGUMENT, null , 'p');
+        longopts[6] = new LongOpt("LogFile Path", LongOpt.REQUIRED_ARGUMENT, logFilePath , 'j');
+
+        Getopt g = new Getopt("LexicalTransferEngine", args, "-:i:o::s:t:d:u:y::e::r::n::l::pj:h", longopts);
+        g.setOpterr(false);
+        while ((c = g.getopt()) != -1) {
+            switch (c) {
+            case 0:
+            case 'h':
+                //modified by Jyotesh on 23-05-2012
+                System.out.println("Usage:\n java -classpath " +
+                                   "$setu/bin/sl_tl/lexicaltransfer/common:" +
+                                   "$setu/bin/sl_tl/lexicaltransfer/common/lib/MultiDictAPIs.jar:" +
+                                   "$setu/bin/sl_tl/lexicaltransfer/common/lib/SSFAPI.jar:" +
+                                   "$setu/bin/sl_tl/lexicaltransfer/common/lib/log4j-1.2.15.jar" +
+                                   " in.ac.iitb.cfilt.lte.engine.LexicalTransferEngine " +
+                                   " [-options]\n" +
+                                   " where options include\n" +
+                                   " -h --help\t\t for help on sample usage\n" +
+                                   " -u \t\t path of USER_HOME directory. In our case this will be the path of setu directory\n" +
+                                   " -i \t\t for specifying input file name (mandatory)  \n" +
+                                   " -o[path] \t\t for specifying output file name \n" +
+                                   " -s \t\t for specifying source language (3-letter language code, mandatory)\n" +
+                                   " -t \t\t for specifying target language (3-letter language code, mandatory)\n" +
+                                   " -e[path] \t\t for enabling session specific dictionary to be used " +
+                                   "    and optionally specifying its location" + 
+                                   " -r[path] \t\t for enabling user specific dictionary to be used " +
+                                   "    and optionally specifying its location" +
+                                   " -y[path] \t\t for enabling system specific dictionary to be used " +
+                                   "    and optionally specifying its location" +                                               
+                                   " -n[path] \t\t for enabling Proper Noun(NNP) dictionary to be used " +
+                                   "    and optionally specifying its location" +                                               
+                                   " -l[path] \t\t for enabling Bilingual dictionary to be used " +
+                                   "    and optionally specifying its location" +                                               
+                                   " -j [path] \t\t for specifying path of the log file\n" +
+                                   " -p \t\t for using POS tags\n" +
+                                   " -d \t\t for specifying debug level (optional) Possible log levels are:\n" +
+                                   " -d \t\t " +
+                                   "\t\t\t\tLOG_LEVEL:\n\t\t\t\t\t1 : INFO(default)\n\t\t\t\t\t2 : DEBUG\n\t\t\t\t\t3 : ALL\n\t\t\t\t\t4 : OFF");
+                System.exit(0);
+
+                //
+            case 'o':
+                outputFileName = g.getOptarg();
+                break;
+                //
+            case 'u':
+                USER_HOME = g.getOptarg();
+                break;
+                //
+            case 'i':
+                inputFileName = g.getOptarg();
+                break;
+                //
+            case 's':
+                sourceLanguage = Language.getLanguage(g.getOptarg());
+                break;
+                //
+            case 't':
+                targetLanguage = Language.getLanguage(g.getOptarg());
+                break;
+                //
+            case 'y':
+                systemDictPath = g.getOptarg();
+                openSystemDict = true;
+                break;
+                //
+            case 'e':
+                sessionDictPath = g.getOptarg();
+                openSessionDict = true;
+                break;
+                //
+            case 'r':
+                userDictPath= g.getOptarg();
+                openUserDict = true;
+                break;
+                //
+            case 'n':
+                NNPDictPath= g.getOptarg();
+                openNNPDict = true;
+                break;
+                //
+            case 'l':
+                BilingualDictPath= g.getOptarg();
+                openBilingualDict = true;
+                break;
+            case 'p':
+                usePOSTags = true;
+                break;
+                //
+            case 'j':
+                logFile = g.getOptarg();
+                break;
+            case 'd':
+                try {
+                    debugLevel = Integer.parseInt(g.getOptarg());
+                } catch (Exception ex) {
+                    System.out.println("Debug level should be a valid integer"); 
+                }
+                break;
+                //
+
+            case ':':
+                System.out.println("You need an argument for option "
+                                   + (char) g.getOptopt());
+                System.exit(0);
+                //
+            case '?':
+                System.out.println("The option '" + (char) g.getOptopt()
+                                   + "' is not valid");
+                System.exit(0);
+                //
+            default:
+                System.out.println("getopt() returned " + c);
+                break;
+            }
+        }
+
+        if(USER_HOME == null) {
+            System.out.println("You must specify option 'u' for 'USER_HOME' directory i.e the path of setu directory");
+            System.exit(0);
+        }
+        if(inputFileName == null) {
+            System.out.println("You must specify option 'i' for 'input file' ");
+            System.exit(0);
+        }
+        //modified by Jyotesh on 24-05-2012
+        /*if(outputFileName == null) {
+          System.out.println("You must specify option 'o' for 'output file' ");
+          System.exit(0);
+          }*/
+        if(sourceLanguage == null) {
+            System.out.println("You must specify option 's' for 'source language' ");
+            System.exit(0);
+        }
+        if(targetLanguage == null) {
+            System.out.println("You must specify option 't' for 'target language' ");
+            System.exit(0);
+        }
+
+        BasicConfigurator.configure();
+        if(logFile != null) {
+            FileAppender fappender = new FileAppender(new PatternLayout("%-6p [%t] (%F:%L) %m%n"), logFile);
+            logger.addAppender(fappender);
+            //modified by Jyotesh on 25-05-2012
+            logger.setAdditivity(false);
+        }
+
+        switch (debugLevel) {
+        case 1:
+            logger.setLevel(Level.INFO);
+            break;
+        case 2:
+            logger.setLevel(Level.DEBUG);
+            break;
+        case 3:
+            logger.setLevel(Level.ALL);
+            break;
+        case 4:
+            logger.setLevel(Level.OFF);
+            break;
+        }
+
+        logger.info("$setu = "+ USER_HOME);
+        if(systemDictPath != null && !checkIfDirectoryExists(systemDictPath)) {
+            logger.info("Specified directory " + systemDictPath + " does not exist.");
+            System.exit(0);
+        }
+
+        if(userDictPath != null && !checkIfDirectoryExists(userDictPath)) {
+            logger.info("Specified directory " + userDictPath + " does not exist.");
+            System.exit(0);
+        }
+
+        if(sessionDictPath != null && !checkIfDirectoryExists(sessionDictPath)) {
+            logger.info("Specified directory " + sessionDictPath + " does not exist.");
+            System.exit(0);
+        }
+
+        if(NNPDictPath != null && !checkIfDirectoryExists(NNPDictPath)) {
+            logger.info("Specified directory " + NNPDictPath + " does not exist.");
+            System.exit(0);
+        }
+
+        if(BilingualDictPath != null && !checkIfDirectoryExists(BilingualDictPath)) {
+            logger.info("Specified directory " + BilingualDictPath + " does not exist.");
+            System.exit(0);
+        }
+
+        LexicalTransferEngine lte = new LexicalTransferEngine();
+        lte.initialize(USER_HOME, openUserDict, openSessionDict, openSystemDict, openNNPDict, openBilingualDict);
+
+        //modified by Jyotesh on 24-05-2012
+        logger.info("Source Language = " + sourceLanguage);
+        logger.info("Target Language = " + targetLanguage);
+
+        lte.translate(inputFileName, outputFileName, sourceLanguage,
+                      targetLanguage);
+        if(outputFileName != null) {
+            logger.info("Translation done. Please check the output file/dir "
+                        + outputFileName);
+        }
+    }
+
+    private static boolean checkIfDirectoryExists(String dirName) {
+        if(dirName == null)
+            return false;
+        return new File(dirName).exists() && new File(dirName).isDirectory();
+    }
+
+    private String getDefaultPath(String path, String language1, String language2) {
+        return path  + File.separator + language1 + "-" + language2;
+    }
+
+    private String[] getCrossLinkedWords(Dictionary dict,String lemma,Language sourceLanguage,
+                                         Language targetLanguage,POS pos, String synsetId) throws MultilingualDictException {
+        if(dict instanceof FileBackedDictionary)
+            dict = (FileBackedDictionary)dict;
+
+        String[] crossLinkedWords = null;
+        if(synsetId != null) {
+            DSFRecord dsfr = dict.getDSFRecord(synsetId, pos, sourceLanguage);
+            if(dsfr != null) {
+                if(pos == null)
+                    crossLinkedWords = dict.getCrossLinkedWords(lemma, sourceLanguage, targetLanguage, synsetId);
+                else
+                    crossLinkedWords = dict.getCrossLinkedWords(lemma, sourceLanguage, targetLanguage, synsetId, pos);
+
+                if(crossLinkedWords != null) {
+                    //modified by Jyotesh on 25-05-2012
+                    wordSynsetId = synsetId;
+                    return crossLinkedWords;
+                }
+            }
+        }
+
+
+        DSFRecord[] dsfRecords;
+        if(pos == null)
+            dsfRecords = dict.getDSFRecords(lemma, sourceLanguage);
+        else
+            dsfRecords = dict.getDSFRecords(lemma, pos, sourceLanguage);
+
+        if(dsfRecords != null) {
+            //modified by Jyotesh & Raj on 24-05-2012
+            ArrayList<String> synsetIdList = new ArrayList<String>();
+            int lIndex = Integer.MAX_VALUE;
+            for(int count=0; count< dsfRecords.length; count++) {
+                if(dsfRecords[count] != null) {
+                    Vector<String> vwords = dsfRecords[count].getWords();
+                    if(vwords != null) {
+                        int curIndex = vwords.indexOf(lemma);
+                        if(curIndex < lIndex && curIndex >= 0) {
+                            lIndex = curIndex;
+                            //modified by Jyotesh & Raj on 24-05-2012
+                            synsetIdList.add(dsfRecords[count].getID());
+                            //System.out.println("Synset for " + lemma + " is " + dsfRecords[count].getID());
+                        }
+                    }
+                }
+            }
+            //modified by Jyotesh & Raj on 24-05-2012
+            synsetId = synsetIdList.get(0);
+
+            if(synsetId != null) {
+                if(pos == null)
+                    crossLinkedWords = dict.getCrossLinkedWords(lemma, sourceLanguage, targetLanguage, synsetId);
+                else
+                    crossLinkedWords = dict.getCrossLinkedWords(lemma, sourceLanguage, targetLanguage, synsetId, pos);
+            }
+        }
+        //modified by Jyotesh on 24-05-2012
+        if(synsetId != null)
+            wordSynsetId = synsetId;
+        return crossLinkedWords;
+    }
+}

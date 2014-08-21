@@ -1,0 +1,481 @@
+/**
+ * Project 	 : WSD Engine
+ * 
+ * Team 	 : CFILT, IIT Bombay.
+ *
+ * File Name : IndexReader.java
+ *
+ * Created On: Dec 16, 2007
+ *
+ * Revision History:
+ * Modification Date 	Modified By		Comments
+ * 
+ */
+package in.ac.iitb.cfilt.multidict.preprocess;
+
+import in.ac.iitb.cfilt.common.config.GlobalConstants;
+import in.ac.iitb.cfilt.common.data.DSFRecord;
+import in.ac.iitb.cfilt.common.data.Language;
+import in.ac.iitb.cfilt.common.data.POS;
+import in.ac.iitb.cfilt.common.exception.MultilingualDictException;
+import in.ac.iitb.cfilt.multidict.dictionary.CrossLinksRandomAccess;
+import in.ac.iitb.cfilt.multidict.dictionary.SynsetRandomAccess;
+import in.ac.iitb.cfilt.multidict.dictionary.WordIndexRandomAccess;
+
+import java.io.File;
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Vector;
+
+/**
+ * <p><b>Class</b>	: IndexReader
+ * <p><b>Purpose</b>	: This class is used to read the index files corresponding 
+ * 						  to words and synsets. 
+ */
+public class IndexReader {
+
+	/**
+	 * This field stores a word Index writer corresponding to each category
+	 */
+	private HashMap<String, WordIndexRandomAccess> wordReaders = new HashMap<String, WordIndexRandomAccess>();
+
+	/**
+	 * This field stores a synset Index writer corresponding to each category
+	 */
+	private HashMap<String, SynsetRandomAccess> synsetReaders = new HashMap<String, SynsetRandomAccess>();
+
+	/**
+	 * This field stores a synset Index writer corresponding to each category
+	 */
+	private HashMap<String, CrossLinksRandomAccess> crossLinksReaders = new HashMap<String, CrossLinksRandomAccess>();
+
+	/**
+	 * This field stores a boolean variable to indicate whether the linkage info should be fetched.
+	 * To prevent the overhead of fetching linkage info when it is not necessary this flag will remain
+	 * false. However, when we need to find the cross linked words we will set it to true.  
+	 */
+	private boolean keepLinkageInfo = false;
+	
+	/**
+	 * <b>Constructor</b>
+	 * @param root
+	 * @throws MultilingualDictException 
+	 */
+	public IndexReader(String root) throws MultilingualDictException {
+		for(int i=0; i<Language.ALL_LANGS.length; i++) {
+			for(int j=0; j<POS.CATEGORIES.length; j++) {
+				wordReaders.put(getKey(i, j), getWordReader(root, i, j));
+				crossLinksReaders.put(getKey(i, j), getCrossLinksReader(root, i, j));
+				synsetReaders.put(getKey(i, j), getSynsetReader(root, i, j));
+			}
+		}
+	}
+
+	/**
+	 * <b>Constructor</b>
+	 * @param root
+	 * @param sourceLanguage
+	 * @param targetLanguage
+	 * @throws MultilingualDictException
+	 */
+	public IndexReader(String root, Language sourceLanguage, Language targetLanguage) throws MultilingualDictException {
+		for(int j=0; j<POS.CATEGORIES.length; j++) {
+			wordReaders.put(sourceLanguage + "_" + POS.CATEGORIES[j], getWordReader(root, sourceLanguage, j));
+			wordReaders.put(targetLanguage + "_" + POS.CATEGORIES[j], getWordReader(root, targetLanguage, j));
+			
+			crossLinksReaders.put(sourceLanguage + "_" + POS.CATEGORIES[j], getCrossLinksReader(root, sourceLanguage, j));
+			crossLinksReaders.put(targetLanguage + "_" + POS.CATEGORIES[j], getCrossLinksReader(root, targetLanguage, j));
+
+			synsetReaders.put(sourceLanguage + "_" + POS.CATEGORIES[j], getSynsetReader(root, sourceLanguage, j));
+			synsetReaders.put(targetLanguage + "_" + POS.CATEGORIES[j], getSynsetReader(root, targetLanguage, j));
+		}
+
+	}
+	/**
+	 * <p><b>Method</b> 	: open
+	 * <p><b>Purpose</b>	: Opens all the writers. 
+	 * <p><b></b>
+	 * @throws MultilingualDictException 
+	 */
+	public void open() throws MultilingualDictException {
+	}
+	
+	/**
+	 * <p><b>Method</b> 	: getCrossLinkedWords
+	 * <p><b>Purpose</b>	: Gets the translations of the source word in the target language.
+	 * 						  A word might have several senses, so this method will return the
+	 * 						  translations corresponding to all the senses to which the word 
+	 * 						  belongs.	 
+	 * <p><b>@param lemma
+	 * <p><b>@param sourceLanguage
+	 * <p><b>@param targetLanguage
+	 * <p><b>@return
+	 * <p><b>@throws MultilingualDictException</b>
+	 */
+	public String[] getCrossLinkedWords(String lemma, Language sourceLanguage,
+			Language targetLanguage)
+			throws MultilingualDictException {
+		Vector<String> vCrossLinkedWords = new Vector<String>();
+		for(int i=0; i<POS.CATEGORIES.length; i++) {
+			String[] crossLinkedWords = getCrossLinkedWords(
+					lemma, sourceLanguage, targetLanguage, POS.CATEGORIES[i]);
+			if(crossLinkedWords == null) {
+				continue;
+			}
+			for (int j=0; j<crossLinkedWords.length; j++) {
+				vCrossLinkedWords.add(crossLinkedWords[j]);
+			}
+		}
+		return vCrossLinkedWords.toArray(new String[vCrossLinkedWords.size()]);
+	}
+
+	/**
+	 * <p><b>Method</b> 	: getCrossLinkedWords
+	 * <p><b>Purpose</b>	: Gets the translations of the source word in the target language.
+	 * 						  A word might have several senses and several POS categories,
+	 * 						  so this method will return the translations corresponding to all the
+	 * 					 	  senses to which the word corresponding to the given POS tag.  
+	 * <p><b>@param lemma
+	 * <p><b>@param sourceLanguage
+	 * <p><b>@param pos
+	 * <p><b>@param targetLanguage
+	 * <p><b>@return
+	 * <p><b>@throws MultilingualDictException</b>
+	 */
+	public String[] getCrossLinkedWords(String lemma, Language sourceLanguage,
+			Language targetLanguage, POS pos)
+			throws MultilingualDictException {
+		WordIndexRandomAccess wordIndexRandomAccess = wordReaders.get(
+				sourceLanguage.toString() + "_" + pos.toString());
+		String[] synsetIds = wordIndexRandomAccess.getRecordIds(lemma);
+		if(synsetIds == null || synsetIds.length == 0)
+			return null;
+		Vector<String> vCrossLinkedWords = new Vector<String>();
+		//String[] crossLinkedWords = new String[synsetIds.length];
+		String[] crossLinkedWords = null;
+		for(int i=0; i<synsetIds.length; i++) {
+			crossLinkedWords = getCrossLinkedWords(lemma, sourceLanguage, targetLanguage, synsetIds[i]);
+			if(crossLinkedWords != null && crossLinkedWords.length > 0)
+			{
+				for(int j=0; j<crossLinkedWords.length; j++) 
+					vCrossLinkedWords.add(crossLinkedWords[j]);
+			}
+		}
+		return vCrossLinkedWords.toArray(new String[vCrossLinkedWords.size()]);
+	}
+	
+	/**
+	 * <p><b>Method</b> 	: getCrossLinkedWords
+	 * <p><b>Purpose</b>	: Gets the translations of the source word in the target language.
+	 * 						  A word might have several senses, so this method will return the
+	 * 						  translations corresponding to the given sense.	 
+	 * <p><b>@param lemma
+	 * <p><b>@param sourceLanguage
+	 * <p><b>@param targetLanguage
+	 * <p><b>@param synsetId
+	 * <p><b>@return
+	 * <p><b>@throws MultilingualDictException</b>
+	 */
+	public String[] getCrossLinkedWords(
+			String lemma, Language sourceLanguage, Language targetLanguage, String synsetId)
+	throws MultilingualDictException {
+		//keepLinkageInfo = true;
+		//DSFRecord sourceRecord = getDSFRecord(synsetId, sourceLanguage);
+		Vector<String> vCrossLinkedWords = new Vector<String>();
+		for(int i=0; i<POS.CATEGORIES.length; i++) {
+			String[] crosssLinkedWords = getCrossLinkedWords(
+					lemma, sourceLanguage, targetLanguage, synsetId, POS.CATEGORIES[i]);
+			if(crosssLinkedWords != null && crosssLinkedWords.length > 0) {
+				vCrossLinkedWords.addAll(Arrays.asList(crosssLinkedWords));
+			}
+		}
+		return vCrossLinkedWords.toArray(new String[vCrossLinkedWords.size()]);
+	}
+
+	/**
+	 * <p><b>Method</b> 	: getCrossLinkedWords
+	 * <p><b>Purpose</b>	: Gets the translations of the source word in the target language.
+	 * 						  A word might have several senses, so this method will return the
+	 * 						  translations corresponding to the given sense and given POS category.	 
+	 * <p>@param lemma
+	 * <p>@param sourceLanguage
+	 * <p>@param targetLanguage
+	 * <p>@param synsetId
+	 * <p>@param pos
+	 * <p>@return
+	 * <p>@throws MultilingualDictException
+	 */
+	public String[] getCrossLinkedWords(
+			String lemma, Language sourceLanguage, Language targetLanguage, String synsetId, POS pos)
+	throws MultilingualDictException {
+		
+		Vector<String> vCrossLinkedWords = new Vector<String>();
+		String crossLinkageInfo = null;
+		String crossLinkedWord = null;
+		int startIndex = 0;
+		int endIndex = 0;
+		CrossLinksRandomAccess crossLinksRandomAccess = crossLinksReaders.get(
+				sourceLanguage.toString() + "_" + pos.toString());
+		crossLinkageInfo = crossLinksRandomAccess.getCrossLinkedWord(lemma+synsetId);
+		if(crossLinkageInfo != null) {
+			startIndex = crossLinkageInfo.lastIndexOf(targetLanguage.toString());
+			if(startIndex != -1) {
+				startIndex += 4;
+				endIndex = crossLinkageInfo.indexOf("\t", startIndex);
+				if(endIndex != -1) {
+					crossLinkedWord = crossLinkageInfo.substring(startIndex, endIndex);
+				} else {
+					crossLinkedWord = crossLinkageInfo.substring(startIndex);
+				}
+			}
+			if(crossLinkedWord != null && !crossLinkedWord.trim().equals("")) {
+				vCrossLinkedWords.add(crossLinkedWord);
+			}
+		}
+		if(vCrossLinkedWords.size() == 0)
+			return null;
+		else
+			return vCrossLinkedWords.toArray(new String[vCrossLinkedWords.size()]);
+	}
+
+	/**
+	 * <p><b>Method</b> 	: getDSFRecord
+	 * <p><b>Purpose</b>	: Fetches DSFRecord corresponding to the given synset ID.
+	 * <p><b>@param synsetId
+	 * <p><b>@param language
+	 * <p><b>@return
+	 * <p><b>@throws MultilingualDictException</b>
+	 */
+	public DSFRecord getDSFRecord(String synsetId, Language language) 
+	throws MultilingualDictException {
+		DSFRecord record = null;
+		for(int i=0; i<POS.CATEGORIES.length && record == null; i++) {
+			record = getDSFRecord(synsetId, POS.CATEGORIES[i], language);
+		}
+		return record;
+	}
+	
+	/**
+	 * <p><b>Method</b> 	: getDSFRecord
+	 * <p><b>Purpose</b>	: Fetches DSFRecord corresponding to the given synset ID,
+	 * 						  language and POS.
+	 * <p><b>@param synsetId
+	 * <p><b>@param pos
+	 * <p><b>@param language
+	 * <p><b>@return
+	 * <p><b>@throws MultilingualDictException</b>
+	 */
+	public DSFRecord getDSFRecord(String synsetId, POS pos, Language language) 
+	throws MultilingualDictException {
+		SynsetRandomAccess synsetRandomAccess = synsetReaders.get(
+					language.toString() + "_" + pos.toString());
+		return synsetRandomAccess.getRecord(synsetId, keepLinkageInfo);
+	}
+
+	/**
+	 * <p><b>Method</b> 	: getDSFRecords
+	 * <p><b>Purpose</b>	: Fetches DSFRecords corresponding to the given lemma and 
+	 * 						  all POS categories.
+	 * <p><b>@param lemma
+	 * <p><b>@param language
+	 * <p><b>@return
+	 * <p><b>@throws MultilingualDictException</b>
+	 */
+	public DSFRecord[] getDSFRecords(String lemma, Language language) 
+	throws MultilingualDictException {
+		Vector<DSFRecord> vRecords = new Vector<DSFRecord>();
+		for(int i=0; i<POS.CATEGORIES.length; i++) {
+			DSFRecord[] records = getDSFRecords(lemma, POS.CATEGORIES[i], language);
+			if(records == null)
+				continue;
+			for(int j=0;j<records.length;j++) {
+				vRecords.add(records[j]);
+			}
+		}
+		return vRecords.toArray(new DSFRecord[vRecords.size()]);
+	}
+	
+	/**
+	 * <p><b>Method</b> 	: getDSFRecords
+	 * <p><b>Purpose</b>	: Fetches DSFRecords corresponding to the given lemma and POS.
+	 * <p><b>@param lemma
+	 * <p><b>@param pos
+	 * <p><b>@param language
+	 * <p><b>@return
+	 * <p><b>@throws MultilingualDictException</b>
+	 */
+	public DSFRecord[] getDSFRecords(String lemma, POS pos, Language language) 
+	throws MultilingualDictException {
+//System.out.println(pos);
+		WordIndexRandomAccess wordIndexRandomAccess = wordReaders.get(
+				language.toString() + "_" + pos.toString());
+		String[] ids = wordIndexRandomAccess.getRecordIds(lemma);
+for(String s1:ids){
+System.out.println(s1);
+}
+		if(ids == null || ids.length == 0)
+			return null;
+		DSFRecord[] records = new DSFRecord[ids.length];
+		SynsetRandomAccess synsetRandomAccess = synsetReaders.get(
+				language.toString() + "_" + pos.toString());
+		for(int i=0; i<ids.length; i++) {
+			records[i] = synsetRandomAccess.getRecord(ids[i], keepLinkageInfo);
+		}
+		return records;
+	}
+
+	/**
+	 * <p><b>Method</b> 	: close
+	 * <p><b>Purpose</b>	: Closes all the readers. 
+	 * <p><b></b>
+	 * @throws MultilingualDictException 
+	 */
+	public void close() throws MultilingualDictException {
+		for(int i=0; i<Language.ALL_LANGS.length; i++) {
+			for(int j=0; j<POS.CATEGORIES.length; j++) {
+				wordReaders.get(getKey(i, j)).close();
+				crossLinksReaders.get(getKey(i, j)).close();
+				synsetReaders.get(getKey(i, j)).close();
+			}
+		}
+	}
+
+	/**
+	 * <p><b>Method</b> 	: close
+	 * <p><b>Purpose</b>	: Closes all the readers. 
+	 * <p><b>@param sourceLanguage
+	 * <p><b>@param targetLanguage
+	 * <p><b>@throws MultilingualDictException</b>
+	 */
+	public void close(Language sourceLanguage, Language targetLanguage) throws MultilingualDictException {
+		for(int j=0; j<POS.CATEGORIES.length; j++) {
+			wordReaders.get(sourceLanguage + "_" + POS.CATEGORIES[j]).close();
+			wordReaders.get(targetLanguage + "_" + POS.CATEGORIES[j]).close();
+			
+			crossLinksReaders.get(sourceLanguage + "_" + POS.CATEGORIES[j]).close();
+			crossLinksReaders.get(targetLanguage + "_" + POS.CATEGORIES[j]).close();
+	
+			synsetReaders.get(sourceLanguage + "_" + POS.CATEGORIES[j]).close();
+			synsetReaders.get(targetLanguage + "_" + POS.CATEGORIES[j]).close();
+		}
+	}
+	/**
+	 * <p><b>Method</b> 	: getKey
+	 * <p><b>Purpose</b>	: Gets the key corresponding to the i-th language and j-th category. 
+	 * <p><b>@param i
+	 * <p><b>@param j
+	 * <p><b>@return</b>
+	 */
+	private String getKey(int i, int j) {
+		return Language.ALL_LANGS[i] + "_" + POS.CATEGORIES[j];
+	
+	}
+
+	/**
+	 * <p><b>Method</b> 	: getWordReader
+	 * <p><b>Purpose</b>	: Gets the Word Index Reader corresponding to the i-th language
+	 * 						  and j-th category.
+	 * <p><b>@param root
+	 * <p><b>@param i
+	 * <p><b>@param j
+	 * <p><b>@return</b>
+	 * @throws MultilingualDictException 
+	 */
+	private WordIndexRandomAccess getWordReader(String root, int i, int j) throws MultilingualDictException {
+		return 
+		new WordIndexRandomAccess(
+				root + File.separator + Language.ALL_LANGS[i].toString().toLowerCase() +
+				File.separator + GlobalConstants.WORD_INDEX_FILES[j],
+				"r");
+	}
+
+	/**
+	 * <p><b>Method</b> 	: getCrossLinksReader
+	 * <p><b>Purpose</b>	: Gets the Cross-Links Index Reader corresponding to the i-th language
+	 * 						  and j-th category.
+	 * <p><b>@param root
+	 * <p><b>@param i
+	 * <p><b>@param j
+	 * <p><b>@return</b>
+	 * @throws MultilingualDictException 
+	 */
+	private CrossLinksRandomAccess getCrossLinksReader(String root, int i, int j) throws MultilingualDictException {
+		return 
+		new CrossLinksRandomAccess(
+				root + File.separator + Language.ALL_LANGS[i].toString().toLowerCase() +
+				File.separator + GlobalConstants.CROSSLINK_INDEX_FILES[j],
+				"r");
+	}
+
+	/**
+	 * <p><b>Method</b> 	: getWordReader
+	 * <p><b>Purpose</b>	: Gets the Word Index Reader corresponding to the given language
+	 * 						  and j-th category.
+	 * <p><b>@param root
+	 * <p><b>@param language
+	 * <p><b>@param j
+	 * <p><b>@return
+	 * <p><b>@throws MultilingualDictException</b>
+	 */
+	private WordIndexRandomAccess getWordReader(String root, Language language, int j) throws MultilingualDictException {
+		return 
+		new WordIndexRandomAccess(
+				root + File.separator + language.toString().toLowerCase() +
+				File.separator + GlobalConstants.WORD_INDEX_FILES[j],
+				"r");
+	}
+
+	/**
+	 * <p><b>Method</b> 	: getCrossLinksReader
+	 * <p><b>Purpose</b>	: Gets the Cross-Links Index Reader corresponding to the given language
+	 * 						  and j-th category.
+	 * <p><b>@param root
+	 * <p><b>@param language
+	 * <p><b>@param j
+	 * <p><b>@return
+	 * <p><b>@throws MultilingualDictException</b>
+	 */
+	private CrossLinksRandomAccess getCrossLinksReader(String root, Language language, int j) throws MultilingualDictException {
+		return 
+		new CrossLinksRandomAccess(
+				root + File.separator + language.toString().toLowerCase() +
+				File.separator + GlobalConstants.CROSSLINK_INDEX_FILES[j],
+				"r");
+	}
+
+	/**
+	 * <p><b>Method</b> 	: getSynsetReader
+	 * <p><b>Purpose</b>	: Gets the Synset Index Reader corresponding to the i-th language
+	 * 						  and j-th category.
+	 * <p><b>@param root
+	 * <p><b>@param i
+	 * <p><b>@param j
+	 * <p><b>@return</b>
+	 * @throws MultilingualDictException 
+	 */
+	private SynsetRandomAccess getSynsetReader(String root, int i, int j) throws MultilingualDictException {
+		return 
+		new SynsetRandomAccess(
+				root + File.separator + Language.ALL_LANGS[i].toString().toLowerCase() +
+				File.separator + GlobalConstants.DATA_FILES[j],
+				"r");
+	}
+	
+	/**
+	 * <p><b>Method</b> 	: getSynsetReader
+	 * <p><b>Purpose</b>	: Gets the Synset Index Reader corresponding to the given language
+	 * 						  and j-th category.
+	 * <p><b>@param root
+	 * <p><b>@param language
+	 * <p><b>@param j
+	 * <p><b>@return
+	 * <p><b>@throws MultilingualDictException</b>
+	 */
+	private SynsetRandomAccess getSynsetReader(String root, Language language , int j) throws MultilingualDictException {
+		return 
+		new SynsetRandomAccess(
+				root + File.separator + language.toString().toLowerCase() +
+				File.separator + GlobalConstants.DATA_FILES[j],
+				"r");
+	}
+}

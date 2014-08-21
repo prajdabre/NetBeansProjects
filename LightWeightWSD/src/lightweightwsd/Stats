@@ -1,0 +1,52 @@
+First change could be the change in clue set being provided to the system, lets provide clues with High PMI / DICE
+
+Secondly, clues should be weighed, let us say overlap clues are give more weightage, some weightage formulation should be done
+
+Also, an immediate thing to be done is to retain the POS in the gold corpus, not to check for other POS senses.
+
+
+----------------------------------
+
+Word synonyms are not being tagged
+
+Line number: 14: भूमि#भूमि#n#w13#0 and actual tag is 290
+Line number: 1: खामी#खामी#n#w5#0 and actual tag is 2377
+
+----------------------------------------------
+
+Use of Wfs could be looked at, since basic words like |||साल||| with only 4 senses are not being tagged wrong
+Line number: 1: साल#साल#n#w23#27018 and actual tag is 7954
+Line number: 1: मार्च#मार्च#n#w26#12377 and actual tag is 10823
+atleast these could be tagged successfully by us, leading to increase in accuracy upto 60+ I sense.
+
+--------------------------------------------
+
+Line number: 19: शामिल#शामिल#a#w19#0 and actual tag is 10810 is monosemous, no other sense are there. I think we
+should also follow IWSD a bit in this regards, lets just tag the monosemous and polysemous words in order.
+For that we should also have a list of wordnet words and their occurence, as in शामिल with only 1 sense
+
+reading the corpus and creating a hashmap might work, but sounds inefficient to me at this point of time, since
+for every word, searching for its no. of senses is gonna take time. But it will give us an idea of the related 
+words, remember we used to talk about a graph like structure which disambiguates. Lets rethink that strategy 
+again.
+
+-----------------------------------
+
+Line number: 13: यह#यह#a#w1#0 and actual tag is 3944  -  wtf!?
+
+------------------------------------
+
+Line number: 21: रोशनियों#रोशनी#n#w38#0 and actual tag is 2037 monosemous
+
+-------------------
+
+Line number: 23: भी#भी#r#w22#28181 and actual tag is 28094 is bisemous. - working on it, adverb separation.
+
+-------------------
+
+
+
+
+
+
+

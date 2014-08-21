@@ -1,0 +1,2373 @@
+<Sentence id="1">			
+1	((	SSF	
+1.1	((	NP	<fs af='तू,pn,f,pl,2,o, का,च्या' vpos='vib1'  head='तुमच्या'  drel='k1:6'  name='1'  genfeature='(चा,gen,f,pl,,d,)(चा,gen,,,,o,)'>
+1.1.1	तुम्हारे	PRP	<fs af='तू,pn,m,pl,2,o,का,च्या' name='तुमच्या'  genfeature='(चा,gen,f,pl,,d,)(चा,gen,,,,o,)'>
+	))		
+1.2	((	NP	<fs af='भाई,n,m,sg,,o, ने,ने' vpos='vib1'  head='भावाने'  name='2'>
+1.2.1	भाई	NN	<fs af='भाई,n,m,sg,3,o,,ने' name='भावाने'  synsetid='81'>
+1.2.2	ने	PSP	<fs af='ने,psp,m,sg,3,,,'>
+	))		
+1.3	((	NP	<fs af='अनंगी,n,m,sg,,d,,' head='काम'  drel='k2:6'  name='3'>
+1.3.1	यह	DEM	<fs af='यह,pn,m,sg,3,d,,'>
+1.3.2	काम	NN	<fs af='काम,n,m,sg,3,d,,' name='काम'  synsetid='183'>
+	))		
+1.4	((	VGNN	<fs af='करना,v,n,sg,,o,ने के लिए,ण्या स' head='करण्यास'  kridanta type='ne'  name='4'  kridanta cm='ण्या#स'>
+1.4.1	करने	VM	<fs af='कर,v,n,sg,3,o,ने,ण्या स' kridanta type='ne'  name='करण्यास'  kridanta cm='ण्या#स'>
+1.4.2	के	VAUX	<fs af='के,v,n,sg,3,,,'>
+1.4.3	लिए	VAUX	<fs af='लिए,v,m,sg,3,,,'>
+	))		
+1.5	((	JJP	<fs af='प्रवृत्त,adj,f,pl,,o,,' head='प्रवृत्त'  name='5'>
+1.5.1	प्रवृत्त	JJ	<fs af='प्रवृत्त,adj,m,sg,3,,,' name='प्रवृत्त'>
+	))		
+1.6	((	VGF	<fs af='करना,v,m,sg,,d,या,ले' head='केले'  kridanta type='la'  aspect='perf'  name='6'  kridanta cm='ले'>
+1.6.1	किया	VM	<fs af='कर,v,n,sg,3,d,या,ले' kridanta type='la'  aspect='perf'  name='केले'  kridanta cm='ले'>
+1.6.2	।	SYM	<fs af='।,pun,m,sg,3,,,' poslcat='NM'>
+	))		
+	))		
+</Sentence>			
+<Sentence id="1">			
+1	((	SSF	
+1.1	((	NP	<fs af='वह,pn,m,sg,3,o, ने,ने ' vpos='vib1'  head='त्याने'  drel='k1:5'  name='1'>
+1.1.1	उसने	PRP	<fs af='वह,pn,m,sg,3,o,ने,ने ' name='त्याने'>
+	))		
+1.2	((	NP	<fs af='मैं,pn,m,sg,1,o, को,ला ' vpos='vib1'  head='मला'  name='2'>
+1.2.1	मुझे	PRP	<fs af='मैं,pn,m,sg,1,o,को,ला ' name='मला'>
+	))		
+1.3	((	VGNF	<fs af='बचना,v,,,,,ने के लिए,ायला' head='वाचायला'  name='3'>
+1.3.1	बचने	VM	<fs af='बच,v,m,sg,3,,ने,ायला' name='वाचायला'>
+1.3.2	के	VAUX	<fs af='के,v,m,sg,3,,,'>
+1.3.3	लिए	VAUX	<fs af='लिए,v,m,sg,3,,,'>
+	))		
+1.4	((	NP	<fs af='पुस्तक,n,f,sg,,d,,' head='पुस्तक'  drel='k2:5'  name='4'>
+1.4.1	एक	QC	<fs af='एक,adj,f,sg,3,d,,' enamex type='count'  synsetid='187'  subtype 1='individual'>
+1.4.2	पुस्तक	NN	<fs af='पुस्तक,n,f,sg,3,d,,' name='पुस्तक'  synsetid='4352'>
+	))		
+1.5	((	VGF	<fs af='देना,v,f,sg,,d,या,ले' head='दिले'  kridanta type='la'  aspect='perf'  name='5'  kridanta cm='ले'>
+1.5.1	दिया	VM	<fs af='दे,v,n,sg,3,d,या,ले' kridanta type='la'  aspect='perf'  name='दिले'  kridanta cm='ले'>
+1.5.2	।	SYM	<fs af='।,pun,m,sg,3,,,' poslcat='NM'>
+	))		
+	))		
+</Sentence>			
+<Sentence id="1">			
+1	((	SSF	
+1.1	((	NP	<fs af='ब्राह्मण,n,m,sg,,d,,' head='ब्राह्मण'  drel='k1:2'  name='1'>
+1.1.1	दशग्रंथी	JJ	<fs af='दशग्रंथी,adj,m,sg,3,d,,' synsetid='38163'>
+1.1.2	ब्राह्मण	NN	<fs af='ब्राह्मण,n,m,sg,3,d,,' name='ब्राह्मण'>
+1.1.3	किन	QW	<fs af='किन,pn,m,sg,3,d, को,स' poslcat='NM'>
+	))		
+1.2	((	VGF	<fs af='बोलना,v,n,sg,,d,ना चाहिये,ावे' head='म्हणावे'  kridanta type='va'  name='2'  mood='subj'  kridanta cm='ावे'>
+1.2.1	बोलना	VM	<fs af='बोल,v,n,sg,3,d,ना,ावे' kridanta type='va'  name='म्हणावे'  mood='subj'  kridanta cm='ावे'>
+1.2.2	चाहिये	VAUX	<fs af='चाहिये,v,m,sg,3,,,'>
+1.2.3	?	SYM	<fs af='?,pun,m,sg,3,,,' poslcat='NM'>
+	))		
+	))		
+</Sentence>			
+<Sentence id="1">			
+1	((	SSF	
+1.1	((	NP	<fs af='घंटा,n,m,pl,,o, के पीछे,पलीकडे' vpos='vib2'  head='तासांपलीकडे'  drel='k1:3'  name='1'>
+1.1.1	दो	QC	<fs af='दो,cardinal,m,pl,3,o,,' enamex type='time'  subtype 1='noti'  poslcat='NM'>
+1.1.2	घंटों	NN	<fs af='घंटा,n,m,pl,3,o,,पलीकडे' enamex type='time'  name='तासांपलीकडे'  synsetid='514'  subtype 1='noti'>
+1.1.3	के	PSP	<fs af='के,psp,m,pl,3,,,'>
+1.1.4	पीछे	PSP	<fs af='पीछे,psp,m,pl,3,,,'>
+	))		
+1.2	((	NP	<fs af='मैं,pn,m,sg,1,d,,' head='मी'  drel='k2:3'  name='2'>
+1.2.1	मैं	PRP	<fs af='मैं,pn,m,sg,1,d,,' name='मी'>
+	))		
+1.3	((	VGF	<fs af='रुक जाना,v,,,1,o,गा नहीं,णार' head='थांबणार'  vpos='tam1 2'  kridanta type='2:'  aspect='prosp s'  tense=' pre'  mood=' in'  kridanta cm='2:'>
+1.3.1	रुक जाएगा	VM	<fs af='रुक जा,v,m,sg,3,o,गा,णार' kridanta type='nar'  aspect='prosp'  name='थांबणार'  kridanta cm='णार'>
+1.3.2	नहीं	VAUX	<fs af='नहीं,v,m,sg,1,,,'>
+1.3.3	।	SYM	<fs af='।,pun,m,sg,3,,,' poslcat='NM'>
+	))		
+	))		
+</Sentence>			
+<Sentence id="1">			
+1	((	SSF	
+1.1	((	NP	<fs af='खाना,n,m,sg,,o, का,चे' vpos='vib1'  head='खाण्याचे'  drel='k1:4'  name='1'  genfeature='(चा,gen,m,pl,,d,)(चा,gen,n,sg,,d,)'>
+1.1.1	खाने	NN	<fs af='खाना,n,m,sg,3,o,,चे' name='खाण्याचे'  genfeature='(चा,gen,m,pl,,d,)(चा,gen,n,sg,,d,)'  synsetid='7467'>
+1.1.2	के	PSP	<fs af='का,psp,m,sg,3,,,'>
+	))		
+1.2	((	NP	<fs af='तथापि,conj,m,,,,,' head='तरी'  name='2'>
+1.2.1	तथापि	RP	<fs af='तथापि,conj,m,sg,3,,,' name='तरी'>
+	))		
+1.3	((	NP	<fs af='फ़ज़ीअत,n,m,sg,,d,,' head='हाल'  drel='k2:4'  name='3'>
+1.3.1	फ़ज़ीअत	NN	<fs af='फ़ज़ीअत,n,m,sg,3,d,,' name='हाल'>
+	))		
+1.4	((	VGF	<fs af='करना,v,,pl,1,,ना नहीं+ते थे,ू' head='करू'  vpos='tam1 2'  kridanta type='2:'  kridanta cm='2:'>
+1.4.1	करने	VM	<fs af='कर,v,m,pl,1,,ना,ू' name='करू'  tense='fut'  mood='in'>
+1.4.2	नहींते	VAUX	<fs af='नहीं,v,m,sg,3,,ते,'>
+1.4.3	थे	VAUX	<fs af='थे,v,m,pl,1,,,'>
+1.4.4	।	SYM	<fs af='।,pun,m,sg,3,,,' poslcat='NM'>
+	))		
+	))		
+</Sentence>			
+<Sentence id="1">			
+1	((	SSF	
+1.1	((	NP	<fs af='अनंगी,n,m,sg,,o, के निमित्त,निमित्त' vpos='vib1'  head='कामानिमित्त'  drel='k1:4'  name='1'>
+1.1.1	काम	NN	<fs af='काम,n,m,sg,3,o,,निमित्त' name='कामानिमित्त'  synsetid='183'>
+1.1.2	के	PSP	<fs af='के,psp,m,sg,3,,,'>
+1.1.3	निमित्त	PSP	<fs af='निमित्त,psp,m,sg,3,,,'>
+	))		
+1.2	((	NP	<fs af='पिता,n,m,sg,,d,,' head='बाबा'  drel='k2:4'  name='2'>
+1.2.1	पिता	NN	<fs af='पिता,n,m,sg,3,d,,' name='बाबा'>
+	))		
+1.3	((	NP	<fs af='बाहर गाँव,n,m,sg,,o, में,ई ' vpos='vib1'  head='बाहेरगावी'  name='3'>
+1.3.1	बाहर गाँव	NN	<fs af='बाहर गाँव,n,m,sg,3,o,,ई ' name='बाहेरगावी'  synsetid='3518'>
+1.3.2	में	PSP	<fs af='में,psp,m,sg,3,,,'>
+	))		
+1.4	((	VGF	<fs af='कटना,v,f,sg,1,,या है,ले' head='गेले'  vpos='tam1 2'  kridanta type='2:'  aspect='perf s'  tense=' pas'  mood='in in'  kridanta cm='2:'>
+1.4.1	कटी	VM	<fs af='कट,v,f,sg,1,,या,ले' name='गेले'  aspect='perf'  mood='in'>
+1.4.2	है	VAUX	<fs af='है,v,m,sg,1,,,'>
+1.4.3	।	SYM	<fs af='।,pun,m,sg,3,,,' poslcat='NM'>
+	))		
+	))		
+</Sentence>			
+<Sentence id="1">			
+1	((	SSF	
+1.1	((	NP	<fs af='रास्ता,n,m,sg,,o, का,च्या' vpos='vib2'  head='रस्त्याच्या'  drel='k1:4'  name='1'  genfeature='(चा,gen,f,pl,,d,)(चा,gen,,,,o,)'>
+1.1.1	इस	DEM	<fs af='यह,pn,m,sg,3,o,,'>
+1.1.2	रास्ते	NN	<fs af='रास्ता,n,m,sg,3,o,,च्या' name='रस्त्याच्या'  genfeature='(चा,gen,f,pl,,d,)(चा,gen,,,,o,)'  synsetid='5828'>
+1.1.3	के	PSP	<fs af='का,psp,m,sg,3,,,'>
+	))		
+1.2	((	NP	<fs af='पार,nst,m,,,,से,ून' vpos='vib1'  head='पलीकडून'  name='2'>
+1.2.1	पार से	NST	<fs af='पार,nst,m,sg,3,,से,ून' name='पलीकडून'>
+	))		
+1.3	((	NP	<fs af='वह,pn,m,sg,3,d,,' head='तो'  drel='k2:4'  name='3'>
+1.3.1	वह	PRP	<fs af='वह,pn,m,sg,3,d,,' name='तो'>
+	))		
+1.4	((	VGF	<fs af='आना,v,m,sg,3,,या,ला' head='आला'  aspect='perf'  name='4'  mood='in'>
+1.4.1	आया	VM	<fs af='आ,v,m,sg,3,,या,ला' name='आला'  aspect='perf'  mood='in'>
+1.4.2	।	SYM	<fs af='।,pun,m,sg,3,,,' poslcat='NM'>
+	))		
+	))		
+</Sentence>			
+<Sentence id="1">			
+1	((	SSF	
+1.1	((	NP	<fs af='वह,pn,m,sg,3,o, का  के ज़रिए,च्या मार्फत' vpos='vib1'  head='तिच्यामार्फत'  drel='k1:4'  name='1'  genfeature='(चा,gen,f,pl,,d,)(चा,gen,,,,o,)'>
+1.1.1	उसकी	PRP	<fs af='वह,pn,f,sg,3,o,का,च्या मार्फत' name='तिच्यामार्फत'  genfeature='(चा,gen,f,pl,,d,)(चा,gen,,,,o,)'>
+1.1.2		PSP	<fs af=',psp,m,sg,3,,,'>
+1.1.3	के	PSP	<fs af='के,psp,m,sg,3,,,'>
+1.1.4	ज़रिए	PSP	<fs af='ज़रिए,psp,m,sg,3,,,'>
+	))		
+1.2	((	NP	<fs af='मैं,pn,m,sg,1,d,,' head='मी'  drel='k2:4'  name='2'>
+1.2.1	मैं	PRP	<fs af='मैं,pn,m,sg,1,d,,' name='मी'>
+	))		
+1.3	((	NP	<fs af='संदेश,n,m,sg,,d,,' head='निरोप'  name='3'>
+1.3.1	संदेश	NN	<fs af='संदेश,n,m,sg,3,d,,' name='निरोप'  synsetid='147'>
+	))		
+1.4	((	VGF	<fs af='भिजवाना,v,m,sg,1,d,या,ला' head='पाठवला'  kridanta type='la'  aspect='perf'  name='4'  kridanta cm='ला'>
+1.4.1	भिजवाया	VM	<fs af='भिजवा,v,m,sg,3,d,या,ला' kridanta type='la'  aspect='perf'  name='पाठवला'  kridanta cm='ला'>
+1.4.2	।	SYM	<fs af='।,pun,m,sg,3,,,' poslcat='NM'>
+	))		
+	))		
+</Sentence>			
+<Sentence id="1">			
+1	((	SSF	
+1.1	((	NP	<fs af='वह,pn,m,pl,3,o, ने,नी ' vpos='vib1'  head='त्यांनी'  drel='k1:4'  name='1'>
+1.1.1	उन्होंने	PRP	<fs af='वह,pn,f,pl,3,o,ने,नी ' name='त्यांनी'>
+	))		
+1.2	((	NP	<fs af='पांडव,n,m,pl,,o, के खिलाफ,विरुद्ध' vpos='vib1'  head='पांडवांविरुद्ध'  name='2'>
+1.2.1	पांडवों	NN	<fs af='पांडव,n,m,pl,3,o,,विरुद्ध' name='पांडवांविरुद्ध'  synsetid='195'>
+1.2.2	के	PSP	<fs af='के,psp,m,pl,3,,,'>
+1.2.3	खिलाफ	PSP	<fs af='खिलाफ,psp,m,pl,3,,,'>
+	))		
+1.3	((	NP	<fs af='साज़िश,n,m,sg,,d,,' head='कारस्थान'  drel='k2:4'  name='3'>
+1.3.1	साज़िश	NN	<fs af='साज़िश,n,m,sg,3,d,,' name='कारस्थान'>
+	))		
+1.4	((	VGF	<fs af='रचना,v,m,sg,,,या,ले' head='रचले'  aspect='perf'  name='4'  mood='in'>
+1.4.1	रचा	VM	<fs af='रच,v,n,sg,3,,या,ले' name='रचले'  aspect='perf'  mood='in'>
+1.4.2	।	SYM	<fs af='।,pun,m,sg,3,,,' poslcat='NM'>
+	))		
+	))		
+</Sentence>			
+<Sentence id="1">			
+1	((	SSF	
+1.1	((	NP	<fs af='तू,pn,f,sg,2,o, का  सिवा,झ्या व्यतिरिक्त' vpos='vib1'  head='तुझ्याव्यतिरिक्त'  drel='k1:4'  name='1'  genfeature='(झा,gen,f,pl,,d,)(झा,gen,,,,o,)'>
+1.1.1	तेरे	PRP	<fs af='तू,pn,m,sg,2,o,का,झ्या व्यतिरिक्त' name='तुझ्याव्यतिरिक्त'  genfeature='(झा,gen,f,pl,,d,)(झा,gen,,,,o,)'>
+1.1.2		PSP	<fs af=',psp,m,sg,3,,,'>
+1.1.3	सिवा	PSP	<fs af='सिवा,psp,m,sg,3,,,'>
+	))		
+1.2	((	NP	<fs af='मैं,pn,m,sg,1,d,,' head='मी'  drel='k2:4'  name='2'>
+1.2.1	मैं	PRP	<fs af='मैं,pn,m,sg,1,d,,' name='मी'>
+	))		
+1.3	((	NP	<fs af='किन,pn,m,sg,,o, को,ला' vpos='vib1'  head='कोणाला'  name='3'  genfeature='(ला,gen,m,sg,,d,)'>
+1.3.1	किन को	PRP	<fs af='किन,pn,m,sg,3,o,को,ला' name='कोणाला'  genfeature='(ला,gen,m,sg,,d,)'>
+	))		
+1.4	((	VGF	<fs af='पहचानना,v,,,1,, नहीं रहा है,त' head='ओळखत'  vpos='tam1 2'  kridanta type='2:'  aspect=' s'  tense=' pre'  mood=' in'  kridanta cm='2:'>
+1.4.1	पहचान	VM	<fs af='पहचान,v,m,sg,3,,,त' kridanta type='t'  name='ओळखत'  kridanta cm='त'>
+1.4.2	नहीं	VAUX	<fs af='नहीं,v,m,sg,3,,,'>
+1.4.3	रहा	VAUX	<fs af='रहा,v,m,sg,3,,,'>
+1.4.4	है	VAUX	<fs af='है,v,m,sg,1,,,'>
+1.4.5	।	SYM	<fs af='।,pun,m,sg,3,,,' poslcat='NM'>
+	))		
+	))		
+</Sentence>			
+<Sentence id="1">			
+1	((	SSF	
+1.1	((	NP	<fs af='चोर,n,m,sg,,o, का,च्या' vpos='vib1'  head='चोराच्या'  drel='k1:4'  name='1'  genfeature='(चा,gen,f,pl,,d,)(चा,gen,,,,o,)'>
+1.1.1	चोर	NN	<fs af='चोर,n,m,sg,3,o,,च्या' name='चोराच्या'  genfeature='(चा,gen,f,pl,,d,)(चा,gen,,,,o,)'  synsetid='5294'>
+1.1.2	के	PSP	<fs af='का,psp,m,sg,3,,,'>
+	))		
+1.2	((	NP	<fs af='भुजा,n,f,sg,,o, में,ई ' vpos='vib1'  head='हाती'  drel='k2:4'  name='2'>
+1.2.1	भुजा	NN	<fs af='भुजा,n,f,sg,3,o,,ई ' name='हाती'  synsetid='491'>
+1.2.2	में	PSP	<fs af='में,psp,f,sg,3,,,'>
+	))		
+1.3	((	NP	<fs af='कुछ,adj,m,,,,,' head='काही'  name='3'>
+1.3.1	कुछ	QF	<fs af='कुछ,adj,m,sg,3,,,' name='काही'  synsetid='13148'>
+	))		
+1.4	((	VGF	<fs af='खर्च होना,v,f,sg,1,,या नहीं है,ले' head='लागले'  vpos='tam1 2'  kridanta type='2:'  aspect='perf s'  tense=' pre'  mood='in in'  kridanta cm='2:'>
+1.4.1	खर्च हुई	VM	<fs af='खर्च हो,v,f,sg,1,,या,ले' name='लागले'  aspect='perf'  mood='in'>
+1.4.2	नहीं	VAUX	<fs af='नहीं,v,f,sg,3,,,'>
+1.4.3	है	VAUX	<fs af='है,v,m,sg,1,,,'>
+1.4.4	।	SYM	<fs af='।,pun,m,sg,3,,,' poslcat='NM'>
+	))		
+	))		
+</Sentence>			
+<Sentence id="1">			
+1	((	SSF	
+1.1	((	NP	<fs af='सिपाही,n,m,pl,,o, का,च्या' vpos='vib1'  head='पोलिसांच्या'  drel='k1:4'  name='1'  genfeature='(चा,gen,f,pl,,d,)(चा,gen,,,,o,)'>
+1.1.1	सिपाहियों	NN	<fs af='सिपाही,n,m,pl,3,o,,च्या' name='पोलिसांच्या'  genfeature='(चा,gen,f,pl,,d,)(चा,gen,,,,o,)'  synsetid='18'>
+1.1.2	के	PSP	<fs af='का,psp,m,pl,3,,,'>
+	))		
+1.2	((	NP	<fs af='भुजा,n,f,sg,,o,से,ऊन ' vpos='vib1'  head='हातून'  name='2'>
+1.2.1	भुजा से	NN	<fs af='भुजा,n,f,sg,3,o,से,ऊन ' name='हातून'  synsetid='491'>
+	))		
+1.3	((	NP	<fs af='चोर,n,m,sg,,d,,' head='चोर'  drel='k2:4'  name='3'>
+1.3.1	चोर	NN	<fs af='चोर,n,m,sg,3,d,,' name='चोर'  synsetid='5294'>
+	))		
+1.4	((	VGF	<fs af='छूटना,v,m,sg,,d,या,ला' head='निसटला'  kridanta type='la'  aspect='perf'  name='4'  kridanta cm='ला'>
+1.4.1	छूटा	VM	<fs af='छूट,v,m,sg,3,d,या,ला' kridanta type='la'  aspect='perf'  name='निसटला'  kridanta cm='ला'>
+1.4.2	।	SYM	<fs af='।,pun,m,sg,3,,,' poslcat='NM'>
+	))		
+	))		
+</Sentence>			
+<Sentence id="1">			
+1	((	SSF	
+1.1	((	NP	<fs af='वह,pn,m,sg,3,d,,' head='तो'  drel='k1:2'  name='1'>
+1.1.1	वह	PRP	<fs af='वह,pn,m,sg,3,d,,' name='तो'>
+	))		
+1.2	((	VGF	<fs af='सीखना,v,,pl,1,,एंगे ca शक+गा नहीं,ू च' head='शिकूच'  vpos='tam1 2 3'  kridanta type='2:nar 3:nar'  aspect=' s'  tense='fut pre'  mood='in in'  kridanta cm='2:णार 3:णार'>
+1.2.1	सीखएंगे	VM	<fs af='सीख,v,m,pl,1,,एंगे,ू च' name='शिकूच'  tense='fut'  mood='in'>
+1.2.2	च	VAUX	<fs af='च,v,m,sg,3,,,'>
+1.2.3	शकेगा	VAUX	<fs af='शक,v,m,sg,3,,गा,'>
+1.2.4	नहीं	VAUX	<fs af='नहीं,v,m,pl,1,,,'>
+	))		
+1.3	((	CCP	<fs af='जर,conj,,,,,,' head='जर'  name='3'>
+1.3.1	जर	CC	<fs af='जर,conj,m,sg,3,,,' name='जर'>
+	))		
+1.4	((	NP	<fs af='वह,pn,m,sg,3,o, ने,ने ' vpos='vib1'  head='त्याने'  drel='k1:5'  name='4'>
+1.4.1	उसने	PRP	<fs af='वह,pn,m,sg,3,o,ने,ने ' name='त्याने'>
+	))		
+1.5	((	VGF	<fs af='सुनना,v,n,sg,1,,या ही नही,ले च' head='ऐकलेच'  vpos='tam1 2'  kridanta type='2:nar 3:nar 2:nar'  aspect='perf s'  tense=' pre'  mood='in in'  kridanta cm='2:णार 3:णार 2:णार'>
+1.5.1	सुना	VM	<fs af='सुन,v,n,sg,3,,या,ले च' name='ऐकलेच'  aspect='perf'  mood='in'>
+1.5.2	ही	VAUX	<fs af='ही,v,n,sg,3,,,'>
+1.5.3	नही	VAUX	<fs af='नही,v,m,sg,1,,,'>
+1.5.4	।	SYM	<fs af='।,pun,m,sg,3,,,' poslcat='NM'>
+	))		
+	))		
+</Sentence>			
+<Sentence id="1">			
+1	((	SSF	
+1.1	((	NP	<fs af='बिजली,n,f,pl,,d,,' head='विजा'  drel='k1:2'  name='1'>
+1.1.1	बिजली	NN	<fs af='बिजली,n,f,pl,3,d,,' name='विजा'  synsetid='7275'>
+	))		
+1.2	((	VGF	<fs af='चमकना,v,,pl,1,,ने लग+या,ू' head='चमकू'  vpos='tam1 2'  kridanta type='2:la'  kridanta cm='2:ल्या'>
+1.2.1	चमकने	VM	<fs af='चमक,v,m,pl,1,,ने,ू' name='चमकू'  tense='fut'  mood='in'>
+1.2.2	लगे	VAUX	<fs af='लग,v,m,pl,1,,या,'>
+	))		
+1.3	((	CCP	<fs af='और,conj,,,,,,' head='आणि'  name='3'>
+1.3.1	और	CC	<fs af='और,conj,m,sg,3,,,' name='आणि'>
+	))		
+1.4	((	NP	<fs af='बारिश,n,f,sg,,d,,' head='पाऊस'  drel='k1:5'  name='4'>
+1.4.1	बारिश	NN	<fs af='बारिश,n,f,sg,3,d,,' name='पाऊस'  synsetid='689'>
+	))		
+1.5	((	VGF	<fs af='गिरना,v,,sg,1,,ने लग+या,ू' head='पडू'  vpos='tam1 2'  kridanta type='2:la 2:la'  kridanta cm='2:ल्या 2:ला'>
+1.5.1	गिरने	VM	<fs af='गिर,v,m,pl,1,,ने,ू' name='पडू'  tense='fut'  mood='in'>
+1.5.2	लगा	VAUX	<fs af='लग,v,m,sg,1,,या,'>
+1.5.3	।	SYM	<fs af='।,pun,m,sg,3,,,' poslcat='NM'>
+	))		
+	))		
+</Sentence>			
+<Sentence id="1">			
+1	((	SSF	
+1.1	((	NP	<fs af='वह,pn,m,sg,3,d,,' head='ती 3'  drel='k1:2'  name='1'>
+1.1.1	वह	PRP	<fs af='वह,pn,f,sg,3,d,,' name='ती 3'>
+	))		
+1.2	((	VGF	<fs af='अभिव्यक्त करना,v,,sg,3,, रहा है,त' head='सांगत'  vpos='tam1 2'  kridanta type='2:'  aspect=' s'  tense=' pas'  mood=' in'  kridanta cm='2:'>
+1.2.1	अभिव्यक्त कर	VM	<fs af='अभिव्यक्त कर,v,m,sg,3,,,त' kridanta type='t'  name='सांगत'  kridanta cm='त'>
+1.2.2	रहा	VAUX	<fs af='रहा,v,m,sg,3,,,'>
+1.2.3	है	VAUX	<fs af='है,v,m,sg,3,,,'>
+	))		
+1.3	((	CCP	<fs af='कि,conj,,,,,,' head='की'  name='3'>
+1.3.1	कि	CC	<fs af='कि,conj,m,sg,3,,,' name='की'>
+	))		
+1.4	((	NP	<fs af='वह,pn,m,sg,3,d,,' head='ती 2'  drel='k1:6'  name='4'>
+1.4.1	वह	PRP	<fs af='वह,pn,f,sg,3,d,,' name='ती 2'>
+	))		
+1.5	((	NP	<fs af='वर्ष,n,m,sg,,o, का,ची' vpos='vib2'  head='वर्षाची 2'  drel='k2:6'  name='5'  genfeature='(चा,gen,f,sg,,d,)(चा,gen,n,pl,,d,)'>
+1.5.1	16	QC	<fs af='16,num,m,sg,3,o,,' enamex type='time'  subtype 1='individual'>
+1.5.2	वर्ष	NN	<fs af='वर्ष,n,m,sg,3,o,,ची' name='वर्षाची 2'  genfeature='(चा,gen,f,sg,,d,)(चा,gen,n,pl,,d,)'  synsetid='7954'>
+1.5.3	के	PSP	<fs af='का,psp,m,sg,3,,,'>
+	))		
+1.6	((	VGF	<fs af='होना,v,m,sg,,,,' head='आहे 2'  aspect='s'  name='6'  tense='pre'  mood='in'>
+1.6.1	हो	VM	<fs af='हो,v,m,sg,1,,,' name='आहे 2'  aspect='s'  tense='pre'  mood='in'>
+	))		
+1.7	((	CCP	<fs af='लेकिन,conj,,,,,,' head='पण'  name='7'>
+1.7.1	लेकिन	CC	<fs af='लेकिन,conj,m,sg,3,,,' name='पण'>
+	))		
+1.8	((	JJP	<fs af='प्रत्यक्ष,n,m,sg,,d, में,त' head='प्रत्यक्षात'  name='8'  poslcat='NM'>
+1.8.1	प्रत्यक्ष	JJ	<fs af='प्रत्यक्ष,n,n,sg,3,o,,त' name='प्रत्यक्षात'  poslcat='NM'>
+1.8.2	में	PSP	<fs af='में,psp,m,sg,3,,,'>
+	))		
+1.9	((	NP	<fs af='वह,pn,f,sg,3,d,,' head='ती'  drel='k1:11'  name='9'>
+1.9.1	वह	PRP	<fs af='वह,pn,f,sg,3,d,,' name='ती'>
+	))		
+1.1	((	NP	<fs af='वर्ष,n,n,sg,,o, का,ची' head='वर्षाची'  vpos='vib2'  drel='k2:11'  name='1'  genfeature='(चा,gen,f,sg,,d,)(चा,gen,n,pl,,d,)'>
+1.1.1	18	QC	<fs af='18,num,n,sg,3,o,,' enamex type='time'  subtype 1='noti'>
+1.1.2	वर्ष	NN	<fs af='वर्ष,n,n,sg,3,o,,ची' name='वर्षाची'  enamex type='time'  genfeature='(चा,gen,f,sg,,d,)(चा,gen,n,pl,,d,)'  subtype 1='noti'  synsetid='7954'>
+1.1.3	के	PSP	<fs af='का,psp,n,sg,3,,,'>
+	))		
+1.11	((	VGF	<fs af='होना,v,n,sg,,,,' head='आहे'  aspect='s'  name='11'  tense='pre'  mood='in'>
+1.11.1	हो	VM	<fs af='हो,v,m,sg,1,,,' name='आहे'  aspect='s'  tense='pre'  mood='in'>
+1.11.2	।	SYM	<fs af='।,pun,m,sg,3,,,' poslcat='NM'>
+	))		
+	))		
+</Sentence>			
+<Sentence id="1">			
+1	((	SSF	
+1.1	((	NP	<fs af='कल,adv,f,,,,,' head='उद्या'  name='1'  poslcat='NM'>
+1.1.1	कल	NN	<fs af='कल,adv,f,sg,3,,,' name='उद्या'  synsetid='2228'  poslcat='NM'>
+	))		
+1.2	((	NP	<fs af='रमेश,n,m,sg,,d,,' head='रमेश'  drel='k1:5'  name='2'>
+1.2.1	रमेश	NN	<fs af='रमेश,n,m,sg,3,d,,' name='रमेश'>
+	))		
+1.3	((	CCP	<fs af='या,conj,,,,,,' head='अथवा'  name='3'>
+1.3.1	या	CC	<fs af='या,conj,m,sg,3,,,' name='अथवा'>
+	))		
+1.4	((	NP	<fs af='पुस्तक,n,f,sg,,d,,' head='पुस्तक'  drel='k2:5'  name='4'>
+1.4.1	श्री राम	NN	<fs af='श्री राम,n,m,sg,3,d,,' synsetid='181'>
+1.4.2	पुस्तक	NN	<fs af='पुस्तक,n,f,sg,3,d,,' name='पुस्तक'  synsetid='4352'>
+	))		
+1.5	((	VGF	<fs af='लेना,v,,sg,3,,यला ये+गा,यला' head='घ्यायला'  vpos='tam1 2'  kridanta type='2:'  kridanta cm='2:'>
+1.5.1	लेयला	VM	<fs af='ले,v,m,sg,3,,यला,यला' name='घ्यायला'>
+1.5.2	ये+gA	VAUX	<fs af='ये,v,m,sg,3,,गा,'>
+1.5.3	।	SYM	<fs af='।,pun,m,sg,3,,,' poslcat='NM'>
+	))		
+	))		
+</Sentence>			
+<Sentence id="1">			
+1	((	SSF	
+1.1	((	NP	<fs af='वह,pn,m,sg,3,d,,' head='ती'  drel='k1:2'  name='1'>
+1.1.1	वह	PRP	<fs af='वह,pn,f,sg,3,d,,' name='ती'>
+	))		
+1.2	((	VGF	<fs af='आना,v,,sg,3,,वो,वो' head='येवो 2'  name='2'  mood='imp'>
+1.2.1	आवो	VM	<fs af='आ,v,m,sg,3,,वो,वो' name='येवो 2'  mood='imp'>
+	))		
+1.3	((	CCP	<fs af='वाह,inj,,,,,,' head='वा'  name='3'  poslcat='NM'>
+1.3.1	वाह	CC	<fs af='वाह,inj,m,sg,3,,,' name='वा'  poslcat='NM'>
+	))		
+1.4	((	NEGP	<fs af='न,conj,,,,,,' head='न'  name='4'  poslcat='NM'>
+1.4.1	न	NEG	<fs af='न,conj,m,sg,3,,,' name='न'  poslcat='NM'>
+	))		
+1.5	((	VGF	<fs af='आना,v,,sg,3,,वो,वो' head='येवो'  name='5'  mood='imp'>
+1.5.1	आवो	VM	<fs af='आ,v,m,sg,3,,वो,वो' name='येवो'  mood='imp'>
+1.5.2	,	SYM	<fs af=',n,pun,sg,3,,,' poslcat='NM'>
+	))		
+1.6	((	NP	<fs af='मैं,pn,,sg,1,o, को,ला ' head='मला'  vpos='vib1'  drel='k1:7'  name='6'>
+1.6.1	मुझे	PRP	<fs af='मैं,pn,m,sg,1,o,को,ला ' name='मला'>
+	))		
+1.7	((	VGF	<fs af='कटना,v,n,sg,1,,या ca पाहिजे,ले च' head='गेलेच'  vpos='tam1 2'  kridanta type='2:'  aspect='perf h'  tense=' pas'  mood='in in'  kridanta cm='2:'>
+1.7.1	कटा	VM	<fs af='कट,v,n,sg,3,,या,ले च' name='गेलेच'  aspect='perf'  mood='in'>
+1.7.2	च	VAUX	<fs af='च,v,n,sg,3,,,'>
+1.7.3	पाहिजे	VAUX	<fs af='पाहिजे,v,m,sg,1,,,'>
+1.7.4	।	SYM	<fs af='।,pun,m,sg,3,,,' poslcat='NM'>
+	))		
+	))		
+</Sentence>			
+<Sentence id="1">			
+1	((	SSF	
+1.1	((	NP	<fs af='खेत,n,m,pl,,d,,' head='शेते'  drel='k1:2'  name='1'>
+1.1.1	खेत	NN	<fs af='खेत,n,m,pl,3,d,,' name='शेते'  synsetid='4729'>
+	))		
+1.2	((	VGF	<fs af='जोतना,v,,sg,,,ऊन होली,ून' head='नांगरून'  vpos='tam1 2'  kridanta type='2:la'  kridanta cm='2:ली'>
+1.2.1	जोतऊन	VM	<fs af='जोत,v,m,sg,3,,ऊन,ून' kridanta type='oon'  aspect='comp'  name='नांगरून'  kridanta cm='ून'>
+1.2.2	होली	VAUX	<fs af='होली,v,m,sg,3,,,'>
+1.2.3	;	SYM	<fs af=';,pun,m,sg,3,,,' poslcat='NM'>
+	))		
+1.3	((	CCP	<fs af='लेकिन,conj,,,,,,' head='पण'  name='3'>
+1.3.1	लेकिन	CC	<fs af='लेकिन,conj,m,sg,3,,,' name='पण'>
+	))		
+1.4	((	NP	<fs af='बारिश,n,f,sg,,d,,' head='पाऊस'  drel='k1:5'  name='4'>
+1.4.1	बारिश	NN	<fs af='बारिश,n,f,sg,3,d,,' name='पाऊस'  synsetid='689'>
+	))		
+1.5	((	VGF	<fs af='गिरना,v,m,sg,1,,या ही नही,ला च' head='पडलाच'  vpos='tam1 2'  kridanta type='2:la 2:la'  aspect='perf s'  tense=' pre'  mood='in in'  kridanta cm='2:ली 2:ली'>
+1.5.1	गिरा	VM	<fs af='गिर,v,m,sg,3,,या,ला च' name='पडलाच'  aspect='perf'  mood='in'>
+1.5.2	ही	VAUX	<fs af='ही,v,m,sg,3,,,'>
+1.5.3	नही	VAUX	<fs af='नही,v,m,sg,1,,,'>
+1.5.4	।	SYM	<fs af='।,pun,m,sg,3,,,' poslcat='NM'>
+	))		
+	))		
+</Sentence>			
+<Sentence id="1">			
+1	((	SSF	
+1.1	((	JJP	<fs af='देर,n,m,sg,,d,,' head='उशीर'  name='1'  poslcat='NM'>
+1.1.1	देर	JJ	<fs af='देर,n,m,sg,3,d,,' name='उशीर'  poslcat='NM'>
+	))		
+1.2	((	VGF	<fs af='गुजरना,v,m,sg,3,,या,ला' head='झाला'  name='2'  aspect='perf'  mood='in'>
+1.2.1	गुजरा	VM	<fs af='गुजर,v,m,sg,3,,या,ला' name='झाला'  aspect='perf'  mood='in'>
+	))		
+1.3	((	CCP	<fs af='तथापि,conj,,,,,,' head='तरी'  name='3'>
+1.3.1	तथापि	CC	<fs af='तथापि,conj,m,sg,3,,,' name='तरी'>
+	))		
+1.4	((	NP	<fs af='वह,pn,m,sg,3,d,,' head='तो'  drel='k1:5'  name='4'>
+1.4.1	वह	PRP	<fs af='वह,pn,m,sg,3,d,,' name='तो'>
+	))		
+1.5	((	VGF	<fs af='आना,v,m,sg,3,,या,ला' head='आला'  name='5'  aspect='perf'  mood='in'>
+1.5.1	आया	VM	<fs af='आ,v,m,sg,3,,या,ला' name='आला'  aspect='perf'  mood='in'>
+1.5.2	।	SYM	<fs af='।,pun,m,sg,3,,,' poslcat='NM'>
+	))		
+	))		
+</Sentence>			
+<Sentence id="1">			
+1	((	SSF	
+1.1	((	NP	<fs af='वह,pn,m,sg,3,d,,' head='तो'  drel='k1:2'  name='1'>
+1.1.1	वह	PRP	<fs af='वह,pn,m,sg,3,d,,' name='तो'>
+	))		
+1.2	((	VGF	<fs af='बोलना,v,m,sg,3,,या,ला' head='म्हणाला'  name='2'  aspect='perf'  mood='in'>
+1.2.1	बोला	VM	<fs af='बोल,v,m,sg,3,,या,ला' name='म्हणाला'  aspect='perf'  mood='in'>
+1.2.2	,	SYM	<fs af=',n,pun,sg,3,,,' poslcat='NM'>
+	))		
+1.3	((	CCP	<fs af='कि,conj,,,,,,' head='की'  name='3'>
+1.3.1	कि	CC	<fs af='कि,conj,m,sg,3,,,' name='की'>
+	))		
+1.4	((	NP	<fs af='मैं,pn,m,sg,1,d,,' head='मी'  drel='k1:5'  name='4'>
+1.4.1	मैं	PRP	<fs af='मैं,pn,m,sg,1,d,,' name='मी'>
+	))		
+1.5	((	VGF	<fs af='हारना,v,m,sg,1,,या,लो' head='हरलो'  name='5'  aspect='perf'  mood='in'>
+1.5.1	हारा	VM	<fs af='हार,v,m,sg,1,,या,लो' name='हरलो'  aspect='perf'  mood='in'>
+1.5.2	।	SYM	<fs af='।,pun,m,sg,3,,,' poslcat='NM'>
+	))		
+	))		
+</Sentence>			
+<Sentence id="1">			
+1	((	SSF	
+1.1	((	NP	<fs af='मैं,pn,m,sg,1,d,,' head='मी'  drel='k1:4'  name='1'>
+1.1.1	मैं	PRP	<fs af='मैं,pn,m,sg,1,d,,' name='मी'>
+	))		
+1.2	((	NP	<fs af='खुद,pn,m,sg,,o, से,हून' vpos='vib1'  head='स्वतःहून'  drel='k2:4'  name='2'>
+1.2.1	खुद से	PRP	<fs af='खुद,pn,m,sg,3,o,से,हून' name='स्वतःहून'>
+	))		
+1.3	((	NP	<fs af='वह,pn,m,sg,3,o, को,ला ' vpos='vib1'  head='त्याला'  name='3'>
+1.3.1	उसको	PRP	<fs af='वह,pn,n,sg,3,o,को,ला ' name='त्याला'>
+	))		
+1.4	((	VGF	<fs af='कहना,v,m,sg,,,या,ले' head='कळविले'  aspect='perf'  name='4'  mood='in'>
+1.4.1	कहा	VM	<fs af='कह,v,n,sg,3,,या,ले' name='कळविले'  aspect='perf'  mood='in'>
+1.4.2	।	SYM	<fs af='।,pun,m,sg,3,,,' poslcat='NM'>
+	))		
+	))		
+</Sentence>			
+<Sentence id="1">			
+1	((	SSF	
+1.1	((	NP	<fs af='श्री राम,n,m,sg,,d,,' head='राम'  drel='k1:4'  name='1'>
+1.1.1	श्री राम	NN	<fs af='श्री राम,n,m,sg,3,d,,' name='राम'  synsetid='181'>
+	))		
+1.2	((	NP	<fs af='मैं,pn,m,pl,1,o, को,ला ' vpos='vib1'  head='आम्हांला'  name='2'>
+1.2.1	हमें	PRP	<fs af='मैं,pn,m,pl,1,o,को,ला ' name='आम्हांला'>
+	))		
+1.3	((	NP	<fs af='पुस्तक,n,f,sg,,d,,' head='पुस्तक'  drel='k2:4'  name='3'>
+1.3.1	एक	QC	<fs af='एक,adj,f,sg,3,d,,' enamex type='count'  synsetid='187'  subtype 1='individual'>
+1.3.2	पुस्तक	NN	<fs af='पुस्तक,n,f,sg,3,d,,' name='पुस्तक'  synsetid='4352'>
+	))		
+1.4	((	VGF	<fs af='देना,v,f,sg,,,ता है,तो' head='देतो'  name='4'  mood='cond'>
+1.4.1	देता	VM	<fs af='दे,v,m,sg,1,,ता,तो' name='देतो'  mood='cond'>
+1.4.2	है	VAUX	<fs af='है,v,m,sg,3,,,'>
+1.4.3	।	SYM	<fs af='।,pun,m,sg,3,,,' poslcat='NM'>
+	))		
+	))		
+</Sentence>			
+<Sentence id="1">			
+1	((	SSF	
+1.1	((	NP	<fs af='निवास,n,m,sg,,o, में,ई ' vpos='vib2'  head='ठिकाणी'  drel='k1:4'  name='1'>
+1.1.1	उस	DEM	<fs af='वह,pn,m,sg,3,o,,'>
+1.1.2	स्थान	NN	<fs af='स्थान,n,m,sg,3,o,,ई ' name='ठिकाणी'  synsetid='1973'>
+1.1.3	में	PSP	<fs af='में,psp,m,sg,3,,,'>
+	))		
+1.2	((	NP	<fs af='जो,pn,m,pl,3,d,,' head='जे'  drel='k2:4'  name='2'>
+1.2.1	जो	PRP	<fs af='जो,pn,m,pl,3,d,,' name='जे'>
+	))		
+1.3	((	NP	<fs af='कुछ,adj,m,,,,,' head='काही'  name='3'>
+1.3.1	कुछ	QF	<fs af='कुछ,adj,m,sg,3,,,' name='काही'  synsetid='13148'>
+	))		
+1.4	((	VGF	<fs af='घटना,v,,sg,1,, रहा है,त' head='घडत'  vpos='tam1 2'  kridanta type='2:'  aspect=' s'  tense=' pas'  mood=' in'  kridanta cm='2:'>
+1.4.1	घट	VM	<fs af='घट,v,m,sg,3,,,त' kridanta type='t'  name='घडत'  kridanta cm='त'>
+1.4.2	रहा	VAUX	<fs af='रहा,v,m,sg,3,,,'>
+1.4.3	है	VAUX	<fs af='है,v,m,sg,1,,,'>
+	))		
+1.5	((	NP	<fs af='वह,pn,m,pl,3,d,,' head='ते'  drel='k1:9'  name='5'>
+1.5.1	वे	PRP	<fs af='वह,pn,m,pl,3,d,,' name='ते'>
+	))		
+1.6	((	NP	<fs af='मैं,pn,m,sg,1,d,,' head='मी'  drel='k2:9'  name='6'>
+1.6.1	मैं	PRP	<fs af='मैं,pn,m,sg,1,d,,' name='मी'>
+	))		
+1.7	((	NP	<fs af='मैं,pn,,sg,1,o, का,झ्या' head='माझ्या'  vpos='vib1'  name='7'  genfeature='(झा,gen,f,pl,,d,)(झा,gen,,,,o,)'>
+1.7.1	मेरे	PRP	<fs af='मैं,pn,m,sg,1,o,का,झ्या' name='माझ्या'  genfeature='(झा,gen,f,pl,,d,)(झा,gen,,,,o,)'>
+	))		
+1.8	((	NP	<fs af='आँख,n,m,pl,,o, ने,नी' head='डोळ्यांनी'  vpos='vib1'  name='8'>
+1.8.1	आँखों	NN	<fs af='आँख,n,m,pl,3,o,,नी' name='डोळ्यांनी'  synsetid='2325'>
+1.8.2	ने	PSP	<fs af='ने,psp,m,pl,3,,,'>
+	))		
+1.9	((	VGF	<fs af='देखना,v,,sg,1,, रहा है,त' head='पाहत'  vpos='tam1 2'  kridanta type='2: 2:'  aspect=' s'  tense=' pas'  mood=' in'  kridanta cm='2: 2:'>
+1.9.1	देख	VM	<fs af='देख,v,m,sg,3,,,त' kridanta type='t'  name='पाहत'  kridanta cm='त'>
+1.9.2	रहा	VAUX	<fs af='रहा,v,m,sg,3,,,'>
+1.9.3	है	VAUX	<fs af='है,v,m,sg,1,,,'>
+1.9.4	।	SYM	<fs af='।,pun,m,sg,3,,,' poslcat='NM'>
+	))		
+	))		
+</Sentence>			
+<Sentence id="1">			
+1	((	SSF	
+1.1	((	NP	<fs af='पंक्ति,n,f,sg,,o, में,मध्ये' vpos='vib1'  head='रांगेमध्ये'  drel='k1:4'  name='1'>
+1.1.1	पंक्ति	NN	<fs af='पंक्ति,n,f,sg,3,o,,मध्ये' name='रांगेमध्ये'  synsetid='1878'>
+1.1.2	में	PSP	<fs af='में,psp,f,sg,3,,,'>
+	))		
+1.2	((	NP	<fs af='मैं,pn,m,sg,1,o,का आगे,झ्या पुढे' vpos='vib1'  head='माझ्यापुढे'  name='2'  genfeature='(झा,gen,f,pl,,d,)(झा,gen,,,,o,)'>
+1.2.1	मेरे	PRP	<fs af='मैं,pn,m,sg,1,o,का,झ्या पुढे' name='माझ्यापुढे'  genfeature='(झा,gen,f,pl,,d,)(झा,gen,,,,o,)'>
+1.2.2	आगे	PSP	<fs af='आगे,psp,m,sg,3,,,'>
+	))		
+1.3	((	NP	<fs af='वह,pn,m,sg,3,d,,' head='तो'  drel='k2:4'  name='3'>
+1.3.1	वह	PRP	<fs af='वह,pn,m,sg,3,d,,' name='तो'>
+	))		
+1.4	((	VGF	<fs af='होना,v,m,sg,3,,,' head='आहे'  aspect='s'  name='4'  tense='pre'  mood='in'>
+1.4.1	हो	VM	<fs af='हो,v,m,sg,1,,,' name='आहे'  aspect='s'  tense='pre'  mood='in'>
+1.4.2	।	SYM	<fs af='।,pun,m,sg,3,,,' poslcat='NM'>
+	))		
+	))		
+</Sentence>			
+<Sentence id="1">			
+1	((	SSF	
+1.1	((	NP	<fs af='सिपाही,n,m,sg,,d,,' head='पोलीस'  drel='k1:3'  name='1'>
+1.1.1	सिपाही	NN	<fs af='सिपाही,n,m,sg,3,d,,' name='पोलीस'>
+	))		
+1.2	((	NP	<fs af='वह,pn,m,sg,3,o, का  पीछे,च्या मागे' vpos='vib1'  head='त्याच्यामागे'  drel='k2:3'  name='2'  genfeature='(चा,gen,f,pl,,d,)(चा,gen,,,,o,)'>
+1.2.1	उसके	PRP	<fs af='वह,pn,m,sg,3,o,का,च्या मागे' name='त्याच्यामागे'  genfeature='(चा,gen,f,pl,,d,)(चा,gen,,,,o,)'>
+1.2.2		PSP	<fs af=',psp,m,sg,3,,,'>
+1.2.3	पीछे	PSP	<fs af='पीछे,psp,m,sg,3,,,'>
+	))		
+1.3	((	VGF	<fs af='खर्च होना,v,f,pl,3,,या है,ले' head='लागले'  vpos='tam1 2'  kridanta type='2:'  aspect='perf s'  tense=' pre'  mood='in in'  kridanta cm='2:'>
+1.3.1	खर्च हुई	VM	<fs af='खर्च हो,v,f,sg,1,,या,ले' name='लागले'  aspect='perf'  mood='in'>
+1.3.2	है	VAUX	<fs af='है,v,m,pl,3,,,'>
+1.3.3	।	SYM	<fs af='।,pun,m,sg,3,,,' poslcat='NM'>
+	))		
+	))		
+</Sentence>			
+<Sentence id="1">			
+1	((	SSF	
+1.1	((	NP	<fs af='रात,n,f,pl,,d,,' head='रात्री'  drel='k1:6'  name='1'>
+1.1.1	रातें	NN	<fs af='रात,n,f,pl,3,d,,' name='रात्री'  synsetid='225'>
+	))		
+1.2	((	NP	<fs af='दस,n,m,sg,,o, के बाद,नंतर' vpos='vib1'  head='दहानंतर'  name='2'  poslcat='NM'>
+1.2.1	दस	QC	<fs af='दस,n,m,sg,3,o,,नंतर' name='दहानंतर'  enamex type='time'  subtype 1='individual'  poslcat='NM'>
+	))		
+1.3	((	NP	<fs af='शतपावली,n,m,sg,,d,,' head='शतपावली'  drel='k2:6'  name='3'>
+1.3.1	शतपावली	NN	<fs af='शतपावली,n,m,sg,3,d,,' name='शतपावली'  enamex type='time'  subtype 1='individual'  synsetid='52566'>
+	))		
+1.4	((	VGNF	<fs af='करना,v,f,sg,,d,नेवाले,णारी' head='करणारी'  kridanta type='nara'  name='4'  kridanta cm='णारी'>
+1.4.1	करनेवाले	VM	<fs af='कर,v,f,sg,3,d,नेवाले,णारी' kridanta type='nara'  name='करणारी'  kridanta cm='णारी'>
+	))		
+1.5	((	NP	<fs af='दंपति,n,m,pl,,d,,' head='जोडपी'  name='5'>
+1.5.1	दंपति	NN	<fs af='दंपति,n,m,pl,3,d,,' name='जोडपी'  synsetid='5643'>
+	))		
+1.6	((	VGF	<fs af='घूमना,v,m,sg,,,ते थे,त' head='फिरत'  kridanta type='t'  name='6'  kridanta cm='त'>
+1.6.1	घूमते	VM	<fs af='घूम,v,m,sg,3,,ते,त' kridanta type='t'  name='फिरत'  kridanta cm='त'>
+1.6.2	थे	VAUX	<fs af='थे,v,m,sg,3,,,'>
+	))		
+1.7	((	NP	<fs af='चौतरा,n,m,sg,,o, पर,वर' vpos='vib2'  head='कट्ट्यावर'  drel='k1:11'  name='7'>
+1.7.1	फिर	JJ	<fs af='फिर,v,m,sg,3,o,,' kridanta type='t'  poslcat='NM'  kridanta cm='त'>
+1.7.2	चौतरे	NN	<fs af='चौतरा,n,m,sg,3,o,,वर' name='कट्ट्यावर'  synsetid='1491'>
+1.7.3	पर	PSP	<fs af='पर,psp,m,sg,3,,,'>
+	))		
+1.8	((	VGNF	<fs af='बैठना,v,,,,,कर,ून' head='बसून'  kridanta type='oon'  name='8'  aspect='comp'  kridanta cm='ून'>
+1.8.1	बैठकर	VM	<fs af='बैठ,v,m,sg,3,,कर,ून' kridanta type='oon'  aspect='comp'  name='बसून'  kridanta cm='ून'>
+	))		
+1.9	((	NP	<fs af='संसार,n,m,sg,,o, का,चे' head='संसाराचे'  vpos='vib1'  name='9'  genfeature='(चा,gen,m,pl,,d,)(चा,gen,n,sg,,d,)'>
+1.9.1	संसार	NN	<fs af='संसार,n,m,sg,3,o,,चे' name='संसाराचे'  genfeature='(चा,gen,m,pl,,d,)(चा,gen,n,sg,,d,)'  synsetid='1427'>
+1.9.2	के	PSP	<fs af='का,psp,m,sg,3,,,'>
+	))		
+1.1	((	NP	<fs af='लेखा,n,m,sg,,d,,' head='हिशेब'  drel='k2:11'  name='1'>
+1.1.1	लेखा	NN	<fs af='लेखा,n,m,sg,3,d,,' name='हिशेब'  synsetid='11815'>
+	))		
+1.11	((	VGF	<fs af='जाँचना,v,,pl,3,, रहा है+ते हैं,त' head='तपासत'  vpos='tam1 2'  kridanta type='2:'  aspect=' impf'  tense=' '  mood=' in'  kridanta cm='2:'>
+1.11.1	जाँच	VM	<fs af='जाँच,v,m,sg,3,,,त' kridanta type='t'  name='तपासत'  kridanta cm='त'>
+1.11.2	रहा	VAUX	<fs af='रहा,v,m,sg,3,,,'>
+1.11.3	होते	VAUX	<fs af='है,v,m,sg,3,,ते,'>
+1.11.4	हैं	VAUX	<fs af='हैं,v,m,pl,3,,,'>
+1.11.5	।	SYM	<fs af='।,pun,m,sg,3,,,' poslcat='NM'>
+	))		
+	))		
+</Sentence>			
+<Sentence id="1">			
+1	((	SSF	
+1.1	((	NP	<fs af='वह,pn,m,sg,3,d,,' head='तो'  drel='k1:4'  name='1'>
+1.1.1	वह	PRP	<fs af='वह,pn,m,sg,3,d,,' name='तो'>
+	))		
+1.2	((	NP	<fs af='शहर,n,m,sg,,o, के बाहर  का,बाहेर च्या' vpos='vib2'  head='नगराबाहेरच्या'  drel='k2:4'  name='2'  genfeature='(चा,gen,f,pl,,d,)(चा,gen,,,,o,)'>
+1.2.1	सेवक	NNP	<fs af='सेवक,n,m,sg,3,d,,' synsetid='1741'>
+1.2.2	शहर	NNP	<fs af='शहर,n,m,sg,3,o,,बाहेर च्या' enamex type='location'  name='नगराबाहेरच्या'  genfeature='(चा,gen,f,pl,,d,)(चा,gen,,,,o,)'  synsetid='3871'  subtype 1='individual'>
+1.2.3	के	PSP	<fs af='के,psp,m,sg,3,,,'>
+1.2.4	बाहर	PSP	<fs af='बाहर,psp,m,sg,3,,,'>
+1.2.5		PSP	<fs af=',psp,m,sg,3,,,'>
+1.2.6	के	PSP	<fs af='का,psp,m,sg,3,,,'>
+	))		
+1.3	((	NP	<fs af='कुआँ,n,m,sg,,o, के पास,जवळ' vpos='vib1'  head='विहिरीजवळ'  name='3'>
+1.3.1	कुएँ	NN	<fs af='कुआँ,n,m,sg,3,o,,जवळ' name='विहिरीजवळ'  synsetid='4384'>
+1.3.2	के	PSP	<fs af='के,psp,m,sg,3,,,'>
+1.3.3	पास	PSP	<fs af='पास,psp,m,sg,3,,,'>
+	))		
+1.4	((	VGF	<fs af='कटना,v,m,sg,,,या,ला' head='गेला'  aspect='perf'  name='4'  mood='in'>
+1.4.1	कटा	VM	<fs af='कट,v,m,sg,3,,या,ला' name='गेला'  aspect='perf'  mood='in'>
+1.4.2	।	SYM	<fs af='।,pun,m,sg,3,,,' poslcat='NM'>
+	))		
+	))		
+</Sentence>			
+<Sentence id="1">			
+1	((	SSF	
+1.1	((	NP	<fs af='खुशक़िस्मती,n,m,sg,,o, ने,ने' vpos='vib1'  head='सुदैवाने'  drel='k1:6'  name='1'>
+1.1.1	खुशक़िस्मती	NN	<fs af='खुशक़िस्मती,n,m,sg,3,o,,ने' name='सुदैवाने'  synsetid='1654'>
+1.1.2	ने	PSP	<fs af='ने,psp,m,sg,3,,,'>
+	))		
+1.2	((	NP	<fs af='मैं,pn,m,sg,1,o, का,झ्या' vpos='vib1'  head='माझ्या'  name='2'  genfeature='(झा,gen,f,pl,,d,)(झा,gen,,,,o,)'>
+1.2.1	मेरे	PRP	<fs af='मैं,pn,m,sg,1,o,का,झ्या' name='माझ्या'  genfeature='(झा,gen,f,pl,,d,)(झा,gen,,,,o,)'>
+	))		
+1.3	((	NP	<fs af='घराना,n,m,sg,,o, के पास,शेजारी' vpos='vib1'  head='घराशेजारी'  name='3'>
+1.3.1	घर	NN	<fs af='घर,n,m,sg,3,o,,शेजारी' name='घराशेजारी'  synsetid='191'>
+1.3.2	के	PSP	<fs af='के,psp,m,sg,3,,,'>
+1.3.3	पास	PSP	<fs af='पास,psp,m,sg,3,,,'>
+	))		
+1.4	((	NP	<fs af='कवि,n,m,sg,,d,,' head='कवी'  drel='k2:6'  name='4'>
+1.4.1	कवि	NN	<fs af='कवि,n,m,sg,3,d,,' name='कवी'  synsetid='422'>
+	))		
+1.5	((	NP	<fs af='कोलरीज,unk,,,,,,' head='कोलरीज'  name='5'  poslcat='NM'>
+1.5.1	कोलरीज	NNP	<fs af='कोलरीज,unk,m,sg,3,,,' enamex type='person'  name='कोलरीज'  subtype 1='individual'  poslcat='NM'>
+	))		
+1.6	((	VGF	<fs af='बचना,v,m,sg,,,ते हैं,तात' head='राहतात'  aspect='impf'  name='6'  mood='in'>
+1.6.1	बचते	VM	<fs af='बच,v,m,pl,3,,ते,तात' aspect='impf'  name='राहतात'  mood='in'>
+1.6.2	हैं	VAUX	<fs af='हैं,v,m,sg,3,,,'>
+1.6.3	।	SYM	<fs af='।,pun,m,sg,3,,,' poslcat='NM'>
+	))		
+	))		
+</Sentence>			
+<Sentence id="1">			
+1	((	SSF	
+1.1	((	NP	<fs af='दिन,n,m,sg,,o, का,च्या' vpos='vib1'  head='दिवसाच्या'  drel='k1:4'  name='1'  genfeature='(चा,gen,f,pl,,d,)(चा,gen,,,,o,)'>
+1.1.1	दिन	NN	<fs af='दिन,n,m,sg,3,o,,च्या' name='दिवसाच्या'  genfeature='(चा,gen,f,pl,,d,)(चा,gen,,,,o,)'  synsetid='13162'>
+1.1.2	के	PSP	<fs af='का,psp,m,sg,3,,,'>
+	))		
+1.2	((	NP	<fs af='मौत,n,f,sg,,o, में,ई ' vpos='vib1'  head='अंती'  name='2'>
+1.2.1	अंत	NN	<fs af='अंत,n,m,sg,3,o,,ई ' name='अंती'  synsetid='658'>
+1.2.2	में	PSP	<fs af='में,psp,m,sg,3,,,'>
+	))		
+1.3	((	NP	<fs af='वह,pn,m,sg,3,d,,' head='तो'  drel='k2:4'  name='3'>
+1.3.1	वह	PRP	<fs af='वह,pn,m,sg,3,d,,' name='तो'>
+	))		
+1.4	((	VGF	<fs af='थकना,v,,sg,1,, जा+ता है,ून' head='थकून'  vpos='tam1 2'  kridanta type='2:'  aspect='comp '  tense=' '  mood=' cond'  kridanta cm='2:'>
+1.4.1	थक	VM	<fs af='थक,v,m,sg,3,,,ून' kridanta type='oon'  aspect='comp'  name='थकून'  kridanta cm='ून'>
+1.4.2	जाता	VAUX	<fs af='जा,v,m,sg,3,,ता,'>
+1.4.3	है	VAUX	<fs af='है,v,m,sg,1,,,'>
+1.4.4	।	SYM	<fs af='।,pun,m,sg,3,,,' poslcat='NM'>
+	))		
+	))		
+</Sentence>			
+<Sentence id="1">			
+1	((	SSF	
+1.1	((	NP	<fs af='मैं,pn,m,sg,1,o, का  के बदले,झ्या ऐवजी' vpos='vib1'  head='माझ्याऐवजी'  drel='k1:4'  name='1'  genfeature='(झा,gen,f,pl,,d,)(झा,gen,,,,o,)'>
+1.1.1	मेरे	PRP	<fs af='मैं,pn,m,sg,1,o,का,झ्या ऐवजी' name='माझ्याऐवजी'  enamex type='time'  genfeature='(झा,gen,f,pl,,d,)(झा,gen,,,,o,)'  subtype 1='individual'>
+1.1.2		PSP	<fs af=',psp,m,sg,3,,,'>
+1.1.3	के	PSP	<fs af='के,psp,m,sg,3,,,'>
+1.1.4	बदले	PSP	<fs af='बदले,psp,m,sg,3,,,'>
+	))		
+1.2	((	NP	<fs af='तू,pn,f,sg,2,d,,' head='तू'  drel='k2:4'  name='2'>
+1.2.1	तू	PRP	<fs af='तू,pn,m,sg,2,d,,' name='तू'>
+	))		
+1.3	((	NP	<fs af='अनंगी,n,m,sg,,o, को,ला' vpos='vib1'  head='कामाला'  name='3'  genfeature='(ला,gen,m,sg,,d,)'>
+1.3.1	काम	NN	<fs af='काम,n,m,sg,3,o,,ला' name='कामाला'  genfeature='(ला,gen,m,sg,,d,)'  synsetid='183'>
+1.3.2	को	PSP	<fs af='को,psp,m,sg,3,,,'>
+	))		
+1.4	((	VGF	<fs af='कटना,v,f,sg,2,,,' head='जा'  name='4'  mood='imp'>
+1.4.1	कट	VM	<fs af='कट,v,m,sg,2,,,' name='जा'  mood='imp'>
+1.4.2	।	SYM	<fs af='।,pun,m,sg,3,,,' poslcat='NM'>
+	))		
+	))		
+</Sentence>			
+<Sentence id="1">			
+1	((	SSF	
+1.1	((	NP	<fs af='वह,pn,m,sg,3,d,,' head='ती'  drel='k1:4'  name='1'>
+1.1.1	वह	PRP	<fs af='वह,pn,f,sg,3,d,,' name='ती'>
+	))		
+1.2	((	NP	<fs af='थैली,n,f,sg,,d,,' head='पिशवी'  drel='k2:4'  name='2'>
+1.2.1	थैली	NN	<fs af='थैली,n,f,sg,3,d,,' name='पिशवी'  synsetid='1814'>
+	))		
+1.3	((	NP	<fs af='पलंग,n,m,sg,,o, के नीचे,खाली' vpos='vib1'  head='पलंगाखाली'  name='3'>
+1.3.1	पलंग	NN	<fs af='पलंग,n,m,sg,3,o,,खाली' name='पलंगाखाली'  synsetid='799'>
+1.3.2	के	PSP	<fs af='के,psp,m,sg,3,,,'>
+1.3.3	नीचे	PSP	<fs af='नीचे,psp,m,sg,3,,,'>
+	))		
+1.4	((	VGF	<fs af='होना,v,f,sg,,,,' head='आहे'  aspect='s'  name='4'  tense='pre'  mood='in'>
+1.4.1	हो	VM	<fs af='हो,v,m,sg,1,,,' name='आहे'  aspect='s'  tense='pre'  mood='in'>
+1.4.2	।	SYM	<fs af='।,pun,m,sg,3,,,' poslcat='NM'>
+	))		
+	))		
+</Sentence>			
+<Sentence id="1">			
+1	((	SSF	
+1.1	((	NP	<fs af='मैं,pn,m,sg,1,o, का,झ्या' vpos='vib1'  head='माझ्या'  drel='k1:5'  name='1'  genfeature='(झा,gen,f,pl,,d,)(झा,gen,,,,o,)'>
+1.1.1	मेरे	PRP	<fs af='मैं,pn,m,sg,1,o,का,झ्या' name='माझ्या'  genfeature='(झा,gen,f,pl,,d,)(झा,gen,,,,o,)'>
+	))		
+1.2	((	NP	<fs af='घराना,n,m,sg,,o, के नीचे,खाली' vpos='vib1'  head='घराखाली'  name='2'>
+1.2.1	घर	NN	<fs af='घर,n,m,sg,3,o,,खाली' name='घराखाली'  synsetid='191'>
+1.2.2	के	PSP	<fs af='के,psp,m,sg,3,,,'>
+1.2.3	नीचे	PSP	<fs af='नीचे,psp,m,sg,3,,,'>
+	))		
+1.3	((	NP	<fs af='वह,pn,m,sg,3,o, का,चे' vpos='vib1'  head='त्याचे'  name='3'  genfeature='(चा,gen,m,pl,,d,)(चा,gen,n,sg,,d,)'>
+1.3.1	उसके	PRP	<fs af='वह,pn,m,sg,3,o,का,चे' name='त्याचे'  genfeature='(चा,gen,m,pl,,d,)(चा,gen,n,sg,,d,)'>
+	))		
+1.4	((	NP	<fs af='घराना,n,m,sg,,d,,' head='घर'  drel='k2:5'  name='4'>
+1.4.1	घर	NN	<fs af='घर,n,m,sg,3,d,,' name='घर'  synsetid='191'>
+	))		
+1.5	((	VGF	<fs af='होना,v,m,sg,,,,' head='आहे'  aspect='s'  name='5'  tense='pre'  mood='in'>
+1.5.1	हो	VM	<fs af='हो,v,m,sg,1,,,' name='आहे'  aspect='s'  tense='pre'  mood='in'>
+1.5.2	।	SYM	<fs af='।,pun,m,sg,3,,,' poslcat='NM'>
+	))		
+	))		
+</Sentence>			
+<Sentence id="1">			
+1	((	SSF	
+1.1	((	NP	<fs af='मैं,pn,m,sg,1,o, का से,झ्या पेक्षा' vpos='vib1'  head='माझ्यापेक्षा'  drel='k1:4'  name='1'  genfeature='(झा,gen,f,pl,,d,)(झा,gen,,,,o,)'>
+1.1.1	मेरे	PRP	<fs af='मैं,pn,m,sg,1,o,का,झ्या पेक्षा' name='माझ्यापेक्षा'  genfeature='(झा,gen,f,pl,,d,)(झा,gen,,,,o,)'>
+1.1.2	से	PSP	<fs af='से,psp,m,sg,3,,,'>
+	))		
+1.2	((	NP	<fs af='तू,pn,f,sg,2,d,,' head='तू'  drel='k2:4'  name='2'>
+1.2.1	तू	PRP	<fs af='तू,pn,m,sg,2,d,,' name='तू'>
+	))		
+1.3	((	JJP	<fs af='नीचा,adj,m,sg,,o,,' head='लहान'  name='3'>
+1.3.1	नीचा	JJ	<fs af='नीचा,adj,m,sg,3,,,' name='लहान'  synsetid='4244'>
+	))		
+1.4	((	VGF	<fs af='होना,v,f,sg,2,,,' head='आहे'  aspect='s'  name='4'  tense='pre'  mood='in'>
+1.4.1	हो	VM	<fs af='हो,v,m,sg,1,,,' name='आहे'  aspect='s'  tense='pre'  mood='in'>
+1.4.2	।	SYM	<fs af='।,pun,m,sg,3,,,' poslcat='NM'>
+	))		
+	))		
+</Sentence>			
+<Sentence id="1">			
+1	((	SSF	
+1.1	((	NP	<fs af='वह,pn,m,sg,3,d,,' head='तो'  drel='k1:4'  name='1'>
+1.1.1	वह	PRP	<fs af='वह,pn,m,sg,3,d,,' name='तो'>
+	))		
+1.2	((	NP	<fs af='बच्चा,n,m,pl,,o, में से,पैकी' vpos='vib2'  head='मुलांपैकी'  drel='k2:4'  name='2'>
+1.2.1	उन	DEM	<fs af='वह,pn,m,pl,3,o,,'>
+1.2.2	बच्चों	NN	<fs af='बच्चा,n,m,pl,3,o,,पैकी' name='मुलांपैकी'  synsetid='783'>
+1.2.3	में	PSP	<fs af='में,psp,m,pl,3,,,'>
+1.2.4	से	PSP	<fs af='से,psp,m,pl,3,,,'>
+	))		
+1.3	((	NP	<fs af='एक,adj,m,,,,,' head='एक'  name='3'>
+1.3.1	एक	QC	<fs af='एक,adj,m,sg,3,,,' name='एक'  synsetid='187'>
+	))		
+1.4	((	VGF	<fs af='होना,v,m,pl,,,,' head='आहे'  aspect='s'  name='4'  tense='pre'  mood='in'>
+1.4.1	हो	VM	<fs af='हो,v,m,sg,1,,,' name='आहे'  aspect='s'  tense='pre'  mood='in'>
+1.4.2	।	SYM	<fs af='।,pun,m,sg,3,,,' poslcat='NM'>
+	))		
+	))		
+</Sentence>			
+<Sentence id="1">			
+1	((	SSF	
+1.1	((	NP	<fs af='ईश्वर,n,m,sg,,o, के प्रति,प्रत' vpos='vib1'  head='देवाप्रत'  drel='k1:3'  name='1'>
+1.1.1	देवता	NN	<fs af='देवता,n,f,sg,3,o,,प्रत' name='देवाप्रत'  synsetid='2484'>
+1.1.2	के	PSP	<fs af='के,psp,f,sg,3,,,'>
+1.1.3	प्रति	PSP	<fs af='प्रति,psp,f,sg,3,,,'>
+	))		
+1.2	((	NP	<fs af='भक्ति,n,f,sg,,d,,' head='श्रद्धा'  drel='k2:3'  name='2'>
+1.2.1	भक्ति	NN	<fs af='भक्ति,n,f,sg,3,d,,' name='श्रद्धा'  synsetid='117'>
+	))		
+1.3	((	VGF	<fs af='चाहिए,v,f,sg,,,,' head='हवी'  aspect='h'  name='3'  tense='pas'  mood='in'>
+1.3.1	चाहिए	VM	<fs af='चाहिए,v,f,sg,1,,,' aspect='h'  name='हवी'  tense='pas'  synsetid='5212'  mood='in'>
+1.3.2	।	SYM	<fs af='।,pun,m,sg,3,,,' poslcat='NM'>
+	))		
+	))		
+</Sentence>			
+<Sentence id="1">			
+1	((	SSF	
+1.1	((	NP	<fs af='घराना,n,m,sg,,o, के चारों ओर,भोवती' vpos='vib1'  head='घराभोवती'  drel='k1:3'  name='1'>
+1.1.1	घर	NN	<fs af='घर,n,m,sg,3,o,,भोवती' name='घराभोवती'  synsetid='191'>
+1.1.2	के	PSP	<fs af='के,psp,m,sg,3,,,'>
+1.1.3	चारों	PSP	<fs af='चारों,psp,m,sg,3,,,'>
+1.1.4	ओर	PSP	<fs af='ओर,psp,m,sg,3,,,'>
+	))		
+1.2	((	NP	<fs af='बाग,n,f,sg,,d,,' head='बाग'  drel='k2:3'  name='2'>
+1.2.1	बाग	NN	<fs af='बाग,n,f,sg,3,d,,' name='बाग'  synsetid='3534'>
+	))		
+1.3	((	VGF	<fs af='होना,v,f,sg,,,,' head='आहे'  aspect='s'  name='3'  tense='pre'  mood='in'>
+1.3.1	हो	VM	<fs af='हो,v,m,sg,1,,,' name='आहे'  aspect='s'  tense='pre'  mood='in'>
+1.3.2	।	SYM	<fs af='।,pun,m,sg,3,,,' poslcat='NM'>
+	))		
+	))		
+</Sentence>			
+<Sentence id="1">			
+1	((	SSF	
+1.1	((	NP	<fs af='वह,pn,m,sg,3,d,,' head='तो'  drel='k1:5'  name='1'>
+1.1.1	वह	PRP	<fs af='वह,pn,m,sg,3,d,,' name='तो'>
+	))		
+1.2	((	NP	<fs af='वह,pn,m,sg,3,o, को,ला ' vpos='vib1'  head='तिला'  drel='k2:5'  name='2'>
+1.2.1	उसको	PRP	<fs af='वह,pn,f,sg,3,o,को,ला ' name='तिला'>
+	))		
+1.3	((	NP	<fs af='बाग,n,f,sg,,o, में,मधे' vpos='vib1'  head='बागेमधे'  name='3'>
+1.3.1	बाग	NN	<fs af='बाग,n,f,sg,3,o,,मधे' name='बागेमधे'  synsetid='3534'>
+1.3.2	में	PSP	<fs af='में,psp,f,sg,3,,,'>
+	))		
+1.4	((	NP	<fs af='एकांत,n,m,sg,,o, में,त' vpos='vib1'  head='एकांतात'  name='4'>
+1.4.1	एकांत	NN	<fs af='एकांत,n,m,sg,3,o,,त' name='एकांतात'  synsetid='51259'>
+1.4.2	में	PSP	<fs af='में,psp,m,sg,3,,,'>
+	))		
+1.5	((	VGF	<fs af='अभिसारना,v,m,sg,3,,या,ला' head='भेटला'  aspect='perf'  name='5'  mood='in'>
+1.5.1	अभिसारा	VM	<fs af='अभिसार,v,m,sg,3,,या,ला' name='भेटला'  aspect='perf'  mood='in'>
+1.5.2	।	SYM	<fs af='।,pun,m,sg,3,,,' poslcat='NM'>
+	))		
+	))		
+</Sentence>			
+<Sentence id="1">			
+1	((	SSF	
+1.1	((	RBP	<fs af='अचानक,adv,,,,,,' head='अचानक'  name='1'>
+1.1.1	अचानक	RB	<fs af='अचानक,adv,m,sg,3,,,' name='अचानक'  synsetid='51'>
+	))		
+1.2	((	NP	<fs af='घराना,n,m,sg,,o, पीछे से,माग ून' vpos='vib2'  head='घरामागून'  drel='k1:12'  name='2'>
+1.2.1	एका	QC	<fs af='एका,unk,m,sg,3,o,,' enamex type='count'  subtype 1='individual'  poslcat='NM'>
+1.2.2	घर	NN	<fs af='घर,n,m,sg,3,o,,माग ून' name='घरामागून'  synsetid='191'>
+1.2.3	पीछे	PSP	<fs af='पीछे,psp,m,sg,3,,,'>
+1.2.4	से	PSP	<fs af='से,psp,m,sg,3,,,'>
+	))		
+1.3	((	NP	<fs af='मानस,n,f,sg,,d,,' head='माणूस'  drel='k2:12'  name='3'>
+1.3.1	एक	QC	<fs af='एक,adj,f,sg,3,d,,' enamex type='count'  synsetid='187'  subtype 1='individual'>
+1.3.2	कोरियाई	JJ	<fs af='कोरियाई,adj,f,sg,3,d,,'>
+1.3.3	मानस	NN	<fs af='मानस,n,f,sg,3,d,,' name='माणूस'  synsetid='196'>
+	))		
+1.4	((	NP	<fs af='भुजा,n,f,sg,,o, में,त' vpos='vib2'  head='हातात 2'  name='4'>
+1.4.1	एका	QC	<fs af='एका,unk,f,sg,3,o,,' poslcat='NM'>
+1.4.2	भुजा	NN	<fs af='भुजा,n,f,sg,3,o,,त' name='हातात 2'  synsetid='491'>
+1.4.3	में	PSP	<fs af='में,psp,f,sg,3,,,'>
+	))		
+1.5	((	NP	<fs af='किरासन,n,m,sg,,d, का,चा' vpos='vib1'  head='रॉकेलचा'  name='5'  genfeature='(चा,gen,m,sg,,d,)'>
+1.5.1	किरासन	NNP	<fs af='किरासन,n,m,sg,3,d,,चा' enamex type='person'  name='रॉकेलचा'  genfeature='(चा,gen,m,sg,,d,)'  synsetid='8647'  subtype 1='individual'>
+1.5.2	के	PSP	<fs af='का,psp,m,sg,3,,,'>
+	))		
+1.6	((	NP	<fs af='लालटेन,n,m,sg,,d,,' head='कंदील'  name='6'>
+1.6.1	लालटेन	NN	<fs af='लालटेन,n,m,sg,3,d,,' name='कंदील'  synsetid='825'>
+	))		
+1.7	((	CCP	<fs af='व,conj,,,,,,' head='व'  name='7'>
+1.7.1	व	CC	<fs af='व,conj,m,sg,3,,,' name='व'>
+	))		
+1.8	((	NP	<fs af='भुजा,n,f,sg,,o, में,त' vpos='vib2'  head='हातात'  name='8'>
+1.8.1	एका	QC	<fs af='एका,unk,f,sg,3,o,,' enamex type='count'  subtype 1='individual'  poslcat='NM'>
+1.8.2	भुजा	NN	<fs af='भुजा,n,f,sg,3,o,,त' name='हातात'  synsetid='491'>
+1.8.3	में	PSP	<fs af='में,psp,f,sg,3,,,'>
+	))		
+1.9	((	NP	<fs af='राइफल,n,f,sg,,d,,' head='रायफल'  name='9'>
+1.9.1	राइफल	NN	<fs af='राइफल,n,f,sg,3,d,,' name='रायफल'  synsetid='6346'>
+	))		
+1.1	((	VGNF	<fs af='लेना,v,,,,,कर,ऊन' head='घेऊन'  kridanta type='oon'  name='1'  aspect='comp'  kridanta cm='ऊन'>
+1.1.1	लेकर	VM	<fs af='ले,v,m,sg,3,,कर,ऊन' kridanta type='oon'  aspect='comp'  name='घेऊन'  kridanta cm='ऊन'>
+	))		
+1.11	((	JJP	<fs af='अवतरित,adj,m,sg,,o,,' head='अवतीर्ण'  name='11'>
+1.11.1	अवतरित	JJ	<fs af='अवतरित,adj,m,sg,3,,,' name='अवतीर्ण'  synsetid='3127'>
+	))		
+1.12	((	VGF	<fs af='गुजरना,v,f,sg,,,या,ला' head='झाला'  aspect='perf'  name='12'  mood='in'>
+1.12.1	गुजरा	VM	<fs af='गुजर,v,m,sg,3,,या,ला' name='झाला'  aspect='perf'  mood='in'>
+1.12.2	।	SYM	<fs af='।,pun,m,sg,3,,,' poslcat='NM'>
+	))		
+	))		
+</Sentence>			
+<Sentence id="1">			
+1	((	SSF	
+1.1	((	NP	<fs af='वह,pn,m,sg,3,o, ने,ने ' vpos='vib1'  head='त्याने'  drel='k1:4'  name='1'>
+1.1.1	उसने	PRP	<fs af='वह,pn,m,sg,3,o,ने,ने ' name='त्याने'>
+	))		
+1.2	((	NP	<fs af='घराना,n,m,sg,,o, पीछे,मागे' vpos='vib1'  head='घरामागे'  name='2'>
+1.2.1	घर	NN	<fs af='घर,n,m,sg,3,o,,मागे' name='घरामागे'  synsetid='191'>
+1.2.2	पीछे	PSP	<fs af='पीछे,psp,m,sg,3,,,'>
+	))		
+1.3	((	NP	<fs af='साँप,n,m,sg,,d,,' head='साप'  drel='k2:4'  name='3'>
+1.3.1	साँप	NN	<fs af='साँप,n,m,sg,3,d,,' name='साप'  synsetid='264'>
+	))		
+1.4	((	VGF	<fs af='देखना,v,m,sg,,d,या,ला' head='पाहिला'  kridanta type='la'  aspect='perf'  name='4'  kridanta cm='ला'>
+1.4.1	देखा	VM	<fs af='देख,v,m,sg,3,d,या,ला' kridanta type='la'  aspect='perf'  name='पाहिला'  kridanta cm='ला'>
+1.4.2	।	SYM	<fs af='।,pun,m,sg,3,,,' poslcat='NM'>
+	))		
+	))		
+</Sentence>			
+<Sentence id="1">			
+1	((	SSF	
+1.1	((	NP	<fs af='जोगेश्वरी,n,m,sg,,d,,' head='जोगेश्वरी'  drel='k1:21'  name='1'>
+1.1.1	जोगेश्वरी	NNP	<fs af='जोगेश्वरी,n,m,sg,3,d,,' name='जोगेश्वरी'  enamex type='location'  subtype 1='individual'>
+	))		
+1.2	((	CCP	<fs af='और,conj,,,,,,' head='आणि'  name='2'>
+1.2.1	और	CC	<fs af='और,conj,m,sg,3,,,' name='आणि'>
+	))		
+1.3	((	NP	<fs af='अंधेरी,n,m,sg,,d,,' head='अंधेरी'  drel='k2:21'  name='3'>
+1.3.1	अंधेरी	NNP	<fs af='अंधेरी,n,m,sg,3,d,,' name='अंधेरी'>
+	))		
+1.4	((	NP	<fs af='अंतराल,nst,m,,,,,' head='दरम्यान'  name='4'>
+1.4.1	अंतराल	NST	<fs af='अंतराल,nst,m,sg,3,,,' name='दरम्यान'>
+	))		
+1.5	((	NP	<fs af='रेल,n,f,sg,,o, का,च्या' vpos='vib1'  head='रेल्वेच्या'  name='5'  genfeature='(चा,gen,f,pl,,d,)(चा,gen,,,,o,)'>
+1.5.1	रेल	NN	<fs af='रेल,n,f,sg,3,o,,च्या' name='रेल्वेच्या'  genfeature='(चा,gen,f,pl,,d,)(चा,gen,,,,o,)'  synsetid='4891'>
+1.5.2	की	PSP	<fs af='का,psp,f,sg,3,,,'>
+	))		
+1.6	((	NP	<fs af='केबिन,n,m,sg,,o, पर से,वर ून' vpos='vib1'  head='केबिनवरून'  name='6'>
+1.6.1	केबिन	NN	<fs af='केबिन,n,m,sg,3,o,,वर ून' name='केबिनवरून'>
+1.6.2	पर	PSP	<fs af='पर,psp,m,sg,3,,,'>
+1.6.3	से	PSP	<fs af='से,psp,m,sg,3,,,'>
+	))		
+1.7	((	NP	<fs af='पास,nst,m,,,, का,च्या' vpos='vib1'  head='जवळच्या'  name='7'  genfeature='(चा,gen,f,pl,,d,)(चा,gen,,,,o,)'>
+1.7.1	पास	NST	<fs af='पास,nst,m,sg,3,,,च्या' name='जवळच्या'  genfeature='(चा,gen,f,pl,,d,)(चा,gen,,,,o,)'>
+1.7.2	के	PSP	<fs af='का,psp,m,sg,3,,,'>
+	))		
+1.8	((	NP	<fs af='पेड़,n,m,sg,,o, पर,वर' vpos='vib1'  head='झाडावर'  name='8'>
+1.8.1	पेड़	NN	<fs af='पेड़,n,m,sg,3,o,,वर' name='झाडावर'  synsetid='2349'>
+1.8.2	पर	PSP	<fs af='पर,psp,m,sg,3,,,'>
+	))		
+1.9	((	NP	<fs af='आम,n,m,pl,,d,,' head='आंबे'  name='9'>
+1.9.1	आम	NN	<fs af='आम,n,m,pl,3,d,,' name='आंबे'  synsetid='3462'>
+	))		
+1.1	((	VGNN	<fs af='निकालना,v,n,sg,,o,ने के लिए,ण्या साठी' head='काढण्यासाठी'  kridanta type='ne'  name='1'  kridanta cm='ण्या#साठी'>
+1.1.1	निकालने	VM	<fs af='निकाल,v,n,sg,3,o,ने,ण्या साठी' kridanta type='ne'  name='काढण्यासाठी'  kridanta cm='ण्या#साठी'>
+1.1.2	के	VAUX	<fs af='के,v,n,sg,3,,,'>
+1.1.3	लिए	VAUX	<fs af='लिए,v,m,sg,3,,,'>
+	))		
+1.11	((	VGNF	<fs af='चढ़ना,v,f,pl,,d,या हुआ,लेल्या' head='चढलेल्या'  kridanta type='lela'  name='11'  aspect='pluf'  kridanta cm='लेल्या'>
+1.11.1	चढ़ीं	VM	<fs af='चढ़,v,f,pl,3,d,या,लेल्या' kridanta type='lela'  aspect='pluf'  name='चढलेल्या'  kridanta cm='लेल्या'>
+1.11.2	हुआ	VAUX	<fs af='हुआ,v,m,pl,3,,,'>
+	))		
+1.12	((	NP	<fs af='चव्हाण,n,m,sg,,d,,' head='चव्हाण'  name='12'>
+1.12.1	संतुष्टि	NNP	<fs af='संतुष्टि,n,f,sg,3,d,,' enamex type='person'  subtype 1='noti'>
+1.12.2	चव्हाण	NNP	<fs af='चव्हाण,n,m,sg,3,d,,' name='चव्हाण'  enamex type='person'  subtype 1='noti'>
+	))		
+1.13	((	NP	<fs af='यह,pn,m,sg,3,o, का,चा' vpos='vib1'  head='याचा'  name='13'  genfeature='(चा,gen,m,sg,,d,)'>
+1.13.1	इसके	PRP	<fs af='यह,pn,m,sg,3,o,का,चा' name='याचा'  genfeature='(चा,gen,m,sg,,d,)'>
+	))		
+1.14	((	NP	<fs af='तोल,n,m,sg,,d,,' head='तोल'  name='14'>
+1.14.1	तोल	NN	<fs af='तोल,n,m,sg,3,d,,' name='तोल'  synsetid='5154'>
+	))		
+1.15	((	VGNF	<fs af='सुलझना,v,,,,,कर,ून' head='सुटून'  kridanta type='oon'  name='15'  aspect='comp'  kridanta cm='ून'>
+1.15.1	सुलझकर	VM	<fs af='सुलझ,v,m,sg,3,,कर,ून' kridanta type='oon'  aspect='comp'  name='सुटून'  kridanta cm='ून'>
+	))		
+1.16	((	NP	<fs af='वायर,n,f,sg,,o, को,ला' head='वायरला'  vpos='vib2'  name='16'  genfeature='(ला,gen,m,sg,,d,)'>
+1.16.1	ओव्हरहेड	NNP	<fs af='ओव्हरहेड,unk,m,sg,3,,,' enamex type='location'  subtype 1='noti'  poslcat='NM'>
+1.16.2	वायर	NNP	<fs af='वायर,n,f,sg,3,o,,ला' name='वायरला'  enamex type='location'  genfeature='(ला,gen,m,sg,,d,)'  subtype 1='noti'>
+1.16.3	को	PSP	<fs af='को,psp,m,sg,3,,,'>
+	))		
+1.17	((	NP	<fs af='स्पर्श,n,m,sg,,d,,' head='स्पर्श'  name='17'>
+1.17.1	स्पर्श	NN	<fs af='स्पर्श,n,m,sg,3,d,,' name='स्पर्श'  synsetid='8165'>
+	))		
+1.18	((	VGNN	<fs af='गुजरना,v,,sg,,o,ने से,ल्या ने' head='झाल्याने'  kridanta type='la'  aspect='perf'  name='18'  genfeature='(ला,gen,f,pl,,d,)(ला,gen,,,,o,)'  kridanta cm='ल्या#ने'>
+1.18.1	गुजरने	VM	<fs af='गुजर,v,m,sg,3,o,ने,ल्या ने' kridanta type='la'  name='झाल्याने'  aspect='perf'  genfeature='(ला,gen,f,pl,,d,)(ला,gen,,,,o,)'  kridanta cm='ल्या#ने'>
+1.18.2	से	VAUX	<fs af='से,v,m,sg,3,,,'>
+	))		
+1.19	((	NP	<fs af='बिजली,n,f,sg,,o, का,चा' head='विजेचा'  vpos='vib1'  name='19'  genfeature='(चा,gen,m,sg,,d,)'>
+1.19.1	बिजली	NN	<fs af='बिजली,n,f,sg,3,o,,चा' name='विजेचा'  genfeature='(चा,gen,m,sg,,d,)'  synsetid='7276'>
+1.19.2	की	PSP	<fs af='का,psp,f,sg,3,,,'>
+	))		
+1.2	((	NP	<fs af='धक्का,n,m,sg,,d,,' head='धक्का'  name='2'>
+1.2.1	तीक्ष्ण	JJ	<fs af='तीक्ष्ण,adj,m,sg,3,d,,' synsetid='519'>
+1.2.2	ठेस	NN	<fs af='ठेस,n,m,sg,3,d,,' name='धक्का'  synsetid='22617'>
+	))		
+1.21	((	VGF	<fs af='बैठना,v,m,sg,,d,या,ला' head='बसला'  kridanta type='la'  aspect='perf'  name='21'  kridanta cm='ला'>
+1.21.1	बैठा	VM	<fs af='बैठ,v,m,sg,3,d,या,ला' kridanta type='la'  aspect='perf'  name='बसला'  kridanta cm='ला'>
+1.21.2	।	SYM	<fs af='।,pun,m,sg,3,,,' poslcat='NM'>
+	))		
+	))		
+</Sentence>			
+<Sentence id="1">			
+1	((	SSF	
+1.1	((	NP	<fs af='वह,pn,m,sg,3,d,,' head='तो'  drel='k1:3'  name='1'>
+1.1.1	वह	PRP	<fs af='वह,pn,m,sg,3,d,,' name='तो'>
+	))		
+1.2	((	NP	<fs af='माता,n,f,sg,,o, तरह,सारखा' vpos='vib1'  head='आईसारखा'  drel='k2:3'  name='2'>
+1.2.1	माता	NN	<fs af='माता,n,f,sg,3,o,,सारखा' name='आईसारखा'  synsetid='2191'>
+1.2.2	तरह	PSP	<fs af='तरह,psp,f,sg,3,,,'>
+	))		
+1.3	((	VGF	<fs af='दिखना,v,f,sg,,,ता है,तो' head='दिसतो'  name='3'  mood='cond'>
+1.3.1	दिखता	VM	<fs af='दिख,v,m,sg,1,,ता,तो' name='दिसतो'  mood='cond'>
+1.3.2	है	VAUX	<fs af='है,v,m,sg,3,,,'>
+1.3.3	।	SYM	<fs af='।,pun,m,sg,3,,,' poslcat='NM'>
+	))		
+	))		
+</Sentence>			
+<Sentence id="1">			
+1	((	SSF	
+1.1	((	NP	<fs af='मैं,pn,m,sg,1,d,,' head='मी'  drel='k1:6'  name='1'>
+1.1.1	मैं	PRP	<fs af='मैं,pn,m,sg,1,d,,' name='मी'>
+	))		
+1.2	((	NP	<fs af='सब्ज़ी मंडी,n,m,sg,,o, में से,त ून' vpos='vib1'  head='मंडईतून'  name='2'>
+1.2.1	सब्ज़ी मंडी	NN	<fs af='सब्ज़ी मंडी,n,m,sg,3,o,,त ून' name='मंडईतून'  synsetid='1761'>
+1.2.2	में	PSP	<fs af='में,psp,m,sg,3,,,'>
+1.2.3	से	PSP	<fs af='से,psp,m,sg,3,,,'>
+	))		
+1.3	((	NP	<fs af='आलू,n,m,pl,,d,,' head='बटाटे'  drel='k2:6'  name='3'>
+1.3.1	आलू	NN	<fs af='आलू,n,m,pl,3,d,,' name='बटाटे'  synsetid='14171'>
+	))		
+1.4	((	CCP	<fs af='व,conj,,,,,,' head='व'  name='4'>
+1.4.1	व	CC	<fs af='व,conj,m,sg,3,,,' name='व'>
+	))		
+1.5	((	NP	<fs af='प्याज,n,m,pl,,d,,' head='कांदे'  name='5'>
+1.5.1	प्याज	NN	<fs af='प्याज,n,m,pl,3,d,,' name='कांदे'  synsetid='3958'>
+	))		
+1.6	((	VGF	<fs af='लाना,v,m,pl,,d,या,ले' head='आणले'  kridanta type='la'  aspect='perf'  name='6'  kridanta cm='ले'>
+1.6.1	लाया	VM	<fs af='ला,v,n,sg,3,d,या,ले' kridanta type='la'  aspect='perf'  name='आणले'  kridanta cm='ले'>
+1.6.2	।	SYM	<fs af='।,pun,m,sg,3,,,' poslcat='NM'>
+	))		
+	))		
+</Sentence>			
+<Sentence id="1">			
+1	((	SSF	
+1.1	((	NP	<fs af='मैं,pn,m,sg,1,d,,' head='मी'  drel='k1:4'  name='1'>
+1.1.1	मैं	PRP	<fs af='मैं,pn,m,sg,1,d,,' name='मी'>
+	))		
+1.2	((	NP	<fs af='न्,unk,m,,,,,' head='न्'  name='2'  poslcat='NM'>
+1.2.1	न्	NNP	<fs af='न्,unk,m,sg,3,,,' name='न्'  poslcat='NM'>
+	))		
+1.3	((	NP	<fs af='तू,pn,f,sg,2,d,,' head='तू'  drel='k2:4'  name='3'>
+1.3.1	तू	PRP	<fs af='तू,pn,m,sg,2,d,,' name='तू'>
+	))		
+1.4	((	VGF	<fs af='घूमना,v,,pl,1,,ने जा+एंगे,ायला' head='फिरायला'  vpos='tam1 2'  kridanta type='2:'  kridanta cm='2:'>
+1.4.1	घूमने	VM	<fs af='घूम,v,m,sg,3,,ने,ायला' name='फिरायला'>
+1.4.2	जाएंगे	VAUX	<fs af='जा,v,m,pl,1,,एंगे,'>
+1.4.3	।	SYM	<fs af='।,pun,m,sg,3,,,' poslcat='NM'>
+	))		
+	))		
+</Sentence>			
+<Sentence id="1">			
+1	((	SSF	
+1.1	((	NP	<fs af='वह,pn,m,sg,3,d,,' head='तो'  drel='k1:7'  name='1'>
+1.1.1	वह	PRP	<fs af='वह,pn,m,sg,3,d,,' name='तो'>
+	))		
+1.2	((	CCP	<fs af='और,conj,,,,,,' head='नि'  name='2'>
+1.2.1	और	CC	<fs af='और,conj,m,sg,3,,,' name='नि'>
+	))		
+1.3	((	NP	<fs af='वह,pn,m,sg,3,d,,' head='ती'  drel='k2:7'  name='3'>
+1.3.1	वह	PRP	<fs af='वह,pn,f,sg,3,d,,' name='ती'>
+	))		
+1.4	((	NP	<fs af='प्याज,n,m,pl,,d,,' head='कांदे'  name='4'>
+1.4.1	प्याज	NN	<fs af='प्याज,n,m,pl,3,d,,' name='कांदे'  synsetid='3958'>
+	))		
+1.5	((	VGNN	<fs af='लाना,v,n,sg,,o,ने के लिए,ण्या साठी' head='आणण्यासाठी'  kridanta type='ne'  name='5'  kridanta cm='ण्या#साठी'>
+1.5.1	लाने	VM	<fs af='ला,v,n,sg,3,o,ने,ण्या साठी' kridanta type='ne'  name='आणण्यासाठी'  kridanta cm='ण्या#साठी'>
+1.5.2	के	VAUX	<fs af='के,v,n,sg,3,,,'>
+1.5.3	लिए	VAUX	<fs af='लिए,v,m,sg,3,,,'>
+	))		
+1.6	((	NP	<fs af='बाजार,n,m,sg,,o, में,त' head='बाजारात'  vpos='vib1'  name='6'>
+1.6.1	बाजार	NN	<fs af='बाजार,n,m,sg,3,o,,त' name='बाजारात'  synsetid='533'>
+1.6.2	में	PSP	<fs af='में,psp,m,sg,3,,,'>
+	))		
+1.7	((	VGF	<fs af='कटना,v,m,sg,3,,या,ले' head='गेले'  aspect='perf'  name='7'  mood='in'>
+1.7.1	कटी	VM	<fs af='कट,v,f,sg,1,,या,ले' name='गेले'  aspect='perf'  mood='in'>
+1.7.2	।	SYM	<fs af='।,pun,m,sg,3,,,' poslcat='NM'>
+	))		
+	))		
+</Sentence>			
+<Sentence id="1">			
+1	((	SSF	
+1.1	((	NP	<fs af='मैं,pn,m,sg,1,d,,' head='मी 2'  drel='k1:2'  name='1'>
+1.1.1	मैं	PRP	<fs af='मैं,pn,m,sg,1,d,,' name='मी 2'>
+	))		
+1.2	((	VGF	<fs af='क्रुद्ध होना,v,n,sg,1,,या है,ले' head='संतापले'  vpos='tam1 2'  kridanta type='2:'  aspect='perf s'  tense=' pas'  mood='in in'  kridanta cm='2:'>
+1.2.1	क्रुद्ध हुआ	VM	<fs af='क्रुद्ध हो,v,n,sg,3,,या,ले' name='संतापले'  aspect='perf'  mood='in'>
+1.2.2	है	VAUX	<fs af='है,v,m,sg,1,,,'>
+1.2.3	,	SYM	<fs af=',n,pun,sg,3,,,' poslcat='NM'>
+	))		
+1.3	((	CCP	<fs af='तथापि,conj,,,,,,' head='तरी'  name='3'>
+1.3.1	तथापि	CC	<fs af='तथापि,conj,m,sg,3,,,' name='तरी'>
+	))		
+1.4	((	NP	<fs af='मैं,pn,m,sg,1,d,,' head='मी'  drel='k1:6'  name='4'>
+1.4.1	मैं	PRP	<fs af='मैं,pn,m,sg,1,d,,' name='मी'>
+	))		
+1.5	((	JJP	<fs af='शांत,adj,m,sg,,d,,' head='शांत'  name='5'>
+1.5.1	शांत	JJ	<fs af='शांत,adj,m,sg,3,,,' name='शांत'  synsetid='2439'>
+	))		
+1.6	((	VGF	<fs af='बचना,v,n,sg,3,,या,ले' head='राहिले'  name='6'  aspect='perf'  mood='in'>
+1.6.1	बचा	VM	<fs af='बच,v,n,sg,3,,या,ले' name='राहिले'  aspect='perf'  mood='in'>
+1.6.2	।	SYM	<fs af='।,pun,m,sg,3,,,' poslcat='NM'>
+	))		
+	))		
+</Sentence>			
+<Sentence id="1">			
+1	((	SSF	
+1.1	((	NP	<fs af='शहर,n,m,pl,,o, में,मध्ये' vpos='vib1'  head='शहरांमध्ये'  drel='k1:4'  name='1'>
+1.1.1	शहरों	NN	<fs af='शहर,n,m,pl,3,o,,मध्ये' name='शहरांमध्ये'  synsetid='3871'>
+1.1.2	में	PSP	<fs af='में,psp,m,pl,3,,,'>
+	))		
+1.2	((	NP	<fs af='तकनीक,n,f,sg,,o, के कारण,मुळे' vpos='vib1'  head='तंत्रज्ञानामुळे'  name='2'>
+1.2.1	तकनीक	NN	<fs af='तकनीक,n,f,sg,3,o,,मुळे' name='तंत्रज्ञानामुळे'  synsetid='8967'>
+1.2.2	के	PSP	<fs af='के,psp,f,sg,3,,,'>
+1.2.3	कारण	PSP	<fs af='कारण,psp,f,sg,3,,,'>
+	))		
+1.3	((	NP	<fs af='सुधार,n,m,sg,,d,,' head='सुधारणा'  drel='k2:4'  name='3'>
+1.3.1	बहुत	QF	<fs af='बहुत,adj,m,sg,3,d,,' synsetid='243'>
+1.3.2	सुधार	NN	<fs af='सुधार,n,m,sg,3,d,,' name='सुधारणा'  synsetid='396'>
+	))		
+1.4	((	VGF	<fs af='गुजरना,v,m,sg,,d,या,ल्या' head='झाल्या'  kridanta type='la'  name='4'  aspect='perf'  genfeature='(ला,gen,f,pl,,d,)(ला,gen,,,,o,)'  kridanta cm='ल्या'>
+1.4.1	गुजरीं	VM	<fs af='गुजर,v,f,pl,3,d,या,ल्या' kridanta type='la'  aspect='perf'  name='झाल्या'  genfeature='(ला,gen,f,pl,,d,)(ला,gen,,,,o,)'  kridanta cm='ल्या'>
+1.4.2	;	SYM	<fs af=';,pun,m,sg,3,,,' poslcat='NM'>
+	))		
+1.5	((	CCP	<fs af='तथापि,conj,,,,,,' head='तथापि'  name='5'>
+1.5.1	तथापि	CC	<fs af='तथापि,conj,m,sg,3,,,' name='तथापि'>
+	))		
+1.6	((	NP	<fs af='गाँव,n,m,pl,,d,,' head='गावे'  drel='k1:8'  name='6'>
+1.6.1	अनेक	QF	<fs af='अनेक,adj,m,pl,3,d,,' synsetid='118'>
+1.6.2	गाँव	NN	<fs af='गाँव,n,m,pl,3,d,,' name='गावे'  synsetid='4696'>
+	))		
+1.7	((	NP	<fs af='वैसा,adj,f,sg,,d, ही,च' head='तशीच'  vpos='vib1'  drel='k2:8'  name='7'  poslcat='NM'>
+1.7.1	वैसी ही	PRP	<fs af='वैसा,adj,f,sg,3,d,ही,च' name='तशीच'  synsetid='1812'  poslcat='NM'>
+	))		
+1.8	((	VGF	<fs af='बचना,v,f,sg,,d,या,ली' head='राहिली'  kridanta type='la'  aspect='perf'  name='8'  kridanta cm='ली'>
+1.8.1	बची	VM	<fs af='बच,v,f,sg,3,d,या,ली' kridanta type='la'  aspect='perf'  name='राहिली'  kridanta cm='ली'>
+1.8.2	।	SYM	<fs af='।,pun,m,sg,3,,,' poslcat='NM'>
+	))		
+	))		
+</Sentence>			
+<Sentence id="1">			
+1	((	SSF	
+1.1	((	NP	<fs af='तू,pn,f,sg,2,d,,' head='तू'  drel='k1:3'  name='1'>
+1.1.1	तू	PRP	<fs af='तू,pn,m,sg,2,d,,' name='तू'>
+	))		
+1.2	((	NP	<fs af='घराना,n,m,sg,,o, में,ई ' vpos='vib1'  head='घरी'  drel='k2:3'  name='2'>
+1.2.1	घर	NN	<fs af='घर,n,m,sg,3,o,,ई ' name='घरी'  synsetid='191'>
+1.2.2	में	PSP	<fs af='में,psp,m,sg,3,,,'>
+	))		
+1.3	((	VGF	<fs af='आना,v,m,sg,,,या,लास' head='आलास'  aspect='perf'  name='3'  mood='in'>
+1.3.1	आया	VM	<fs af='आ,v,m,sg,2,,या,लास' name='आलास'  aspect='perf'  mood='in'>
+1.3.2	,	SYM	<fs af=',n,pun,sg,3,,,' poslcat='NM'>
+	))		
+1.4	((	CCP	<fs af='कि,conj,,,,,,' head='की'  name='4'>
+1.4.1	कि	CC	<fs af='कि,conj,m,sg,3,,,' name='की'>
+	))		
+1.5	((	NP	<fs af='आप,pn,,sg,1,d,,' head='आपण'  drel='k1:6'  name='5'>
+1.5.1	आप	PRP	<fs af='आप,pn,m,sg,1,d,,' name='आपण'>
+	))		
+1.6	((	VGF	<fs af='कटना,v,,sg,1,,एंगे,ऊ' head='जाऊ'  name='6'  mood='imp'>
+1.6.1	कटएंगे	VM	<fs af='कट,v,m,sg,1,,एंगे,ऊ' name='जाऊ'  mood='imp'>
+1.6.2	।	SYM	<fs af='।,pun,m,sg,3,,,' poslcat='NM'>
+	))		
+	))		
+</Sentence>			
+<Sentence id="1">			
+1	((	SSF	
+1.1	((	NP	<fs af='मैं,pn,m,sg,1,o, का,झा' vpos='vib1'  head='माझा'  drel='k1:4'  name='1'  genfeature='(झा,gen,m,sg,,d,)'>
+1.1.1	मेरे	PRP	<fs af='मैं,pn,m,sg,1,o,का,झा' name='माझा'  genfeature='(झा,gen,m,sg,,d,)'>
+	))		
+1.2	((	NP	<fs af='भाई,n,m,sg,,d,,' head='भाऊ'  drel='k2:4'  name='2'>
+1.2.1	भाई	NN	<fs af='भाई,n,m,sg,3,d,,' name='भाऊ'  synsetid='81'>
+	))		
+1.3	((	JJP	<fs af='होशियार,adj,m,sg,,o,,' head='हुशार'  name='3'>
+1.3.1	होशियार	JJ	<fs af='होशियार,adj,m,sg,3,,,' name='हुशार'>
+	))		
+1.4	((	VGF	<fs af='होना,v,m,sg,,,,' head='आहे'  aspect='s'  name='4'  tense='pre'  mood='in'>
+1.4.1	हो	VM	<fs af='हो,v,m,sg,1,,,' name='आहे'  aspect='s'  tense='pre'  mood='in'>
+1.4.2	।	SYM	<fs af='।,pun,m,sg,3,,,' poslcat='NM'>
+	))		
+	))		
+</Sentence>			
+<Sentence id="1">			
+1	((	SSF	
+1.1	((	NP	<fs af='वह,pn,m,sg,3,d,,' head='तो'  drel='k1:2'  name='1'>
+1.1.1	वह	PRP	<fs af='वह,pn,m,sg,3,d,,' name='तो'>
+	))		
+1.2	((	VGF	<fs af='बोलना,v,m,sg,1,,ता है,तो' head='म्हणतो'  name='2'  mood='cond'>
+1.2.1	बोलता	VM	<fs af='बोल,v,m,sg,1,,ता,तो' name='म्हणतो'  mood='cond'>
+1.2.2	है	VAUX	<fs af='है,v,m,sg,1,,,'>
+	))		
+1.3	((	CCP	<fs af='कि,conj,,,,,,' head='की'  name='3'>
+1.3.1	कि	CC	<fs af='कि,conj,m,sg,3,,,' name='की'>
+	))		
+1.4	((	NP	<fs af='मैं,pn,m,pl,1,d,,' head='आम्ही'  drel='k1:9'  name='4'>
+1.4.1	हम	PRP	<fs af='मैं,pn,m,pl,1,d,,' name='आम्ही'>
+	))		
+1.5	((	NP	<fs af='भारत,n,m,sg,,o, का,च्या' vpos='vib1'  head='भारताच्या'  name='5'  genfeature='(चा,gen,f,pl,,d,)(चा,gen,,,,o,)'>
+1.5.1	भारत	NNP	<fs af='भारत,n,m,sg,3,o,,च्या' name='भारताच्या'  genfeature='(चा,gen,f,pl,,d,)(चा,gen,,,,o,)'  synsetid='841'>
+1.5.2	के	PSP	<fs af='का,psp,m,sg,3,,,'>
+	))		
+1.6	((	NP	<fs af='लटाई,n,m,sg,,d,,' head='फिरकी'  drel='k2:9'  name='6'>
+1.6.1	लटाई	NN	<fs af='लटाई,n,m,sg,3,d,,' name='फिरकी'  synsetid='1299'>
+	))		
+1.7	((	NP	<fs af='गोलंदाज,n,m,pl,,o,को,ना' head='गोलंदाजांना'  vpos='vib1'  name='7'>
+1.7.1	गोलंदाजों को	NN	<fs af='गोलंदाज,n,m,pl,3,o,को,ना' name='गोलंदाजांना'  synsetid='949'>
+	))		
+1.8	((	NP	<fs af='भी,v,,,,,,त' head='भीत'  vpos='vib1'  kridanta type='t'  name='8'  poslcat='NM'  kridanta cm='त'>
+1.8.1	भी	NN	<fs af='भी,v,m,sg,3,,,' kridanta type='t'  name='भीत'  poslcat='NM'  kridanta cm='त'>
+	))		
+1.9	((	VGF	<fs af='नहीं होना,v,m,sg,,,,' head='नाही'  aspect='s'  name='9'  tense='pre'  mood='in'>
+1.9.1	नहीं हो	VM	<fs af='नहीं हो,v,m,sg,1,,,' aspect='s'  name='नाही'  tense='pre'  mood='in'>
+1.9.2	।	SYM	<fs af='।,pun,m,sg,3,,,' poslcat='NM'>
+	))		
+	))		
+</Sentence>			
+<Sentence id="1">			
+1	((	SSF	
+1.1	((	CCP	<fs af='लेकिन,conj,,,,,,' head='पण'  name='1'>
+1.1.1	लेकिन	CC	<fs af='लेकिन,conj,m,sg,3,,,' name='पण'>
+	))		
+1.2	((	NP	<fs af='मैं,pn,m,sg,1,d,,' head='मी'  drel='k1:7'  name='2'>
+1.2.1	मैं	PRP	<fs af='मैं,pn,m,sg,1,d,,' name='मी'>
+	))		
+1.3	((	NP	<fs af='वचन,n,m,sg,,o, से पहले,अगोदर' vpos='vib2'  head='बोलण्याअगोदर'  name='3'>
+1.3.1	कुछ	QF	<fs af='कुछ,adj,m,sg,3,o,,' synsetid='13148'>
+1.3.2	वचन	NN	<fs af='वचन,n,m,sg,3,o,,अगोदर' name='बोलण्याअगोदर'>
+1.3.3	से	PSP	<fs af='से,psp,m,sg,3,,,'>
+1.3.4	पहले	PSP	<fs af='पहले,psp,m,sg,3,,,'>
+	))		
+1.4	((	NP	<fs af='वह,pn,m,pl,3,o, ने  ही,नी च' vpos='vib1'  head='त्यांनीच'  name='4'>
+1.4.1	उन्होंने	PRP	<fs af='वह,pn,m,pl,3,o,ने,नी च' name='त्यांनीच'>
+1.4.2		PSP	<fs af=',psp,m,sg,3,,,'>
+1.4.3	ही	PSP	<fs af='ही,psp,m,sg,3,,,'>
+	))		
+1.5	((	NP	<fs af='यह,pn,m,sg,3,o, पर,वर' vpos='vib1'  head='यावर'  name='5'>
+1.5.1	इसपर	PRP	<fs af='यह,pn,m,sg,3,o,पर,वर' name='यावर'>
+	))		
+1.6	((	NP	<fs af='प्रतिक्रिया,n,f,sg,,d,,' head='प्रतिक्रिया'  drel='k2:7'  name='6'>
+1.6.1	प्रतिक्रिया	NN	<fs af='प्रतिक्रिया,n,f,sg,3,d,,' name='प्रतिक्रिया'  synsetid='3777'>
+	))		
+1.7	((	VGF	<fs af='देना,v,f,sg,,,या,ली' head='दिली'  aspect='perf'  name='7'  mood='in'>
+1.7.1	दी	VM	<fs af='दे,v,f,sg,3,,या,ली' name='दिली'  aspect='perf'  mood='in'>
+1.7.2	।	SYM	<fs af='।,pun,m,sg,3,,,' poslcat='NM'>
+	))		
+	))		
+</Sentence>			
+<Sentence id="1">			
+1	((	SSF	
+1.1	((	NP	<fs af='घराना,n,m,sg,,o, का,च्या' vpos='vib1'  head='घराच्या'  drel='k1:4'  name='1'  genfeature='(चा,gen,f,pl,,d,)(चा,gen,,,,o,)'>
+1.1.1	घर	NN	<fs af='घर,n,m,sg,3,o,,च्या' name='घराच्या'  genfeature='(चा,gen,f,pl,,d,)(चा,gen,,,,o,)'  synsetid='191'>
+1.1.2	के	PSP	<fs af='का,psp,m,sg,3,,,'>
+	))		
+1.2	((	NP	<fs af='पिछाडी,n,m,sg,,o, को,स' vpos='vib1'  head='पिछाडीस'  name='2'>
+1.2.1	पिछाडी	NN	<fs af='पिछाडी,n,m,sg,3,o,,स' name='पिछाडीस'>
+1.2.2	को	PSP	<fs af='को,psp,m,sg,3,,,'>
+	))		
+1.3	((	NP	<fs af='बाग,n,f,sg,,d,,' head='बाग'  drel='k2:4'  name='3'>
+1.3.1	एक	QC	<fs af='एक,adj,f,sg,3,d,,' enamex type='count'  synsetid='187'  subtype 1='individual'>
+1.3.2	बाग	NN	<fs af='बाग,n,f,sg,3,d,,' name='बाग'  synsetid='3534'>
+	))		
+1.4	((	VGF	<fs af='होना,v,f,sg,,,,' head='आहे'  aspect='s'  name='4'  tense='pre'  mood='in'>
+1.4.1	हो	VM	<fs af='हो,v,m,sg,1,,,' name='आहे'  aspect='s'  tense='pre'  mood='in'>
+1.4.2	।	SYM	<fs af='।,pun,m,sg,3,,,' poslcat='NM'>
+	))		
+	))		
+</Sentence>			
+<Sentence id="1">			
+1	((	SSF	
+1.1	((	NP	<fs af='मैं,pn,m,sg,1,d,,' head='मी'  drel='k1:5'  name='1'>
+1.1.1	मैं	PRP	<fs af='मैं,pn,m,sg,1,d,,' name='मी'>
+	))		
+1.2	((	NP	<fs af='ईश्वर,n,m,sg,,o, के प्रति,प्रती' vpos='vib1'  head='देवाप्रती'  name='2'>
+1.2.1	देवता	NN	<fs af='देवता,n,f,sg,3,o,,प्रती' name='देवाप्रती'  synsetid='2484'>
+1.2.2	के	PSP	<fs af='के,psp,f,sg,3,,,'>
+1.2.3	प्रति	PSP	<fs af='प्रति,psp,f,sg,3,,,'>
+	))		
+1.3	((	NP	<fs af='कृतज्ञता,n,m,sg,,d,,' head='कृतज्ञता'  drel='k2:5'  name='3'>
+1.3.1	बहुत	QF	<fs af='बहुत,adj,m,sg,3,d,,' synsetid='243'>
+1.3.2	कृतज्ञता	NN	<fs af='कृतज्ञता,n,m,sg,3,d,,' name='कृतज्ञता'  synsetid='3459'>
+	))		
+1.4	((	JJP	<fs af='व्यक्त,adj,m,sg,,d,,' head='व्यक्त'  name='4'>
+1.4.1	व्यक्त	JJ	<fs af='व्यक्त,adj,m,sg,3,,,' name='व्यक्त'>
+	))		
+1.5	((	VGF	<fs af='करना,v,m,sg,,,ता है,तो' head='करतो'  aspect='impf'  name='5'  mood='in'>
+1.5.1	करता	VM	<fs af='कर,v,m,sg,3,,ता,तो' name='करतो'  aspect='impf'  mood='in'>
+1.5.2	है	VAUX	<fs af='है,v,m,sg,3,,,'>
+1.5.3	।	SYM	<fs af='।,pun,m,sg,3,,,' poslcat='NM'>
+	))		
+	))		
+</Sentence>			
+<Sentence id="1">			
+1	((	SSF	
+1.1	((	NP	<fs af='आशा,n,f,sg,,o, साथ,बरोबर' vpos='vib1'  head='आशाबरोबर'  drel='k1:4'  name='1'>
+1.1.1	आशा	NNP	<fs af='आशा,n,f,sg,3,o,,बरोबर' enamex type='person'  name='आशाबरोबर'  synsetid='365'  subtype 1='individual'>
+1.1.2	साथ	PSP	<fs af='साथ,psp,f,sg,3,,,'>
+	))		
+1.2	((	NP	<fs af='मैं,pn,m,sg,1,d,,' head='मी'  drel='k2:4'  name='2'>
+1.2.1	मैं	PRP	<fs af='मैं,pn,m,sg,1,d,,' name='मी'>
+	))		
+1.3	((	NP	<fs af='विद्यालय,n,m,sg,,o, में,त' vpos='vib1'  head='शाळेत'  name='3'>
+1.3.1	विद्यालय	NN	<fs af='विद्यालय,n,m,sg,3,o,,त' name='शाळेत'  synsetid='1731'>
+1.3.2	में	PSP	<fs af='में,psp,m,sg,3,,,'>
+	))		
+1.4	((	VGF	<fs af='कटना,v,m,sg,1,,ता है,ते' head='जाते'  aspect='impf'  name='4'  mood='in'>
+1.4.1	कटता	VM	<fs af='कट,v,n,sg,3,,ता,ते' name='जाते'  aspect='impf'  mood='in'>
+1.4.2	है	VAUX	<fs af='है,v,m,sg,1,,,'>
+1.4.3	।	SYM	<fs af='।,pun,m,sg,3,,,' poslcat='NM'>
+	))		
+	))		
+</Sentence>			
+<Sentence id="1">			
+1	((	SSF	
+1.1	((	NP	<fs af='पैसा,n,m,pl,,o, के बारे में,बाबत' vpos='vib1'  head='पैशांबाबत'  drel='k1:3'  name='1'>
+1.1.1	पैसों	NN	<fs af='पैसा,n,m,pl,3,o,,बाबत' name='पैशांबाबत'  synsetid='351'>
+1.1.2	के	PSP	<fs af='के,psp,m,pl,3,,,'>
+1.1.3	बारे	PSP	<fs af='बारे,psp,m,pl,3,,,'>
+1.1.4	में	PSP	<fs af='में,psp,m,pl,3,,,'>
+	))		
+1.2	((	NP	<fs af='निर्णय,n,m,sg,,d,,' head='निर्णय'  drel='k2:3'  name='2'>
+1.2.1	क्या	QW	<fs af='क्या,pn,m,sg,3,d,,' poslcat='NM'>
+1.2.2	निर्णय	NN	<fs af='निर्णय,n,m,sg,3,d,,' name='निर्णय'  synsetid='656'>
+	))		
+1.3	((	VGF	<fs af='गुजरना,v,m,sg,,,या,ला' head='झाला'  aspect='perf'  name='3'  mood='in'>
+1.3.1	गुजरा	VM	<fs af='गुजर,v,m,sg,3,,या,ला' name='झाला'  aspect='perf'  mood='in'>
+1.3.2	?	SYM	<fs af='?,pun,m,sg,3,,,' poslcat='NM'>
+	))		
+	))		
+</Sentence>			
+<Sentence id="1">			
+1	((	SSF	
+1.1	((	NP	<fs af='सर्दी,n,f,sg,,o, के कारण,मुळे' vpos='vib1'  head='सर्दीमुळे'  drel='k1:7'  name='1'>
+1.1.1	सर्दी	NN	<fs af='सर्दी,n,f,sg,3,o,,मुळे' name='सर्दीमुळे'  synsetid='3293'>
+1.1.2	के	PSP	<fs af='के,psp,f,sg,3,,,'>
+1.1.3	कारण	PSP	<fs af='कारण,psp,f,sg,3,,,'>
+	))		
+1.2	((	CCP	<fs af='या,conj,,,,,,' head='किंवा'  name='2'>
+1.2.1	या	CC	<fs af='या,conj,m,sg,3,,,' name='किंवा'>
+	))		
+1.3	((	NP	<fs af='अऍलर्जी,unk,m,,,, के कारण,मुळे' vpos='vib1'  head='अऍलर्जीमुळे'  name='3'  poslcat='NM'>
+1.3.1	अऍलर्जी	NN	<fs af='अऍलर्जी,unk,m,sg,3,,,मुळे' name='अऍलर्जीमुळे'  poslcat='NM'>
+1.3.2	के	PSP	<fs af='के,psp,m,sg,3,,,'>
+1.3.3	कारण	PSP	<fs af='कारण,psp,m,sg,3,,,'>
+	))		
+1.4	((	NP	<fs af='तू,pn,f,pl,2,o, का,चे' vpos='vib1'  head='तुमचे'  name='4'  genfeature='(चा,gen,m,pl,,d,)(चा,gen,n,sg,,d,)'>
+1.4.1	तुम्हारे	PRP	<fs af='तू,pn,m,pl,2,o,का,चे' name='तुमचे'  genfeature='(चा,gen,m,pl,,d,)(चा,gen,n,sg,,d,)'>
+	))		
+1.5	((	NP	<fs af='नाक,n,f,sg,,d,,' head='नाक'  drel='k2:7'  name='5'>
+1.5.1	नाक	NN	<fs af='नाक,n,f,sg,3,d,,' name='नाक'>
+	))		
+1.6	((	NP	<fs af='कभी,adv,,,,,,' head='कधी'  name='6'  poslcat='NM'>
+1.6.1	कभी	QW	<fs af='कभी,adv,m,sg,3,,,' name='कधी'  synsetid='483'  poslcat='NM'>
+	))		
+1.7	((	VGF	<fs af='गिरना,v,,sg,3,, रहा है+ता है,त' head='गळत'  vpos='tam1 2'  kridanta type='2:'  aspect=' '  tense=' '  mood=' cond'  kridanta cm='2:'>
+1.7.1	गिर	VM	<fs af='गिर,v,m,sg,3,,,त' kridanta type='t'  name='गळत'  kridanta cm='त'>
+1.7.2	रहा	VAUX	<fs af='रहा,v,m,sg,3,,,'>
+1.7.3	होता	VAUX	<fs af='है,v,m,sg,3,,ता,'>
+1.7.4	है	VAUX	<fs af='है,v,m,sg,3,,,'>
+1.7.5	क्यों	QW	<fs af='क्यों,particle,m,sg,3,,,' poslcat='NM'>
+1.7.6	?	SYM	<fs af='?,pun,m,sg,3,,,' poslcat='NM'>
+	))		
+	))		
+</Sentence>			
+<Sentence id="1">			
+1	((	SSF	
+1.1	((	NP	<fs af='कुछ,n,m,pl,,o, ने,नी' vpos='vib1'  head='काहींनी'  drel='k1:8'  name='1'>
+1.1.1	कुछों	NN	<fs af='कुछ,n,m,pl,3,o,,नी' name='काहींनी'>
+1.1.2	ने	PSP	<fs af='ने,psp,m,pl,3,,,'>
+	))		
+1.2	((	NP	<fs af='घराना,n,m,sg,,o, के पास,लगत' vpos='vib1'  head='घरालगत'  name='2'>
+1.2.1	घर	NN	<fs af='घर,n,m,sg,3,o,,लगत' name='घरालगत'  synsetid='191'>
+1.2.2	के	PSP	<fs af='के,psp,m,sg,3,,,'>
+1.2.3	पास	PSP	<fs af='पास,psp,m,sg,3,,,'>
+	))		
+1.3	((	NP	<fs af='मंजीर,n,m,pl,,d,,' head='चाळी'  drel='k2:8'  name='3'>
+1.3.1	अनधिकृत	JJ	<fs af='अनधिकृत,adj,f,pl,3,d,,' synsetid='15364'>
+1.3.2	चालें	NN	<fs af='चाल,n,f,pl,3,d,,' name='चाळी'  synsetid='1192'>
+	))		
+1.4	((	VGNF	<fs af='बाँधना,v,,,,,कर,ून' head='बांधून'  kridanta type='oon'  name='4'  aspect='comp'  kridanta cm='ून'>
+1.4.1	बाँधकर	VM	<fs af='बाँध,v,m,sg,3,,कर,ून' kridanta type='oon'  aspect='comp'  name='बांधून'  kridanta cm='ून'>
+	))		
+1.5	((	NP	<fs af='आप,pn,m,sg,1,o, को,ला' vpos='vib1'  head='आपला'  name='5'  genfeature='(ला,gen,m,sg,,d,)'>
+1.5.1	आपको	PRP	<fs af='आप,pn,m,sg,1,o,को,ला' name='आपला'  genfeature='(ला,gen,m,sg,,d,)'>
+	))		
+1.6	((	NP	<fs af='आजीविका,n,f,sg,,d,,' head='उदरनिर्वाह'  name='6'>
+1.6.1	आजीविका	NN	<fs af='आजीविका,n,f,sg,3,d,,' name='उदरनिर्वाह'  synsetid='5638'>
+	))		
+1.7	((	JJP	<fs af='चालू,adj,m,pl,,o,,' head='चालू'  name='7'>
+1.7.1	चालू	JJ	<fs af='चालू,adj,m,sg,3,,,' name='चालू'  synsetid='524'>
+	))		
+1.8	((	VGF	<fs af='रखना,v,m,pl,,,या,ला' head='ठेवला'  aspect='perf'  name='8'  mood='in'>
+1.8.1	रखा	VM	<fs af='रख,v,m,sg,3,,या,ला' name='ठेवला'  aspect='perf'  mood='in'>
+1.8.2	।	SYM	<fs af='।,pun,m,sg,3,,,' poslcat='NM'>
+	))		
+	))		
+</Sentence>			
+<Sentence id="1">			
+1	((	SSF	
+1.1	((	NP	<fs af='घराना,n,m,sg,,o, के पास से,शेजार ून' vpos='vib1'  head='घराशेजारून'  drel='k1:3'  name='1'>
+1.1.1	घर	NN	<fs af='घर,n,m,sg,3,o,,शेजार ून' name='घराशेजारून'  synsetid='191'>
+1.1.2	के	PSP	<fs af='के,psp,m,sg,3,,,'>
+1.1.3	पास	PSP	<fs af='पास,psp,m,sg,3,,,'>
+1.1.4	से	PSP	<fs af='से,psp,m,sg,3,,,'>
+	))		
+1.2	((	NP	<fs af='नदी,n,f,sg,,d,,' head='नदी'  drel='k2:3'  name='2'>
+1.2.1	नदी	NN	<fs af='नदी,n,f,sg,3,d,,' name='नदी'  synsetid='443'>
+	))		
+1.3	((	VGF	<fs af='बहना,v,f,sg,,,ता है,ते' head='वाहते'  aspect='impf'  name='3'  mood='in'>
+1.3.1	बहता	VM	<fs af='बह,v,n,sg,3,,ता,ते' name='वाहते'  aspect='impf'  mood='in'>
+1.3.2	है	VAUX	<fs af='है,v,m,sg,3,,,'>
+1.3.3	।	SYM	<fs af='।,pun,m,sg,3,,,' poslcat='NM'>
+	))		
+	))		
+</Sentence>			
+<Sentence id="1">			
+1	((	SSF	
+1.1	((	NP	<fs af='वह,pn,m,sg,3,d,,' head='ती'  drel='k1:4'  name='1'>
+1.1.1	वह	PRP	<fs af='वह,pn,f,sg,3,d,,' name='ती'>
+	))		
+1.2	((	NP	<fs af='महिला मित्र,n,m,sg,,o, साथ,संगे' vpos='vib1'  head='मैत्रिणीसंगे'  drel='k2:4'  name='2'>
+1.2.1	सहचरी	NN	<fs af='सहचरी,n,f,sg,3,o,,संगे' name='मैत्रिणीसंगे'  synsetid='11448'>
+1.2.2	साथ	PSP	<fs af='साथ,psp,f,sg,3,,,'>
+	))		
+1.3	((	NP	<fs af='घराना,n,m,sg,,o, में,ई ' vpos='vib1'  head='घरी'  name='3'>
+1.3.1	घर	NN	<fs af='घर,n,m,sg,3,o,,ई ' name='घरी'  synsetid='191'>
+1.3.2	में	PSP	<fs af='में,psp,m,sg,3,,,'>
+	))		
+1.4	((	VGF	<fs af='आना,v,m,sg,,,या,ली' head='आली'  aspect='perf'  name='4'  mood='in'>
+1.4.1	आई	VM	<fs af='आ,v,f,sg,3,,या,ली' name='आली'  aspect='perf'  mood='in'>
+1.4.2	।	SYM	<fs af='।,pun,m,sg,3,,,' poslcat='NM'>
+	))		
+	))		
+</Sentence>			
+<Sentence id="1">			
+1	((	SSF	
+1.1	((	NP	<fs af='माता,n,f,sg,,o, साथ,सह' vpos='vib1'  head='आईसह'  drel='k1:4'  name='1'>
+1.1.1	माता	NN	<fs af='माता,n,f,sg,3,o,,सह' name='आईसह'  synsetid='2191'>
+1.1.2	साथ	PSP	<fs af='साथ,psp,f,sg,3,,,'>
+	))		
+1.2	((	NP	<fs af='वह,pn,m,sg,3,d,,' head='ती'  drel='k2:4'  name='2'>
+1.2.1	वह	PRP	<fs af='वह,pn,f,sg,3,d,,' name='ती'>
+	))		
+1.3	((	NP	<fs af='बाजार,n,m,sg,,o, में,त' vpos='vib1'  head='बाजारात'  name='3'>
+1.3.1	बाजार	NN	<fs af='बाजार,n,m,sg,3,o,,त' name='बाजारात'  synsetid='533'>
+1.3.2	में	PSP	<fs af='में,psp,m,sg,3,,,'>
+	))		
+1.4	((	VGF	<fs af='कटना,v,m,sg,3,,या,ली' head='गेली'  aspect='perf'  name='4'  mood='in'>
+1.4.1	कटी	VM	<fs af='कट,v,f,sg,3,,या,ली' name='गेली'  aspect='perf'  mood='in'>
+1.4.2	।	SYM	<fs af='।,pun,m,sg,3,,,' poslcat='NM'>
+	))		
+	))		
+</Sentence>			
+<Sentence id="1">			
+1	((	SSF	
+1.1	((	NP	<fs af='ब्याज,n,m,sg,,o, साथ,सहित' vpos='vib1'  head='व्याजासहित'  drel='k1:4'  name='1'>
+1.1.1	ब्याज	NN	<fs af='ब्याज,n,m,sg,3,o,,सहित' name='व्याजासहित'  synsetid='735'>
+1.1.2	साथ	PSP	<fs af='साथ,psp,m,sg,3,,,'>
+	))		
+1.2	((	NP	<fs af='धन राशि,n,m,sg,,d,,' head='रक्कम'  drel='k2:4'  name='2'>
+1.2.1	धन राशि	NN	<fs af='धन राशि,n,m,sg,3,d,,' name='रक्कम'  synsetid='179'>
+	))		
+1.3	((	RBP	<fs af='वापस,adv,,,,,,' head='परत'  name='3'>
+1.3.1	वापस	RB	<fs af='वापस,adv,m,sg,3,,,' name='परत'  synsetid='1819'>
+	))		
+1.4	((	VGF	<fs af='करना,v,m,sg,,,,' head='कर'  name='4'  mood='imp'>
+1.4.1	कर	VM	<fs af='कर,v,m,sg,2,,,' name='कर'  mood='imp'>
+1.4.2	।	SYM	<fs af='।,pun,m,sg,3,,,' poslcat='NM'>
+	))		
+	))		
+</Sentence>			
+<Sentence id="1">			
+1	((	SSF	
+1.1	((	NP	<fs af='मैं,pn,m,sg,1,o, का  के लिए,झ्या साठी' vpos='vib1'  head='माझ्यासाठी'  drel='k1:3'  name='1'  genfeature='(झा,gen,f,pl,,d,)(झा,gen,,,,o,)'>
+1.1.1	मेरे	PRP	<fs af='मैं,pn,m,sg,1,o,का,झ्या साठी' name='माझ्यासाठी'  genfeature='(झा,gen,f,pl,,d,)(झा,gen,,,,o,)'>
+1.1.2		PSP	<fs af=',psp,m,sg,3,,,'>
+1.1.3	के	PSP	<fs af='के,psp,m,sg,3,,,'>
+1.1.4	लिए	PSP	<fs af='लिए,psp,m,sg,3,,,'>
+	))		
+1.2	((	NP	<fs af='मात्र,conj,m,,,,,' head='मात्र'  name='2'>
+1.2.1	इतना	QF	<fs af='इतना,adj,n,sg,3,d,,' synsetid='1813'>
+1.2.2	मात्र	RP	<fs af='मात्र,conj,m,sg,3,,,' name='मात्र'>
+	))		
+1.3	((	VGF	<fs af='करना,v,,sg,2,,,' head='कर'  name='3'  mood='imp'>
+1.3.1	कर	VM	<fs af='कर,v,m,sg,2,,,' name='कर'  mood='imp'>
+1.3.2	।	SYM	<fs af='।,pun,m,sg,3,,,' poslcat='NM'>
+	))		
+	))		
+</Sentence>			
+<Sentence id="1">			
+1	((	SSF	
+1.1	((	NP	<fs af='प्रदर्शन,n,m,sg,,o, में,त' vpos='vib1'  head='प्रदर्शनात'  drel='k1:8'  name='1'>
+1.1.1	प्रदर्शन	NN	<fs af='प्रदर्शन,n,m,sg,3,o,,त' name='प्रदर्शनात'  synsetid='1282'>
+1.1.2	में	PSP	<fs af='में,psp,m,sg,3,,,'>
+	))		
+1.2	((	NP	<fs af='प्रामुख्य,n,m,sg,,o, ने,ने' vpos='vib1'  head='प्रामुख्याने'  name='2'>
+1.2.1	प्रामुख्य	NN	<fs af='प्रामुख्य,n,m,sg,3,o,,ने' name='प्रामुख्याने'>
+1.2.2	ने	PSP	<fs af='ने,psp,m,sg,3,,,'>
+	))		
+1.3	((	NP	<fs af='इतिहास,n,m,sg,,o, का,ची' vpos='vib1'  head='इतिहासाची'  name='3'  genfeature='(चा,gen,f,sg,,d,)(चा,gen,n,pl,,d,)'>
+1.3.1	इतिहास	NN	<fs af='इतिहास,n,m,sg,3,o,,ची' name='इतिहासाची'  genfeature='(चा,gen,f,sg,,d,)(चा,gen,n,pl,,d,)'  synsetid='3729'>
+1.3.2	के	PSP	<fs af='का,psp,m,sg,3,,,'>
+	))		
+1.4	((	NP	<fs af='पुस्तक,n,f,pl,,d,,' head='पुस्तके 2'  drel='k2:8'  name='4'>
+1.4.1	पुस्तकें	NN	<fs af='पुस्तक,n,f,pl,3,d,,' name='पुस्तके 2'  synsetid='4352'>
+	))		
+1.5	((	NP	<fs af=';,pun,m,,,,,' head=';'  name='5'  poslcat='NM'>
+1.5.1	हो	VM	<fs af='हो,v,f,sg,3,,,' aspect='s'  tense='pas'  mood='in'>
+1.5.2	;	SYM	<fs af=';,pun,m,sg,3,,,' name=';'  poslcat='NM'>
+	))		
+1.6	((	NP	<fs af='विषय,n,m,pl,,o, का भी,ची ही' vpos='vib3'  head='विषयांचीही'  name='6'  genfeature='(चा,gen,f,sg,,d,)(चा,gen,n,pl,,d,)'>
+1.6.1	और	QF	<fs af='और,adj,m,pl,3,o,,' synsetid='155'>
+1.6.2	अन्य	JJ	<fs af='अन्य,adj,m,pl,3,o,,' synsetid='1815'>
+1.6.3	विषयों	NN	<fs af='विषय,n,m,pl,3,o,,ची ही' name='विषयांचीही'  genfeature='(चा,gen,f,sg,,d,)(चा,gen,n,pl,,d,)'  synsetid='26724'>
+1.6.4	के	PSP	<fs af='का,psp,m,pl,3,,,'>
+1.6.5	भी	PSP	<fs af='भी,psp,m,pl,3,,,'>
+	))		
+1.7	((	NP	<fs af='पुस्तक,n,n,pl,,d,,' head='पुस्तके'  name='7'>
+1.7.1	पुस्तकें	NN	<fs af='पुस्तक,n,n,pl,3,d,,' name='पुस्तके'  synsetid='4352'>
+	))		
+1.8	((	VGF	<fs af='होना,v,f,pl,,,,' head='होती'  aspect='s'  name='8'  tense='pas'  mood='in'>
+1.8.1	हो	VM	<fs af='हो,v,f,sg,3,,,' aspect='s'  name='होती'  tense='pas'  mood='in'>
+1.8.2	।	SYM	<fs af='।,pun,m,sg,3,,,' poslcat='NM'>
+	))		
+	))		
+</Sentence>			
+<Sentence id="1">			
+1	((	SSF	
+1.1	((	NP	<fs af='बच्चा गाड़ी,n,m,sg,,d,,' head='गाडी'  drel='k1:4'  name='1'>
+1.1.1	गाड़ी	NN	<fs af='गाड़ी,n,f,sg,3,d,,' name='गाडी'  synsetid='489'>
+	))		
+1.2	((	NP	<fs af='डगर,n,f,sg,,o, में,त' vpos='vib1'  head='वाटेत'  drel='k2:4'  name='2'>
+1.2.1	डगर	NN	<fs af='डगर,n,f,sg,3,o,,त' name='वाटेत'  synsetid='5828'>
+1.2.2	में	PSP	<fs af='में,psp,f,sg,3,,,'>
+	))		
+1.3	((	JJP	<fs af='बंद,adj,m,sg,,d,,' head='बंद'  name='3'>
+1.3.1	बंद	JJ	<fs af='बंद,adj,m,sg,3,,,' name='बंद'  synsetid='9564'>
+	))		
+1.4	((	VGF	<fs af='गिरना,v,f,sg,,d,या,ली' head='पडली'  kridanta type='la'  aspect='perf'  name='4'  kridanta cm='ली'>
+1.4.1	गिरी	VM	<fs af='गिर,v,f,sg,3,d,या,ली' kridanta type='la'  aspect='perf'  name='पडली'  kridanta cm='ली'>
+1.4.2	;	SYM	<fs af=';,pun,m,sg,3,,,' poslcat='NM'>
+	))		
+1.5	((	CCP	<fs af='इसलिए,conj,,,,,,' head='सबब'  name='5'>
+1.5.1	इसलिए	CC	<fs af='इसलिए,conj,m,sg,3,,,' name='सबब'>
+	))		
+1.6	((	NP	<fs af='मैं,pn,m,sg,1,o, को,ला ' vpos='vib1'  head='मला'  drel='k1:8'  name='6'>
+1.6.1	मुझे	PRP	<fs af='मैं,pn,m,sg,1,o,को,ला ' name='मला'>
+	))		
+1.7	((	JJP	<fs af='देर,n,m,sg,,d,,' head='उशीर'  name='7'  poslcat='NM'>
+1.7.1	देर	JJ	<fs af='देर,n,m,sg,3,d,,' name='उशीर'  poslcat='NM'>
+	))		
+1.8	((	VGF	<fs af='गुजरना,v,m,sg,,d,या,ला' head='झाला'  kridanta type='la'  name='8'  aspect='perf'  kridanta cm='ला'>
+1.8.1	गुजरा	VM	<fs af='गुजर,v,m,sg,3,d,या,ला' kridanta type='la'  aspect='perf'  name='झाला'  kridanta cm='ला'>
+1.8.2	।	SYM	<fs af='।,pun,m,sg,3,,,' poslcat='NM'>
+	))		
+	))		
+</Sentence>			
+<Sentence id="1">			
+1	((	SSF	
+1.1	((	VGNN	<fs af='सीखना,v,n,sg,,o,ने का,ण्या ची' head='शिकण्याची'  kridanta type='ne'  name='1'  genfeature='(चा,gen,f,sg,,d,)(चा,gen,n,pl,,d,)'  kridanta cm='ण्या#ची'>
+1.1.1	सीखने	VM	<fs af='सीख,v,n,sg,3,o,ने,ण्या ची' kridanta type='ne'  name='शिकण्याची'  genfeature='(चा,gen,f,sg,,d,)(चा,gen,n,pl,,d,)'  kridanta cm='ण्या#ची'>
+1.1.2	का	VAUX	<fs af='का,v,m,sg,3,,,'>
+	))		
+1.2	((	NP	<fs af='खिंचाव,n,m,sg,,d,,' head='ओढ'  drel='k1:3'  name='2'>
+1.2.1	खिंचाव	NN	<fs af='खिंचाव,n,m,sg,3,d,,' name='ओढ'  synsetid='122'>
+	))		
+1.3	((	VGF	<fs af='होना,v,,sg,3,,गा,ेल' head='असेल'  name='3'  tense='fut'  mood='in'>
+1.3.1	होगा	VM	<fs af='हो,v,m,sg,3,,गा,ेल' name='असेल'  tense='fut'  mood='in'>
+1.3.2	,	SYM	<fs af=',n,pun,sg,3,,,' poslcat='NM'>
+	))		
+1.4	((	CCP	<fs af='तो,conj,,,,,,' head='तर'  name='4'>
+1.4.1	तो	CC	<fs af='तो,conj,m,sg,3,,,' name='तर'>
+	))		
+1.5	((	NP	<fs af='ख्याति,n,n,sg,,d,,' head='यश'  drel='k1:6'  name='5'>
+1.5.1	उपलब्धि	NN	<fs af='उपलब्धि,n,n,sg,3,d,,' name='यश'  synsetid='4464'>
+	))		
+1.6	((	VGF	<fs af='पाना,v,,sg,3,,गा,ेल' head='मिळेल'  name='6'  tense='fut'  mood='in'>
+1.6.1	पाएगा	VM	<fs af='पा,v,m,sg,3,,गा,ेल' name='मिळेल'  tense='fut'  mood='in'>
+1.6.2	।	SYM	<fs af='।,pun,m,sg,3,,,' poslcat='NM'>
+	))		
+	))		
+</Sentence>			
+<Sentence id="1">			
+1	((	SSF	
+1.1	((	NP	<fs af='घराना,n,m,pl,,d,,' head='घरे'  drel='k1:2'  name='1'>
+1.1.1	जो	DEM	<fs af='जो,pn,m,pl,3,d,,'>
+1.1.2	घर	NN	<fs af='घर,n,m,pl,3,d,,' name='घरे'  synsetid='191'>
+	))		
+1.2	((	VGF	<fs af='दिखना,v,,pl,3,, रहा है,त' head='दिसत'  vpos='tam1 2'  kridanta type='2:'  aspect=' s'  tense='phab pre'  mood='in in'  kridanta cm='2:'>
+1.2.1	दिख	VM	<fs af='दिख,v,m,pl,3,,,त' name='दिसत'  tense='phab'  mood='in'>
+1.2.2	रहा	VAUX	<fs af='रहा,v,m,sg,3,,,'>
+1.2.3	है	VAUX	<fs af='है,v,m,pl,3,,,'>
+	))		
+1.3	((	NP	<fs af='वह,pn,m,sg,3,d,,' head='ती'  drel='k1:6'  name='3'>
+1.3.1	वह	PRP	<fs af='वह,pn,f,sg,3,d,,' name='ती'>
+	))		
+1.4	((	NP	<fs af='मैं,pn,m,pl,1,o, का,च्या' vpos='vib1'  head='आमच्या'  name='4'  genfeature='(चा,gen,f,pl,,d,)(चा,gen,,,,o,)'>
+1.4.1	हमारे	PRP	<fs af='मैं,pn,m,pl,1,o,का,च्या' name='आमच्या'  genfeature='(चा,gen,f,pl,,d,)(चा,gen,,,,o,)'>
+	))		
+1.5	((	NP	<fs af='आधिपत्य,n,f,sg,,d, का,ची' head='मालकीची'  vpos='vib1'  drel='k2:6'  name='5'  genfeature='(चा,gen,f,sg,,d,)(चा,gen,n,pl,,d,)'>
+1.5.1	आधिपत्य	NN	<fs af='आधिपत्य,n,f,sg,3,d,,ची' name='मालकीची'  genfeature='(चा,gen,f,sg,,d,)(चा,gen,n,pl,,d,)'  synsetid='2733'>
+1.5.2	की	PSP	<fs af='का,psp,f,sg,3,,,'>
+	))		
+1.6	((	VGF	<fs af='होना,v,f,sg,,,,' head='आहेत'  aspect='s'  name='6'  tense='pre'  mood='in'>
+1.6.1	हो	VM	<fs af='हो,v,m,pl,3,,,' name='आहेत'  aspect='s'  tense='pre'  mood='in'>
+1.6.2	।	SYM	<fs af='।,pun,m,sg,3,,,' poslcat='NM'>
+	))		
+	))		
+</Sentence>			
+<Sentence id="1">			
+1	((	SSF	
+1.1	((	NP	<fs af='दिन,n,m,sg,,o, में,ई ' vpos='vib2'  head='दिवशी'  drel='k1:3'  name='1'>
+1.1.1	जिस	PRP	<fs af='जो,pn,m,sg,3,o,,'>
+1.1.2	दिन	NN	<fs af='दिन,n,m,sg,3,o,,ई ' name='दिवशी'  synsetid='13162'>
+1.1.3	में	PSP	<fs af='में,psp,m,sg,3,,,'>
+	))		
+1.2	((	NP	<fs af='शूटिंग,n,m,sg,,d,,' head='शूटिंग'  drel='k2:3'  name='2'>
+1.2.1	शूटिंग	NN	<fs af='शूटिंग,n,m,sg,3,d,,' name='शूटिंग'>
+	))		
+1.3	((	VGF	<fs af='होना,v,m,sg,,,गा,ेल' head='असेल'  name='3'  tense='fut'  mood='in'>
+1.3.1	होगा	VM	<fs af='हो,v,m,sg,3,,गा,ेल' name='असेल'  tense='fut'  mood='in'>
+1.3.2	,	SYM	<fs af=',n,pun,sg,3,,,' poslcat='NM'>
+	))		
+1.4	((	NP	<fs af='वह,pn,m,sg,3,o, का,च्या' vpos='vib1'  head='त्याच्या'  drel='k1:14'  name='4'  genfeature='(चा,gen,f,pl,,d,)(चा,gen,,,,o,)'>
+1.4.1	उसके	PRP	<fs af='वह,pn,m,sg,3,o,का,च्या' name='त्याच्या'  genfeature='(चा,gen,f,pl,,d,)(चा,gen,,,,o,)'>
+	))		
+1.5	((	NP	<fs af='पहले,adv,m,,,,,' head='आधी 2'  name='5'  poslcat='NM'>
+1.5.1	पहले	NST	<fs af='पहले,adv,m,sg,3,,,' name='आधी 2'  synsetid='6768'  poslcat='NM'>
+	))		
+1.6	((	NP	<fs af='चार,cardinal,m,,,,,' head='चार'  name='6'  poslcat='NM'>
+1.6.1	न्यूनतम	QF	<fs af='न्यूनतम,adj,m,sg,3,,,' synsetid='454'>
+1.6.2	चार	QC	<fs af='चार,cardinal,m,sg,3,,,' enamex type='count'  name='चार'  subtype 1='individual'  poslcat='NM'>
+	))		
+1.7	((	CCP	<fs af='से,conj,,,,,,' head='ते'  name='7'>
+1.7.1	से	CC	<fs af='से,conj,m,sg,3,,,' name='ते'>
+	))		
+1.8	((	NP	<fs af='दिन,n,m,sg,,d,,' head='दिवस'  drel='k2:14'  name='8'>
+1.8.1	पाँच	QC	<fs af='पाँच,adj,m,sg,3,d,,' enamex type='count'  synsetid='9315'  subtype 1='individual'>
+1.8.2	दिन	NN	<fs af='दिन,n,m,sg,3,d,,' name='दिवस'  enamex type='time'  subtype 1='individual'  synsetid='13162'>
+	))		
+1.9	((	NP	<fs af='पहले,adv,m,,,,,' head='आधी'  name='9'  poslcat='NM'>
+1.9.1	पहले	NST	<fs af='पहले,adv,m,sg,3,,,' name='आधी'  synsetid='6768'  poslcat='NM'>
+	))		
+1.1	((	NP	<fs af='सेट,n,m,sg,,d,,' head='सेट'  name='1'>
+1.1.1	सेट	NN	<fs af='सेट,n,m,sg,3,d,,' name='सेट'>
+	))		
+1.11	((	VGNN	<fs af='उठाना,v,n,sg,,o,ने का,ण्या ची' head='उभारण्याची'  kridanta type='ne'  name='11'  genfeature='(चा,gen,f,sg,,d,)(चा,gen,n,pl,,d,)'  kridanta cm='ण्या#ची'>
+1.11.1	उठाने	VM	<fs af='उठा,v,n,sg,3,o,ने,ण्या ची' kridanta type='ne'  name='उभारण्याची'  genfeature='(चा,gen,f,sg,,d,)(चा,gen,n,pl,,d,)'  kridanta cm='ण्या#ची'>
+1.11.2	का	VAUX	<fs af='का,v,m,sg,3,,,'>
+	))		
+1.12	((	NP	<fs af='तैयारी,n,f,sg,,d,,' head='तयारी'  name='12'>
+1.12.1	तैयारी	NN	<fs af='तैयारी,n,f,sg,3,d,,' name='तयारी'  synsetid='1416'>
+	))		
+1.13	((	JJP	<fs af='शुरू,adj,m,sg,,o,,' head='सुरू'  name='13'>
+1.13.1	शुरू	JJ	<fs af='शुरू,adj,m,sg,3,,,' name='सुरू'  synsetid='3157'>
+	))		
+1.14	((	VGF	<fs af='होना,v,m,sg,,,,' head='होते'  aspect='s'  name='14'  tense='pas'  mood='in'>
+1.14.1	हो	VM	<fs af='हो,v,f,sg,1,,,' aspect='s'  name='होते'  tense='pas'  mood='in'>
+1.14.2	।	SYM	<fs af='।,pun,m,sg,3,,,' poslcat='NM'>
+	))		
+	))		
+</Sentence>			
+<Sentence id="1">			
+1	((	SSF	
+1.1	((	NP	<fs af='घराना,n,m,sg,,o, का,च्या' vpos='vib1'  head='घराच्या'  drel='k1:4'  name='1'  genfeature='(चा,gen,f,pl,,d,)(चा,gen,,,,o,)'>
+1.1.1	घर	NN	<fs af='घर,n,m,sg,3,o,,च्या' name='घराच्या'  genfeature='(चा,gen,f,pl,,d,)(चा,gen,,,,o,)'  synsetid='191'>
+1.1.2	के	PSP	<fs af='का,psp,m,sg,3,,,'>
+	))		
+1.2	((	RBP	<fs af='आसपास,adv,,,,,,' head='आसपास'  name='2'>
+1.2.1	आसपास	RB	<fs af='आसपास,adv,m,sg,3,,,' name='आसपास'  synsetid='848'>
+	))		
+1.3	((	NP	<fs af='पेड़,n,m,pl,,d,,' head='झाडे'  drel='k2:4'  name='3'>
+1.3.1	बहुत	QF	<fs af='बहुत,adj,m,pl,3,d,,' synsetid='243'>
+1.3.2	पेड़	NN	<fs af='पेड़,n,m,pl,3,d,,' name='झाडे'  synsetid='2349'>
+	))		
+1.4	((	VGF	<fs af='होना,v,m,pl,,,,' head='आहेत'  aspect='s'  name='4'  tense='pre'  mood='in'>
+1.4.1	हो	VM	<fs af='हो,v,m,pl,3,,,' name='आहेत'  aspect='s'  tense='pre'  mood='in'>
+1.4.2	।	SYM	<fs af='।,pun,m,sg,3,,,' poslcat='NM'>
+	))		
+	))		
+</Sentence>			
+<Sentence id="1">			
+1	((	SSF	
+1.1	((	NP	<fs af='नारियल,n,m,sg,,o, का,च्या' vpos='vib1'  head='नारळाच्या'  drel='k1:5'  name='1'  genfeature='(चा,gen,f,pl,,d,)(चा,gen,,,,o,)'>
+1.1.1	नारियल	NN	<fs af='नारियल,n,m,sg,3,o,,च्या' name='नारळाच्या'  genfeature='(चा,gen,f,pl,,d,)(चा,gen,,,,o,)'  synsetid='476'>
+1.1.2	के	PSP	<fs af='का,psp,m,sg,3,,,'>
+	))		
+1.2	((	NP	<fs af='बाग,n,f,sg,,o, में,मध्ये' vpos='vib1'  head='बागेमध्ये'  name='2'>
+1.2.1	बाग	NN	<fs af='बाग,n,f,sg,3,o,,मध्ये' name='बागेमध्ये'  synsetid='3534'>
+1.2.2	में	PSP	<fs af='में,psp,f,sg,3,,,'>
+	))		
+1.3	((	NP	<fs af='फसल,n,f,pl,,o, का,ची' vpos='vib2'  head='पिकांची'  name='3'  genfeature='(चा,gen,f,sg,,d,)(चा,gen,n,pl,,d,)'>
+1.3.1	मसाला	NN	<fs af='मसाला,n,m,sg,3,d,,' synsetid='1439'>
+1.3.2	फसलों	NN	<fs af='फसल,n,f,pl,3,o,,ची' name='पिकांची'  genfeature='(चा,gen,f,sg,,d,)(चा,gen,n,pl,,d,)'  synsetid='3833'>
+1.3.3	के	PSP	<fs af='का,psp,m,sg,3,,,'>
+	))		
+1.4	((	NP	<fs af='लगाई,n,f,sg,,d,,' head='लागवड'  drel='k2:5'  name='4'>
+1.4.1	लगाई	NN	<fs af='लगाई,n,f,sg,3,d,,' name='लागवड'  synsetid='1295'>
+1.4.2	क्या	QW	<fs af='क्या,pn,f,sg,3,d,,' poslcat='NM'>
+	))		
+1.5	((	VGF	<fs af='करना,v,f,sg,,,ऐं,ावी' head='करावी'  name='5'  mood='subj'>
+1.5.1	करऐं	VM	<fs af='कर,v,f,sg,3,,ऐं,ावी' name='करावी'  mood='subj'>
+1.5.2	?	SYM	<fs af='?,pun,m,sg,3,,,' poslcat='NM'>
+	))		
+	))		
+</Sentence>			
+<Sentence id="1">			
+1	((	SSF	
+1.1	((	NP	<fs af='रविवार,n,m,sg,,d, ही,च' vpos='vib1'  head='रविवारच'  drel='k1:4'  name='1'>
+1.1.1	रविवार	NNP	<fs af='रविवार,n,m,sg,3,d,,च' enamex type='date'  name='रविवारच'  synsetid='3921'  subtype 1='individual'>
+1.1.2	ही	PSP	<fs af='ही,psp,m,sg,3,,,'>
+	))		
+1.2	((	BLK	<fs af='ऐसा,adj,m,sg,,d,,' head='असा'  name='2'  poslcat='NM'>
+1.2.1	ऐसा	RP	<fs af='ऐसा,adj,m,sg,3,d,,' name='असा'  synsetid='393'  poslcat='NM'>
+	))		
+1.3	((	NP	<fs af='दिन,n,m,sg,,d,,' head='दिवस'  drel='k2:4'  name='3'>
+1.3.1	दिन	NN	<fs af='दिन,n,m,sg,3,d,,' name='दिवस'  synsetid='13162'>
+	))		
+1.4	((	VGF	<fs af='होना,v,m,sg,,,,' head='आहे'  aspect='s'  name='4'  tense='pre'  mood='in'>
+1.4.1	हो	VM	<fs af='हो,v,m,sg,1,,,' name='आहे'  aspect='s'  tense='pre'  mood='in'>
+	))		
+1.5	((	CCP	<fs af='कि,conj,,,,,,' head='की'  name='5'>
+1.5.1	कि	CC	<fs af='कि,conj,m,sg,3,,,' name='की'>
+	))		
+1.6	((	NP	<fs af='जब,adv,m,,,,,' head='जेव्हा'  name='6'  poslcat='NM'>
+1.6.1	जब	PRP	<fs af='जब,adv,m,sg,3,,,' name='जेव्हा'  synsetid='5486'  poslcat='NM'>
+	))		
+1.7	((	NP	<fs af='मैं,pn,,sg,1,d,,' head='मी'  drel='k1:9'  name='7'>
+1.7.1	मैं	PRP	<fs af='मैं,pn,m,sg,1,d,,' name='मी'>
+	))		
+1.8	((	NP	<fs af='आराम,n,m,sg,,d,,' head='आराम'  drel='k2:9'  name='8'>
+1.8.1	विश्राम	NN	<fs af='विश्राम,n,m,sg,3,d,,' name='आराम'  synsetid='3537'>
+	))		
+1.9	((	VGF	<fs af='करना,v,,sg,3,, सक+ता है,ू' head='करू'  vpos='tam1 2'  kridanta type='2:'  aspect=' impf'  tense='phab '  mood='in in'  kridanta cm='2:'>
+1.9.1	कर	VM	<fs af='कर,v,m,pl,1,,,ू' name='करू'  tense='phab'  mood='in'>
+1.9.2	सकता	VAUX	<fs af='सक,v,m,sg,3,,ता,'>
+1.9.3	है	VAUX	<fs af='है,v,m,sg,3,,,'>
+1.9.4	।	SYM	<fs af='।,pun,m,sg,3,,,' poslcat='NM'>
+	))		
+	))		
+</Sentence>			
+<Sentence id="1">			
+1	((	SSF	
+1.1	((	NP	<fs af='तू,pn,f,pl,2,o, का,चे' vpos='vib1'  head='तुमचे'  drel='k1:3'  name='1'  genfeature='(चा,gen,m,pl,,d,)(चा,gen,n,sg,,d,)'>
+1.1.1	तुम्हारे	PRP	<fs af='तू,pn,m,pl,2,o,का,चे' name='तुमचे'  genfeature='(चा,gen,m,pl,,d,)(चा,gen,n,sg,,d,)'>
+	))		
+1.2	((	NP	<fs af='अनंगी,n,m,sg,,d,,' head='काम'  drel='k2:3'  name='2'>
+1.2.1	काम	NN	<fs af='काम,n,m,sg,3,d,,' name='काम'  synsetid='183'>
+	))		
+1.3	((	VGF	<fs af='मिटना,v,m,sg,,,या,ले' head='संपले'  aspect='perf'  name='3'  mood='in'>
+1.3.1	मिटी	VM	<fs af='मिट,v,f,sg,1,,या,ले' name='संपले'  aspect='perf'  mood='in'>
+	))		
+1.4	((	CCP	<fs af='कि,conj,,,,,,' head='की'  name='4'>
+1.4.1	कि	CC	<fs af='कि,conj,m,sg,3,,,' name='की'>
+	))		
+1.5	((	NP	<fs af='मैं,pn,m,sg,1,o, को,ला ' vpos='vib1'  head='मला'  drel='k1:7'  name='5'>
+1.5.1	मुझे	PRP	<fs af='मैं,pn,m,sg,1,o,को,ला ' name='मला'>
+	))		
+1.6	((	NP	<fs af='फ़ोन,n,m,sg,,d,,' head='फोन'  drel='k2:7'  name='6'>
+1.6.1	फ़ोन	NN	<fs af='फ़ोन,n,m,sg,3,d,,' name='फोन'  synsetid='167'>
+	))		
+1.7	((	VGF	<fs af='करना,v,m,sg,,,ओ,ा' head='करा'  name='7'  mood='imp'>
+1.7.1	करओ	VM	<fs af='कर,v,m,pl,2,,ओ,ा' name='करा'  mood='imp'>
+1.7.2	।	SYM	<fs af='।,pun,m,sg,3,,,' poslcat='NM'>
+	))		
+	))		
+</Sentence>			
+<Sentence id="1">			
+1	((	SSF	
+1.1	((	NP	<fs af='तू,pn,f,sg,2,o, को,ला ' vpos='vib1'  head='तुला'  drel='k1:3'  name='1'>
+1.1.1	तुझे	PRP	<fs af='तू,pn,m,sg,2,o,को,ला ' name='तुला'>
+	))		
+1.2	((	NP	<fs af='ज्ञान,n,m,sg,,d,,' head='ज्ञान'  drel='k2:3'  name='2'>
+1.2.1	ज्ञान	NN	<fs af='ज्ञान,n,m,sg,3,d,,' name='ज्ञान'  synsetid='3836'>
+	))		
+1.3	((	VGF	<fs af='चाहिए,v,m,sg,,,,' head='हवे 2'  aspect='h'  name='3'  tense='pas'  mood='in'>
+1.3.1	चाहिए	VM	<fs af='चाहिए,v,m,pl,1,,,' aspect='h'  name='हवे 2'  tense='pas'  synsetid='5212'  mood='in'>
+	))		
+1.4	((	CCP	<fs af='कि,conj,,,,,,' head='की'  name='4'>
+1.4.1	कि	CC	<fs af='कि,conj,m,sg,3,,,' name='की'>
+	))		
+1.5	((	NP	<fs af='धन-दौलत,n,n,sg,,d,,' head='धन'  drel='k1:6'  name='5'>
+1.5.1	संपत्ति	NN	<fs af='संपत्ति,n,n,sg,3,d,,' name='धन'  synsetid='6264'>
+	))		
+1.6	((	VGF	<fs af='चाहिए,v,m,pl,1,,,' head='हवे'  name='6'  aspect='h'  tense='pas'  mood='in'>
+1.6.1	चाहिए	VM	<fs af='चाहिए,v,m,pl,1,,,' aspect='h'  name='हवे'  tense='pas'  synsetid='5212'  mood='in'>
+1.6.2	?	SYM	<fs af='?,pun,m,sg,3,,,' poslcat='NM'>
+	))		
+	))		
+</Sentence>			
+<Sentence id="1">			
+1	((	SSF	
+1.1	((	NP	<fs af='तू,pn,f,pl,2,d,,' head='तुम्ही'  drel='k1:4'  name='1'>
+1.1.1	तुम	PRP	<fs af='तू,pn,m,pl,2,d,,' name='तुम्ही'>
+	))		
+1.2	((	NP	<fs af='वह,pn,m,sg,3,o, का,चा' vpos='vib1'  head='त्याचा'  name='2'  genfeature='(चा,gen,m,sg,,d,)'>
+1.2.1	उसके	PRP	<fs af='वह,pn,m,sg,3,o,का,चा' name='त्याचा'  genfeature='(चा,gen,m,sg,,d,)'>
+	))		
+1.3	((	NP	<fs af='अपमान,n,m,sg,,d,,' head='अपमान'  drel='k2:4'  name='3'>
+1.3.1	अपमान	NN	<fs af='अपमान,n,m,sg,3,d,,' name='अपमान'>
+	))		
+1.4	((	VGF	<fs af='करना,v,m,sg,,d,या,ला' head='केला'  kridanta type='la'  aspect='perf'  name='4'  kridanta cm='ला'>
+1.4.1	किया	VM	<fs af='कर,v,m,sg,3,d,या,ला' kridanta type='la'  aspect='perf'  name='केला'  kridanta cm='ला'>
+1.4.2	;	SYM	<fs af=';,pun,m,sg,3,,,' poslcat='NM'>
+	))		
+1.5	((	NP	<fs af='यह,pn,m,sg,3,o, के लिए,करिता' vpos='vib1'  head='याकरिता'  drel='k1:8'  name='5'>
+1.5.1	इसके	PRP	<fs af='यह,pn,m,sg,3,o,के,करिता' name='याकरिता'>
+1.5.2	लिए	PSP	<fs af='लिए,psp,m,sg,3,,,'>
+	))		
+1.6	((	NP	<fs af='वह,pn,m,sg,3,d,,' head='तो'  drel='k2:8'  name='6'>
+1.6.1	वह	PRP	<fs af='वह,pn,m,sg,3,d,,' name='तो'>
+	))		
+1.7	((	NP	<fs af='तू,pn,,pl,2,o, का  की तरफ,च्या कडे' head='तुमच्याकडे'  vpos='vib1'  name='7'  genfeature='(चा,gen,f,pl,,d,)(चा,gen,,,,o,)'>
+1.7.1	तुम्हारे	PRP	<fs af='तू,pn,m,pl,2,o,का,च्या कडे' name='तुमच्याकडे'  genfeature='(चा,gen,f,pl,,d,)(चा,gen,,,,o,)'>
+1.7.2		PSP	<fs af=',psp,m,sg,3,,,'>
+1.7.3	की	PSP	<fs af='की,psp,m,sg,3,,,'>
+1.7.4	तरफ	PSP	<fs af='तरफ,psp,m,sg,3,,,'>
+	))		
+1.8	((	VGF	<fs af='आना,v,,pl,1,, नहीं रहा है,त' head='येत'  vpos='tam1 2'  kridanta type='2:'  aspect=' s'  tense='phab pre'  mood='in in'  kridanta cm='2:'>
+1.8.1	आ	VM	<fs af='आ,v,m,pl,3,,,त' name='येत'  tense='phab'  mood='in'>
+1.8.2	नहीं	VAUX	<fs af='नहीं,v,m,sg,3,,,'>
+1.8.3	रहा	VAUX	<fs af='रहा,v,m,sg,3,,,'>
+1.8.4	है	VAUX	<fs af='है,v,m,pl,1,,,'>
+1.8.5	।	SYM	<fs af='।,pun,m,sg,3,,,' poslcat='NM'>
+	))		
+	))		
+</Sentence>			
+<Sentence id="1">			
+1	((	SSF	
+1.1	((	NP	<fs af='मैं,pn,m,sg,1,d,,' head='मी'  drel='k1:3'  name='1'>
+1.1.1	मैं	PRP	<fs af='मैं,pn,m,sg,1,d,,' name='मी'>
+	))		
+1.2	((	NP	<fs af='आम,n,m,sg,,d,,' head='आंबा'  drel='k2:3'  name='2'>
+1.2.1	आम	NN	<fs af='आम,n,m,sg,3,d,,' name='आंबा'  synsetid='3462'>
+	))		
+1.3	((	VGF	<fs af='खाना,v,m,sg,,,ता है,तो' head='खातो'  name='3'  mood='cond'>
+1.3.1	खाता	VM	<fs af='खा,v,m,sg,1,,ता,तो' name='खातो'  mood='cond'>
+1.3.2	है	VAUX	<fs af='है,v,m,sg,3,,,'>
+1.3.3	।	SYM	<fs af='।,pun,m,sg,3,,,' poslcat='NM'>
+	))		
+	))		
+</Sentence>			
+<Sentence id="1">			
+1	((	SSF	
+1.1	((	NP	<fs af='मैं,pn,m,sg,1,d,,' head='मी'  drel='k1:3'  name='1'>
+1.1.1	मैं	PRP	<fs af='मैं,pn,m,sg,1,d,,' name='मी'>
+	))		
+1.2	((	NP	<fs af='खुद,pn,m,sg,,d,,' head='स्वतः'  drel='k2:3'  name='2'>
+1.2.1	खुद	PRP	<fs af='खुद,pn,m,sg,3,d,,' name='स्वतः'>
+	))		
+1.3	((	VGF	<fs af='आना,v,m,sg,,,या,लो' head='आलो'  aspect='perf'  name='3'  mood='in'>
+1.3.1	आया	VM	<fs af='आ,v,m,sg,1,,या,लो' name='आलो'  aspect='perf'  mood='in'>
+1.3.2	।	SYM	<fs af='।,pun,m,sg,3,,,' poslcat='NM'>
+	))		
+	))		
+</Sentence>			
+<Sentence id="1">			
+1	((	SSF	
+1.1	((	NP	<fs af='वह,pn,m,sg,3,o, ने,ने ' vpos='vib1'  head='त्याने'  drel='k1:4'  name='1'>
+1.1.1	उसने	PRP	<fs af='वह,pn,m,sg,3,o,ने,ने ' name='त्याने'>
+	))		
+1.2	((	NP	<fs af='मैं,pn,m,sg,1,o, को,ला ' vpos='vib1'  head='मला'  name='2'>
+1.2.1	मुझे	PRP	<fs af='मैं,pn,m,sg,1,o,को,ला ' name='मला'>
+	))		
+1.3	((	NP	<fs af='पुस्तक,n,f,sg,,d,,' head='पुस्तक'  drel='k2:4'  name='3'>
+1.3.1	एक	QC	<fs af='एक,adj,f,sg,3,d,,' synsetid='187'>
+1.3.2	पुस्तक	NN	<fs af='पुस्तक,n,f,sg,3,d,,' name='पुस्तक'  synsetid='4352'>
+	))		
+1.4	((	VGF	<fs af='देना,v,f,sg,,,या,ले' head='दिले'  aspect='perf'  name='4'  mood='in'>
+1.4.1	दिया	VM	<fs af='दे,v,n,sg,3,,या,ले' name='दिले'  aspect='perf'  mood='in'>
+1.4.2	।	SYM	<fs af='।,pun,m,sg,3,,,' poslcat='NM'>
+	))		
+	))		
+</Sentence>			
+<Sentence id="1">			
+1	((	SSF	
+1.1	((	NP	<fs af='श्री राम,n,m,sg,,d,,' head='राम'  drel='k1:3'  name='1'>
+1.1.1	श्री राम	NN	<fs af='श्री राम,n,m,sg,3,d,,' name='राम'  synsetid='181'>
+	))		
+1.2	((	NP	<fs af='वह,pn,m,pl,3,o,को,ना ' vpos='vib1'  head='त्यांना'  drel='k2:3'  name='2'>
+1.2.1	उनको	PRP	<fs af='वह,pn,f,pl,3,o,को,ना ' name='त्यांना'>
+	))		
+1.3	((	VGF	<fs af='अभिव्यक्त करना,v,m,pl,3,,ता है,तो' head='सांगतो'  name='3'  mood='cond'>
+1.3.1	अभिव्यक्त करता	VM	<fs af='अभिव्यक्त कर,v,m,sg,1,,ता,तो' name='सांगतो'  mood='cond'>
+1.3.2	है	VAUX	<fs af='है,v,m,pl,3,,,'>
+1.3.3	।	SYM	<fs af='।,pun,m,sg,3,,,' poslcat='NM'>
+	))		
+	))		
+</Sentence>			
+<Sentence id="1">			
+1	((	SSF	
+1.1	((	NP	<fs af='श्री राम,n,m,sg,,o, ने,ने' vpos='vib1'  head='रामाने'  drel='k1:3'  name='1'>
+1.1.1	श्री राम	NNP	<fs af='श्री राम,n,m,sg,3,o,,ने' enamex type='person'  name='रामाने'  synsetid='181'  subtype 1='individual'>
+1.1.2	ने	PSP	<fs af='ने,psp,m,sg,3,,,'>
+	))		
+1.2	((	NP	<fs af='यह,pn,m,sg,3,o, को,ला ' vpos='vib1'  head='ह्याला'  drel='k2:3'  name='2'>
+1.2.1	इसको	PRP	<fs af='यह,pn,m,sg,3,o,को,ला ' name='ह्याला'>
+	))		
+1.3	((	VGF	<fs af='अभिव्यक्त करना,v,m,sg,3,,या,ले' head='सांगितले'  aspect='perf'  name='3'  mood='in'>
+1.3.1	अभिव्यक्त किया	VM	<fs af='अभिव्यक्त कर,v,n,sg,3,,या,ले' name='सांगितले'  aspect='perf'  mood='in'>
+1.3.2	।	SYM	<fs af='।,pun,m,sg,3,,,' poslcat='NM'>
+	))		
+	))		
+</Sentence>			
+<Sentence id="1">			
+1	((	SSF	
+1.1	((	NP	<fs af='वह,pn,m,sg,3,d,,' head='तो'  drel='k1:4'  name='1'>
+1.1.1	वह	PRP	<fs af='वह,pn,m,sg,3,d,,' name='तो'>
+	))		
+1.2	((	NP	<fs af='पुत्र,n,m,sg,,d,,' head='मुलगा'  drel='k2:4'  name='2'>
+1.2.1	होशियार	JJ	<fs af='होशियार,adj,m,sg,3,d,,' synsetid='29'>
+1.2.2	पुत्र	NN	<fs af='पुत्र,n,m,sg,3,d,,' name='मुलगा'  synsetid='3373'>
+	))		
+1.3	((	NP	<fs af='मैं,pn,m,sg,1,o, का,झा' vpos='vib1'  head='माझा'  name='3'  genfeature='(झा,gen,m,sg,,d,)'>
+1.3.1	मेरे	PRP	<fs af='मैं,pn,m,sg,1,o,का,झा' name='माझा'  genfeature='(झा,gen,m,sg,,d,)'>
+	))		
+1.4	((	VGF	<fs af='होना,v,m,sg,,,,' head='आहे'  aspect='s'  name='4'  tense='pre'  mood='in'>
+1.4.1	हो	VM	<fs af='हो,v,m,sg,1,,,' name='आहे'  aspect='s'  tense='pre'  mood='in'>
+1.4.2	।	SYM	<fs af='।,pun,m,sg,3,,,' poslcat='NM'>
+	))		
+	))		
+</Sentence>			
+<Sentence id="1">			
+1	((	SSF	
+1.1	((	NP	<fs af='वह,pn,m,sg,3,d,,' head='तो'  drel='k1:4'  name='1'>
+1.1.1	वह	PRP	<fs af='वह,pn,m,sg,3,d,,' name='तो'>
+	))		
+1.2	((	NP	<fs af='पुत्र,n,m,sg,,d,,' head='मुलगा'  drel='k2:4'  name='2'>
+1.2.1	पुत्र	NN	<fs af='पुत्र,n,m,sg,3,d,,' name='मुलगा'  synsetid='3373'>
+	))		
+1.3	((	NP	<fs af='मैं,pn,m,sg,1,o, का,झा' vpos='vib1'  head='माझा'  name='3'  genfeature='(झा,gen,m,sg,,d,)'>
+1.3.1	मेरे	PRP	<fs af='मैं,pn,m,sg,1,o,का,झा' name='माझा'  genfeature='(झा,gen,m,sg,,d,)'>
+	))		
+1.4	((	VGF	<fs af='होना,v,m,sg,,,,' head='आहे'  aspect='s'  name='4'  tense='pre'  mood='in'>
+1.4.1	हो	VM	<fs af='हो,v,m,sg,1,,,' name='आहे'  aspect='s'  tense='pre'  mood='in'>
+1.4.2	।	SYM	<fs af='।,pun,m,sg,3,,,' poslcat='NM'>
+	))		
+	))		
+</Sentence>			
+<Sentence id="1">			
+1	((	SSF	
+1.1	((	NP	<fs af='आप,pn,m,sg,1,d,,' head='आपण'  drel='k1:3'  name='1'>
+1.1.1	आप	PRP	<fs af='आप,pn,m,sg,1,d,,' name='आपण'>
+	))		
+1.2	((	NP	<fs af='बाग,n,f,sg,,o, में,त' vpos='vib1'  head='बागेत'  drel='k2:3'  name='2'>
+1.2.1	बाग	NN	<fs af='बाग,n,f,sg,3,o,,त' name='बागेत'  synsetid='3534'>
+1.2.2	में	PSP	<fs af='में,psp,f,sg,3,,,'>
+	))		
+1.3	((	VGF	<fs af='घूमना,v,,sg,1,,ने जा+एंगे,ायला' head='फिरायला'  vpos='tam1 2'  kridanta type='2:'  kridanta cm='2:'>
+1.3.1	घूमने	VM	<fs af='घूम,v,m,sg,3,,ने,ायला' name='फिरायला'>
+1.3.2	जाएंगे	VAUX	<fs af='जा,v,m,sg,1,,एंगे,'>
+1.3.3	।	SYM	<fs af='।,pun,m,sg,3,,,' poslcat='NM'>
+	))		
+	))		
+</Sentence>			
+<Sentence id="1">			
+1	((	SSF	
+1.1	((	NP	<fs af='तू,pn,f,pl,2,o, का,ची' vpos='vib1'  head='तुमची'  drel='k1:5'  name='1'  genfeature='(चा,gen,f,sg,,d,)(चा,gen,n,pl,,d,)'>
+1.1.1	तुम्हारे	PRP	<fs af='तू,pn,m,pl,2,o,का,ची' name='तुमची'  genfeature='(चा,gen,f,sg,,d,)(चा,gen,n,pl,,d,)'>
+	))		
+1.2	((	NP	<fs af='पुत्री,n,f,sg,,d,,' head='मुलगी'  drel='k2:5'  name='2'>
+1.2.1	पुत्री	NN	<fs af='पुत्री,n,f,sg,3,d,,' name='मुलगी'  synsetid='3646'>
+	))		
+1.3	((	VGINF	<fs af='दिखना,v,,,,,ने के लिए,ायला' head='दिसायला'  name='3'>
+1.3.1	दिखने	VM	<fs af='दिख,v,m,sg,3,,ने,ायला' name='दिसायला'>
+1.3.2	के	VAUX	<fs af='के,v,m,sg,3,,,'>
+1.3.3	लिए	VAUX	<fs af='लिए,v,m,sg,3,,,'>
+	))		
+1.4	((	JJP	<fs af='सुघढ़,adj,f,pl,,o,,' head='सुंदर'  name='4'>
+1.4.1	सुंदर	JJ	<fs af='सुंदर,adj,m,sg,3,,,' name='सुंदर'  synsetid='326'>
+	))		
+1.5	((	VGF	<fs af='होना,v,f,sg,,,,' head='आहे'  aspect='s'  name='5'  tense='pre'  mood='in'>
+1.5.1	हो	VM	<fs af='हो,v,m,sg,1,,,' name='आहे'  aspect='s'  tense='pre'  mood='in'>
+1.5.2	।	SYM	<fs af='।,pun,m,sg,3,,,' poslcat='NM'>
+	))		
+	))		
+</Sentence>			
+<Sentence id="1">			
+1	((	SSF	
+1.1	((	NP	<fs af='वह,pn,m,pl,3,o, का,चा' vpos='vib1'  head='त्यांचा'  drel='k1:5'  name='1'  genfeature='(चा,gen,m,sg,,d,)'>
+1.1.1	उनके	PRP	<fs af='वह,pn,m,pl,3,o,का,चा' name='त्यांचा'  genfeature='(चा,gen,m,sg,,d,)'>
+	))		
+1.2	((	NP	<fs af='पुत्र,n,m,sg,,d,,' head='मुलगा'  drel='k2:5'  name='2'>
+1.2.1	पुत्र	NN	<fs af='पुत्र,n,m,sg,3,d,,' name='मुलगा'  synsetid='3373'>
+	))		
+1.3	((	NP	<fs af='दिहाड़ी,n,m,sg,,d,,' head='रोज'  name='3'>
+1.3.1	दिहाड़ी	NN	<fs af='दिहाड़ी,n,m,sg,3,d,,' name='रोज'  synsetid='918'>
+	))		
+1.4	((	NP	<fs af='अभ्यास,n,m,sg,,d,,' head='अभ्यास'  name='4'>
+1.4.1	अध्ययन	NN	<fs af='अध्ययन,n,m,sg,3,d,,' name='अभ्यास'  synsetid='289'>
+	))		
+1.5	((	VGF	<fs af='करना,v,m,sg,,,ता है,तो' head='करतो'  aspect='impf'  name='5'  mood='in'>
+1.5.1	करता	VM	<fs af='कर,v,m,sg,3,,ता,तो' name='करतो'  aspect='impf'  mood='in'>
+1.5.2	है	VAUX	<fs af='है,v,m,sg,3,,,'>
+1.5.3	।	SYM	<fs af='।,pun,m,sg,3,,,' poslcat='NM'>
+	))		
+	))		
+</Sentence>			
+<Sentence id="1">			
+1	((	SSF	
+1.1	((	NP	<fs af='वहाँ,adv,m,,,,,' head='तेथे'  name='1'  poslcat='NM'>
+1.1.1	वहाँ	PRP	<fs af='वहाँ,adv,m,sg,3,,,' name='तेथे'  synsetid='169'  poslcat='NM'>
+	))		
+1.2	((	NP	<fs af='किन,pn,m,sg,,d,,' head='कोण'  drel='k1:3'  name='2'  poslcat='NM'>
+1.2.1	किन	QW	<fs af='किन,pn,m,sg,3,d,,' name='कोण'  poslcat='NM'>
+	))		
+1.3	((	VGF	<fs af='बैठना,v,m,sg,1,,या है,ला' head='बसला'  vpos='tam1 2'  kridanta type='2:'  aspect='perf s'  tense=' pre'  mood='in in'  kridanta cm='2:'>
+1.3.1	बैठा	VM	<fs af='बैठ,v,m,sg,3,,या,ला' name='बसला'  aspect='perf'  mood='in'>
+1.3.2	है	VAUX	<fs af='है,v,m,sg,1,,,'>
+1.3.3	?	SYM	<fs af='?,pun,m,sg,3,,,' poslcat='NM'>
+	))		
+	))		
+</Sentence>			
+<Sentence id="1">			
+1	((	SSF	
+1.1	((	NP	<fs af='छुट्टी,n,f,sg,,d,,' head='सुट्टी'  drel='k1:5'  name='1'>
+1.1.1	छुट्टी	NN	<fs af='छुट्टी,n,f,sg,3,d,,' name='सुट्टी'  synsetid='314'>
+	))		
+1.2	((	VGNN	<fs af='गिरना,v,,sg,,o,ने vara,ल्या वर' head='पडल्यावर'  kridanta type='la'  aspect='perf'  name='2'  genfeature='(ला,gen,f,pl,,d,)(ला,gen,,,,o,)'  kridanta cm='ल्या#वर'>
+1.2.1	गिरने	VM	<fs af='गिर,v,m,sg,3,o,ने,ल्या वर' kridanta type='la'  name='पडल्यावर'  aspect='perf'  genfeature='(ला,gen,f,pl,,d,)(ला,gen,,,,o,)'  kridanta cm='ल्या#वर'>
+1.2.2	वर	VAUX	<fs af='वर,v,m,sg,3,,,'>
+	))		
+1.3	((	NP	<fs af='वह,pn,m,sg,3,d,,' head='ती'  drel='k2:5'  name='3'>
+1.3.1	वह	PRP	<fs af='वह,pn,f,sg,3,d,,' name='ती'>
+	))		
+1.4	((	NP	<fs af='गाँव,n,m,sg,,o, में,ई ' vpos='vib1'  head='गावी'  name='4'>
+1.4.1	गाँव	NN	<fs af='गाँव,n,m,sg,3,o,,ई ' name='गावी'  synsetid='4696'>
+1.4.2	में	PSP	<fs af='में,psp,m,sg,3,,,'>
+	))		
+1.5	((	VGF	<fs af='कटना,v,,sg,1,o,ने वाला है,णार' head='जाणार'  vpos='tam1 2'  kridanta type='2:'  aspect='prosp s'  tense=' pre'  mood=' in'  kridanta cm='2:'>
+1.5.1	कटने	VM	<fs af='कट,v,m,sg,3,o,ने,णार' kridanta type='nar'  aspect='prosp'  name='जाणार'  kridanta cm='णार'>
+1.5.2	वाला	VAUX	<fs af='वाला,v,m,sg,3,,,'>
+1.5.3	है	VAUX	<fs af='है,v,m,sg,1,,,'>
+1.5.4	।	SYM	<fs af='।,pun,m,sg,3,,,' poslcat='NM'>
+	))		
+	))		
+</Sentence>			
+<Sentence id="1">			
+1	((	SSF	
+1.1	((	NP	<fs af='तू,pn,f,pl,2,o, का,चे' vpos='vib1'  head='तुमचे'  drel='k1:6'  name='1'  genfeature='(चा,gen,m,pl,,d,)(चा,gen,n,sg,,d,)'>
+1.1.1	तुम्हारे	PRP	<fs af='तू,pn,m,pl,2,o,का,चे' name='तुमचे'  genfeature='(चा,gen,m,pl,,d,)(चा,gen,n,sg,,d,)'>
+	))		
+1.2	((	NP	<fs af='अनंगी,n,m,sg,,d,,' head='काम'  drel='k2:6'  name='2'>
+1.2.1	काम	NN	<fs af='काम,n,m,sg,3,d,,' name='काम'  synsetid='183'>
+	))		
+1.3	((	VGNN	<fs af='मिटना,v,,sg,,o,ने के बाद,ल्या नंतर' head='संपल्यानंतर'  kridanta type='la'  aspect='perf'  name='3'  genfeature='(ला,gen,f,pl,,d,)(ला,gen,,,,o,)'  kridanta cm='ल्या#नंतर'>
+1.3.1	मिटने	VM	<fs af='मिट,v,m,sg,3,o,ने,ल्या नंतर' kridanta type='la'  name='संपल्यानंतर'  aspect='perf'  genfeature='(ला,gen,f,pl,,d,)(ला,gen,,,,o,)'  kridanta cm='ल्या#नंतर'>
+1.3.2	के	VAUX	<fs af='के,v,m,sg,3,,,'>
+1.3.3	बाद	VAUX	<fs af='बाद,v,m,sg,3,,,'>
+	))		
+1.4	((	NP	<fs af='मैं,pn,m,sg,1,o, को,ला ' vpos='vib1'  head='मला'  name='4'>
+1.4.1	मुझे	PRP	<fs af='मैं,pn,m,sg,1,o,को,ला ' name='मला'>
+	))		
+1.5	((	NP	<fs af='फ़ोन,n,m,sg,,d,,' head='फोन'  name='5'>
+1.5.1	फ़ोन	NN	<fs af='फ़ोन,n,m,sg,3,d,,' name='फोन'  synsetid='167'>
+	))		
+1.6	((	VGF	<fs af='करना,v,m,sg,,,ओ,ा' head='करा'  name='6'  tense='phab'  mood='in'>
+1.6.1	करओ	VM	<fs af='कर,v,m,pl,2,,ओ,ा' name='करा'  tense='phab'  mood='in'>
+1.6.2	।	SYM	<fs af='।,pun,m,sg,3,,,' poslcat='NM'>
+	))		
+	))		
+</Sentence>			
+<Sentence id="1">			
+1	((	SSF	
+1.1	((	NP	<fs af='पेड़,n,m,sg,,o, पर से,वर ून' vpos='vib1'  head='झाडावरून'  drel='k1:4'  name='1'>
+1.1.1	पेड़	NN	<fs af='पेड़,n,m,sg,3,o,,वर ून' name='झाडावरून'  synsetid='2349'>
+1.1.2	पर	PSP	<fs af='पर,psp,m,sg,3,,,'>
+1.1.3	से	PSP	<fs af='से,psp,m,sg,3,,,'>
+	))		
+1.2	((	NP	<fs af='आम,n,m,sg,,d,,' head='आंबा'  drel='k2:4'  name='2'>
+1.2.1	आम	NN	<fs af='आम,n,m,sg,3,d,,' name='आंबा'  synsetid='3462'>
+	))		
+1.3	((	NP	<fs af='नीचे,nst,m,,,,,' head='खाली'  name='3'>
+1.3.1	नीचे	NST	<fs af='नीचे,nst,m,sg,3,,,' name='खाली'>
+	))		
+1.4	((	VGF	<fs af='गिरना,v,m,sg,,d,या,ला' head='पडला'  kridanta type='la'  aspect='perf'  name='4'  kridanta cm='ला'>
+1.4.1	गिरा	VM	<fs af='गिर,v,m,sg,3,d,या,ला' kridanta type='la'  aspect='perf'  name='पडला'  kridanta cm='ला'>
+1.4.2	।	SYM	<fs af='।,pun,m,sg,3,,,' poslcat='NM'>
+	))		
+	))		
+</Sentence>			
+<Sentence id="1">			
+1	((	SSF	
+1.1	((	NP	<fs af='मैं,pn,m,sg,1,o, का,झे' vpos='vib1'  head='माझे'  drel='k1:6'  name='1'  genfeature='(झा,gen,m,pl,,d,)(झा,gen,n,sg,,d,)'>
+1.1.1	मेरे	PRP	<fs af='मैं,pn,m,sg,1,o,का,झे' name='माझे'  genfeature='(झा,gen,m,pl,,d,)(झा,gen,n,sg,,d,)'>
+	))		
+1.2	((	NP	<fs af='पैसा,n,m,pl,,d,,' head='पैसे'  drel='k2:6'  name='2'>
+1.2.1	पैसे	NN	<fs af='पैसा,n,m,pl,3,d,,' name='पैसे'  synsetid='351'>
+	))		
+1.3	((	NP	<fs af='महीना,n,m,sg,,o, का,च्या' vpos='vib1'  head='महिन्याच्या'  name='3'  genfeature='(चा,gen,f,pl,,d,)(चा,gen,,,,o,)'>
+1.3.1	महीने	NN	<fs af='महीना,n,m,sg,3,o,,च्या' name='महिन्याच्या'  genfeature='(चा,gen,f,pl,,d,)(चा,gen,,,,o,)'  synsetid='169'>
+1.3.2	के	PSP	<fs af='का,psp,m,sg,3,,,'>
+	))		
+1.4	((	NP	<fs af='अंदर,adv,m,,,,,' head='आत'  name='4'  poslcat='NM'>
+1.4.1	अंदर	NST	<fs af='अंदर,adv,m,sg,3,,,' name='आत'  synsetid='1325'  poslcat='NM'>
+	))		
+1.5	((	RBP	<fs af='वापस,adv,,,,,,' head='परत'  name='5'>
+1.5.1	वापस	RB	<fs af='वापस,adv,m,sg,3,,,' name='परत'  synsetid='1819'>
+	))		
+1.6	((	VGF	<fs af='करना,v,m,pl,,,,' head='कर'  name='6'  mood='imp'>
+1.6.1	कर	VM	<fs af='कर,v,m,sg,2,,,' name='कर'  mood='imp'>
+1.6.2	।	SYM	<fs af='।,pun,m,sg,3,,,' poslcat='NM'>
+	))		
+	))		
+</Sentence>			
+<Sentence id="1">			
+1	((	SSF	
+1.1	((	NP	<fs af='मैं,pn,m,sg,1,o, का,झ्या' vpos='vib1'  head='माझ्या'  drel='k1:4'  name='1'  genfeature='(झा,gen,f,pl,,d,)(झा,gen,,,,o,)'>
+1.1.1	मेरे	PRP	<fs af='मैं,pn,m,sg,1,o,का,झ्या' name='माझ्या'  genfeature='(झा,gen,f,pl,,d,)(झा,gen,,,,o,)'>
+	))		
+1.2	((	NP	<fs af='घराना,n,m,sg,,o, में,त' vpos='vib1'  head='घरात'  drel='k2:4'  name='2'>
+1.2.1	घर	NN	<fs af='घर,n,m,sg,3,o,,त' name='घरात'  synsetid='191'>
+1.2.2	में	PSP	<fs af='में,psp,m,sg,3,,,'>
+	))		
+1.3	((	NP	<fs af='कुछ,adj,m,,,,तो,तरी' vpos='vib1'  head='काहीतरी'  name='3'>
+1.3.1	कुछ तो	QF	<fs af='कुछ,adj,m,sg,3,,तो,तरी' name='काहीतरी'  synsetid='13148'>
+	))		
+1.4	((	VGF	<fs af='होना,v,m,sg,,,,' head='आहे'  aspect='s'  name='4'  tense='pre'  mood='in'>
+1.4.1	हो	VM	<fs af='हो,v,m,sg,1,,,' name='आहे'  aspect='s'  tense='pre'  mood='in'>
+1.4.2	।	SYM	<fs af='।,pun,m,sg,3,,,' poslcat='NM'>
+	))		
+	))		
+</Sentence>			
+<Sentence id="1">			
+1	((	SSF	
+1.1	((	CCP	<fs af='लेकिन,conj,,,,,,' head='पण'  name='1'>
+1.1.1	लेकिन	CC	<fs af='लेकिन,conj,m,sg,3,,,' name='पण'>
+	))		
+1.2	((	NP	<fs af='घराना,n,m,sg,,o, का,च्या' vpos='vib1'  head='घराच्या'  drel='k1:5'  name='2'  genfeature='(चा,gen,f,pl,,d,)(चा,gen,,,,o,)'>
+1.2.1	घर	NN	<fs af='घर,n,m,sg,3,o,,च्या' name='घराच्या'  genfeature='(चा,gen,f,pl,,d,)(चा,gen,,,,o,)'  synsetid='191'>
+1.2.2	के	PSP	<fs af='का,psp,m,sg,3,,,'>
+	))		
+1.3	((	NP	<fs af='आ,unk,m,,,, से,तून' vpos='vib1'  head='आतून'  name='3'  poslcat='NM'>
+1.3.1	आ	NST	<fs af='आ,unk,m,sg,3,,,तून' name='आतून'  poslcat='NM'>
+1.3.2	से	PSP	<fs af='से,psp,m,sg,3,,,'>
+	))		
+1.4	((	NP	<fs af='आवाज़,n,f,sg,,d,,' head='आवाज'  drel='k2:5'  name='4'>
+1.4.1	आवाज़	NN	<fs af='आवाज़,n,f,sg,3,d,,' name='आवाज'  synsetid='1583'>
+	))		
+1.5	((	VGF	<fs af='आना,v,,sg,3,, रहा है,त' head='येत'  vpos='tam1 2'  kridanta type='2:'  aspect=' s'  tense=' pas'  mood=' in'  kridanta cm='2:'>
+1.5.1	आ	VM	<fs af='आ,v,m,sg,3,,,त' kridanta type='t'  name='येत'  kridanta cm='त'>
+1.5.2	रहा	VAUX	<fs af='रहा,v,m,sg,3,,,'>
+1.5.3	है	VAUX	<fs af='है,v,m,sg,3,,,'>
+1.5.4	।	SYM	<fs af='।,pun,m,sg,3,,,' poslcat='NM'>
+	))		
+	))		
+</Sentence>			
+<Sentence id="1">			
+1	((	SSF	
+1.1	((	NP	<fs af='वह,pn,m,sg,3,o, का,च्या' vpos='vib1'  head='त्याच्या'  drel='k1:5'  name='1'  genfeature='(चा,gen,f,pl,,d,)(चा,gen,,,,o,)'>
+1.1.1	उसके	PRP	<fs af='वह,pn,m,sg,3,o,का,च्या' name='त्याच्या'  genfeature='(चा,gen,f,pl,,d,)(चा,gen,,,,o,)'>
+	))		
+1.2	((	NP	<fs af='पहले,adv,m,,,,,' head='आधी'  name='2'  poslcat='NM'>
+1.2.1	पहले	NST	<fs af='पहले,adv,m,sg,3,,,' name='आधी'  synsetid='6768'  poslcat='NM'>
+	))		
+1.3	((	NP	<fs af='मैं,pn,m,sg,1,d,,' head='मी'  drel='k2:5'  name='3'>
+1.3.1	मैं	PRP	<fs af='मैं,pn,m,sg,1,d,,' name='मी'>
+	))		
+1.4	((	NP	<fs af='घराना,n,m,sg,,o, में,ई ' vpos='vib1'  head='घरी'  name='4'>
+1.4.1	घर	NN	<fs af='घर,n,m,sg,3,o,,ई ' name='घरी'  synsetid='191'>
+1.4.2	में	PSP	<fs af='में,psp,m,sg,3,,,'>
+	))		
+1.5	((	VGF	<fs af='आना,v,m,sg,1,,या,लो' head='आलो'  aspect='perf'  name='5'  mood='in'>
+1.5.1	आया	VM	<fs af='आ,v,m,sg,1,,या,लो' name='आलो'  aspect='perf'  mood='in'>
+1.5.2	।	SYM	<fs af='।,pun,m,sg,3,,,' poslcat='NM'>
+	))		
+	))		
+</Sentence>			
+<Sentence id="1">			
+1	((	SSF	
+1.1	((	NP	<fs af='मैं,pn,m,sg,1,o, का  से,झ्या कड ून' vpos='vib1'  head='माझ्याकडून'  drel='k1:4'  name='1'>
+1.1.1	मेरे	PRP	<fs af='मैं,pn,m,sg,1,o,का,झ्या कड ून' name='माझ्याकडून'>
+1.1.2		PSP	<fs af=',psp,m,sg,3,,,'>
+1.1.3	से	PSP	<fs af='से,psp,m,sg,3,,,'>
+	))		
+1.2	((	NP	<fs af='वह,pn,m,sg,3,o, ने,ने ' vpos='vib1'  head='तिने'  name='2'>
+1.2.1	उसने	PRP	<fs af='वह,pn,f,sg,3,o,ने,ने ' name='तिने'>
+	))		
+1.3	((	NP	<fs af='रुपया,n,m,pl,,d,,' head='रुपये'  drel='k2:4'  name='3'>
+1.3.1	तीस	QC	<fs af='तीस,adj,m,pl,3,d,,' enamex type='quantity'  synsetid='927'  subtype 1='noti'>
+1.3.2	रुपये	NN	<fs af='रुपया,n,m,pl,3,d,,' name='रुपये'  enamex type='quantity'  subtype 1='noti'>
+	))		
+1.4	((	VGF	<fs af='लेना,v,m,pl,,,या,ले' head='घेतले'  aspect='perf'  name='4'  mood='in'>
+1.4.1	लिया	VM	<fs af='ले,v,n,sg,3,,या,ले' name='घेतले'  aspect='perf'  mood='in'>
+1.4.2	।	SYM	<fs af='।,pun,m,sg,3,,,' poslcat='NM'>
+	))		
+	))		
+</Sentence>			
+<Sentence id="1">			
+1	((	SSF	
+1.1	((	NP	<fs af='घराना,n,m,sg,,o, का,च्या' vpos='vib1'  head='घराच्या'  drel='k1:4'  name='1'  genfeature='(चा,gen,f,pl,,d,)(चा,gen,,,,o,)'>
+1.1.1	घर	NN	<fs af='घर,n,m,sg,3,o,,च्या' name='घराच्या'  genfeature='(चा,gen,f,pl,,d,)(चा,gen,,,,o,)'  synsetid='191'>
+1.1.2	के	PSP	<fs af='का,psp,m,sg,3,,,'>
+	))		
+1.2	((	NP	<fs af='किनार,n,m,sg,,o, को,ला' vpos='vib1'  head='कडेला'  name='2'  genfeature='(ला,gen,m,sg,,d,)'>
+1.2.1	किनार	NN	<fs af='किनार,n,m,sg,3,o,,ला' name='कडेला'  genfeature='(ला,gen,m,sg,,d,)'  synsetid='495'>
+1.2.2	को	PSP	<fs af='को,psp,m,sg,3,,,'>
+	))		
+1.3	((	NP	<fs af='दवाख़ाना,n,m,sg,,d,,' head='दवाखाना'  drel='k2:4'  name='3'>
+1.3.1	दवाख़ाना	NN	<fs af='दवाख़ाना,n,m,sg,3,d,,' name='दवाखाना'  synsetid='3265'>
+	))		
+1.4	((	VGF	<fs af='होना,v,m,sg,,,,' head='आहे'  aspect='s'  name='4'  tense='pre'  mood='in'>
+1.4.1	हो	VM	<fs af='हो,v,m,sg,1,,,' name='आहे'  aspect='s'  tense='pre'  mood='in'>
+1.4.2	।	SYM	<fs af='।,pun,m,sg,3,,,' poslcat='NM'>
+	))		
+	))		
+</Sentence>			
+<Sentence id="1">			
+1	((	SSF	
+1.1	((	NP	<fs af='साँप,n,m,sg,,d,,' head='साप'  drel='k1:4'  name='1'>
+1.1.1	साँप	NN	<fs af='साँप,n,m,sg,3,d,,' name='साप'  synsetid='264'>
+	))		
+1.2	((	NP	<fs af='वह,pn,m,sg,3,o, का,च्या' vpos='vib1'  head='त्याच्या'  drel='k2:4'  name='2'  genfeature='(चा,gen,f,pl,,d,)(चा,gen,,,,o,)'>
+1.2.1	उसके	PRP	<fs af='वह,pn,m,sg,3,o,का,च्या' name='त्याच्या'  genfeature='(चा,gen,f,pl,,d,)(चा,gen,,,,o,)'>
+	))		
+1.3	((	NP	<fs af='नज़दीक,unk,m,,,,,' head='निकट'  name='3'  poslcat='NM'>
+1.3.1	नज़दीक	NN	<fs af='नज़दीक,unk,m,sg,3,,,' name='निकट'  poslcat='NM'>
+	))		
+1.4	((	VGF	<fs af='आना,v,m,sg,3,d,या,ला' head='आला'  kridanta type='la'  aspect='perf'  name='4'  kridanta cm='ला'>
+1.4.1	आया	VM	<fs af='आ,v,m,sg,3,d,या,ला' kridanta type='la'  aspect='perf'  name='आला'  kridanta cm='ला'>
+1.4.2	।	SYM	<fs af='।,pun,m,sg,3,,,' poslcat='NM'>
+	))		
+	))		
+</Sentence>			
+<Sentence id="1">			
+1	((	SSF	
+1.1	((	NP	<fs af='पानी,n,m,sg,,o, बगैर,शिवाय' vpos='vib1'  head='पाण्याशिवाय'  drel='k1:2'  name='1'>
+1.1.1	जल	NN	<fs af='जल,n,m,sg,3,o,,शिवाय' name='पाण्याशिवाय'  synsetid='193'>
+1.1.2	बगैर	PSP	<fs af='बगैर,psp,m,sg,3,,,'>
+	))		
+1.2	((	VGF	<fs af='जीना,v,n,sg,,d,णे,णे' head='जगणे'  kridanta type='ne'  name='2'  kridanta cm='णे'>
+1.2.1	जीणे	VM	<fs af='जी,v,n,sg,3,d,णे,णे' kridanta type='ne'  name='जगणे'  kridanta cm='णे'>
+	))		
+1.3	((	JJP	<fs af='कठिन,adj,m,sg,,o,,' head='कठीण'  name='3'>
+1.3.1	कठिन	JJ	<fs af='कठिन,adj,m,sg,3,,,' name='कठीण'  synsetid='11241'>
+	))		
+1.4	((	VGF	<fs af='होना,v,,sg,1,,,' head='आहे'  name='4'  aspect='s'  tense='pre'  mood='in'>
+1.4.1	हो	VM	<fs af='हो,v,m,sg,1,,,' name='आहे'  aspect='s'  tense='pre'  mood='in'>
+1.4.2	।	SYM	<fs af='।,pun,m,sg,3,,,' poslcat='NM'>
+	))		
+	))		
+</Sentence>			
+<Sentence id="1">			
+1	((	SSF	
+1.1	((	NP	<fs af='कारणवश,adv,m,,,,,' head='कारणास्तव'  name='1'  poslcat='NM'>
+1.1.1	यह	DEM	<fs af='यह,pn,m,sg,3,,,'>
+1.1.2	फलस्वरूप	NN	<fs af='फलस्वरूप,adv,m,sg,3,,,' name='कारणास्तव'  synsetid='1835'  poslcat='NM'>
+	))		
+1.2	((	NP	<fs af='वह,pn,m,sg,3,d,,' head='तो'  drel='k1:4'  name='2'>
+1.2.1	वह	PRP	<fs af='वह,pn,m,sg,3,d,,' name='तो'>
+	))		
+1.3	((	JJP	<fs af='नाराज,adj,m,,,,,' head='नाराज'  name='3'>
+1.3.1	नाराज	JJ	<fs af='नाराज,adj,m,sg,3,,,' name='नाराज'  synsetid='2946'>
+	))		
+1.4	((	VGF	<fs af='होना,v,m,sg,3,,,' head='होता'  name='4'  aspect='s'  tense='pas'  mood='in'>
+1.4.1	हो	VM	<fs af='हो,v,m,sg,3,,,' aspect='s'  name='होता'  tense='pas'  mood='in'>
+1.4.2	।	SYM	<fs af='।,pun,m,sg,3,,,' poslcat='NM'>
+	))		
+	))		
+</Sentence>			
+<Sentence id="1">
+1	((	SSF	
+1	((	NP	<fs af='बाहर,nst,m,,,,,' head='बाहेर' drel='k1:5' name='1'>
+1.1	बाहर	NST	<fs af='बाहर,nst,m,sg,3,,,' name='बाहेर'>
+	))
+2	((	NP	<fs af='वातावरण,n,m,sg,,d,,' head='वातावरण' drel='k2:5' name='2'>
+2.1	गरम	JJ	<fs af='गरम,adj,m,sg,3,d,,' synsetid='1555'>
+2.2	जलवायु	NN	<fs af='जलवायु,n,m,sg,3,d,,' name='वातावरण' synsetid='552'>
+	))
+3	((	VGNN	<fs af='है,,,,,,,' head='असूनदेखील' type='oon' name='3' aspect='comp' cm='ून#देखील'>
+3.1	है	VM	<fs af='है,,,,,,,' type='oon' name='असूनदेखील' aspect='comp' cm='ून#देखील'>
+3.2	और	VM	<fs af='है,,,,,,,' type='oon' name='असूनदेखील' aspect='comp' cm='ून#देखील'>
+	))
+4	((	NP	<fs af='घराना,n,m,sg,,o,,' vpos='vib1' head='घरात' name='4'>
+4.1	घर	NN	<fs af='घर,n,m,sg,3,o,,त' name='घरात' synsetid='191'>
+4.2	में	PSP	<fs af='में,psp,m,sg,3,,,'>
+	))
+5	((	VGF	<fs af='ठंडाना,v,,sg,1,,आ,' head='थंडावा' vpos='tam1' type='2:' aspect='' tense='' mood='imp' cm='2:'>
+5.1	ठंडाआ	VM	<fs af='ठंडा,v,m,pl,2,,आ,ा' name='थंडावा' mood='imp'>
+5.2	अस	VAUX	<fs af='अस,v,m,sg,1,,,'>
+5.3	।	SYM	<fs af='।,pun,m,sg,3,,,' poslcat='NM'>
+	))
+	))
+</Sentence>
+
+<Sentence id="1">			
+1	((	SSF	
+1.1	((	NP	<fs af='वह,pn,m,sg,3,o, ने,ने ' vpos='vib1'  head='त्याने'  drel='k1:3'  name='1'>
+1.1.1	उसने	PRP	<fs af='वह,pn,m,sg,3,o,ने,ने ' name='त्याने'>
+	))		
+1.2	((	NP	<fs af='अभ्यास,n,m,sg,,d,,' head='अभ्यास'  drel='k2:3'  name='2'>
+1.2.1	अध्ययन	NN	<fs af='अध्ययन,n,m,sg,3,d,,' name='अभ्यास'  synsetid='289'>
+	))		
+1.3	((	VGF	<fs af='करना,v,m,sg,,,या,ला' head='केला'  aspect='perf'  name='3'  mood='in'>
+1.3.1	किया	VM	<fs af='कर,v,m,sg,3,,या,ला' name='केला'  aspect='perf'  mood='in'>
+	))		
+1.4	((	CCP	<fs af='इस वजह से,conj,,,,,,' head='म्हणून'  name='4'>
+1.4.1	इस वजह से	CC	<fs af='इस वजह से,conj,m,sg,3,,,' name='म्हणून'>
+	))		
+1.5	((	NP	<fs af='वह,pn,m,sg,3,o, को,ला ' vpos='vib1'  head='त्याला'  drel='k1:7'  name='5'>
+1.5.1	उसको	PRP	<fs af='वह,pn,n,sg,3,o,को,ला ' name='त्याला'>
+	))		
+1.6	((	NP	<fs af='ख्याति,n,n,sg,,d,,' head='यश'  drel='k2:7'  name='6'>
+1.6.1	उपलब्धि	NN	<fs af='उपलब्धि,n,n,sg,3,d,,' name='यश'  synsetid='4464'>
+	))		
+1.7	((	VGF	<fs af='पाना,v,n,sg,,,या,ले' head='मिळाले'  aspect='perf'  name='7'  mood='in'>
+1.7.1	पाई	VM	<fs af='पा,v,f,sg,1,,या,ले' name='मिळाले'  aspect='perf'  mood='in'>
+1.7.2	।	SYM	<fs af='।,pun,m,sg,3,,,' poslcat='NM'>
+	))		
+	))		
+</Sentence>			
+<Sentence id="1">			
+1	((	SSF	
+1.1	((	NP	<fs af='रुपया,n,m,sg,,d,,' head='रुपया'  name='1'>
+1.1.1	एक	QC	<fs af='एक,adj,m,sg,3,d,,' enamex type='count'  synsetid='187'  subtype 1='individual'>
+1.1.2	रुपया	NN	<fs af='रुपया,n,m,sg,3,d,,' name='रुपया'  enamex type='quantity'  subtype 1='individual'>
+	))		
+1.2	((	NP	<fs af='यानि,conj,m,,,,,' head='म्हणजे'  name='2'  poslcat='NM'>
+1.2.1	यानि	UT	<fs af='यानि,conj,m,sg,3,,,' name='म्हणजे'  poslcat='NM'>
+	))		
+1.3	((	NP	<fs af='पैसा,n,m,pl,,d,,' head='पैसे'  name='3'>
+1.3.1	सौ	QC	<fs af='सौ,adj,m,pl,3,d,,' synsetid='179'>
+1.3.2	पैसे	NN	<fs af='पैसा,n,m,pl,3,d,,' name='पैसे'  synsetid='351'>
+1.3.3	।	SYM	<fs af='।,pun,m,sg,3,,,' poslcat='NM'>
+	))		
+	))		
+</Sentence>			
+<Sentence id="1">			
+1	((	SSF	
+1.1	((	NP	<fs af='लांछन,n,m,sg,,d,,' head='आरोप'  drel='k1:3'  name='1'>
+1.1.1	आरोप	NN	<fs af='आरोप,n,m,sg,3,d,,' name='आरोप'  synsetid='2999'>
+	))		
+1.2	((	JJP	<fs af='सिद्ध,adj,m,sg,,d,,' head='सिद्ध'  name='2'>
+1.2.1	सिद्ध	JJ	<fs af='सिद्ध,adj,m,sg,3,,,' name='सिद्ध'  synsetid='6983'>
+	))		
+1.3	((	VGF	<fs af='करना,v,,pl,2,,ओ,ा' head='करा'  name='3'  tense='phab'  mood='in'>
+1.3.1	करओ	VM	<fs af='कर,v,m,pl,2,,ओ,ा' name='करा'  tense='phab'  mood='in'>
+	))		
+1.4	((	CCP	<fs af='अन्यथा,conj,,,,,,' head='नाहीतर'  name='4'>
+1.4.1	अन्यथा	CC	<fs af='अन्यथा,conj,m,sg,3,,,' name='नाहीतर'>
+	))		
+1.5	((	NP	<fs af='त्यागपत्र,n,m,sg,,d,,' head='राजीनामा'  drel='k1:6'  name='5'>
+1.5.1	त्यागपत्र	NN	<fs af='त्यागपत्र,n,m,sg,3,d,,' name='राजीनामा'  synsetid='1252'>
+	))		
+1.6	((	VGF	<fs af='दणे,unk,,,,, ॆअऒॆअठ,्या' head='द्या'  name='6'  poslcat='NM'>
+1.6.1	दणे	VM	<fs af='दणे,unk,m,sg,3,,,्या' name='द्या'  poslcat='NM'>
+1.6.2	या	VAUX	<fs af='या,v,m,sg,3,,,'>
+1.6.3	।	SYM	<fs af='।,pun,m,sg,3,,,' poslcat='NM'>
+	))		
+	))		
+</Sentence>			
+<Sentence id="1">			
+1	((	SSF	
+1.1	((	NP	<fs af='वह,pn,m,sg,3,d,,' head='तो'  drel='k1:7'  name='1'>
+1.1.1	वह	PRP	<fs af='वह,pn,m,sg,3,d,,' name='तो'>
+	))		
+1.2	((	NP	<fs af='दिहाड़ी,n,m,sg,,d,,' head='रोज'  drel='k2:7'  name='2'>
+1.2.1	दिहाड़ी	NN	<fs af='दिहाड़ी,n,m,sg,3,d,,' name='रोज'  synsetid='918'>
+	))		
+1.3	((	NP	<fs af='फल,n,m,sg,,d,,' head='फळ'  name='3'>
+1.3.1	एक	QC	<fs af='एक,adj,m,sg,3,d,,' enamex type='count'  synsetid='187'  subtype 1='individual'>
+1.3.2	फल	NN	<fs af='फल,n,m,sg,3,d,,' name='फळ'  synsetid='662'>
+	))		
+1.4	((	VGNN	<fs af='खाना,v,n,sg,,o,ने के लिए,ण्या साठी' head='खाण्यासाठी'  kridanta type='ne'  name='4'  kridanta cm='ण्या#साठी'>
+1.4.1	खाने	VM	<fs af='खा,v,n,sg,3,o,ने,ण्या साठी' kridanta type='ne'  name='खाण्यासाठी'  kridanta cm='ण्या#साठी'>
+1.4.2	के	VAUX	<fs af='के,v,n,sg,3,,,'>
+1.4.3	लिए	VAUX	<fs af='लिए,v,m,sg,3,,,'>
+	))		
+1.5	((	NP	<fs af='वह,pn,m,sg,3,o, का,च्या' vpos='vib1'  head='त्याच्या'  name='5'  genfeature='(चा,gen,f,pl,,d,)(चा,gen,,,,o,)'>
+1.5.1	उसके	PRP	<fs af='वह,pn,m,sg,3,o,का,च्या' name='त्याच्या'  genfeature='(चा,gen,f,pl,,d,)(चा,gen,,,,o,)'>
+	))		
+1.6	((	NP	<fs af='घराना,n,n,sg,,o, में,ई ' head='घरी'  vpos='vib1'  name='6'>
+1.6.1	घर	NN	<fs af='घर,n,n,sg,3,o,,ई ' name='घरी'  synsetid='191'>
+1.6.2	में	PSP	<fs af='में,psp,n,sg,3,,,'>
+	))		
+1.7	((	VGF	<fs af='कटना,v,m,sg,,,ता है,तो' head='जातो'  aspect='impf'  name='7'  mood='in'>
+1.7.1	कटता	VM	<fs af='कट,v,m,sg,3,,ता,तो' name='जातो'  aspect='impf'  mood='in'>
+1.7.2	है	VAUX	<fs af='है,v,m,sg,3,,,'>
+1.7.3	।	SYM	<fs af='।,pun,m,sg,3,,,' poslcat='NM'>
+	))		
+	))		
+</Sentence>			
